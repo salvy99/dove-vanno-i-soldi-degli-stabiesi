@@ -48,7 +48,7 @@ export default function PnrrPage() {
         <p className="kicker">Soldi che arrivano da fuori</p>
         <h1>Il PNRR a Castellammare</h1>
         <p className="lead">
-          {numero(progetti.length)} progetti finanziati con il Piano nazionale di ripresa e resilienza sono localizzati in città, per{" "}
+          {numero(progetti.length)} progetti del Piano nazionale di ripresa e resilienza riguardano la città, per{" "}
           <strong>{euroCompatto(totale)}</strong> attribuiti a Castellammare. Il Comune ne gestisce {delComune.length}, per{" "}
           {euroCompatto(totComune)}; gli altri sono di scuole, Regione, ASL, ministeri e imprese.
         </p>
@@ -91,7 +91,7 @@ export default function PnrrPage() {
       <section className="section">
         <div className="section-head">
           <h2>Tutti i progetti</h2>
-          <p>Ordinati per importo attribuito a Castellammare. Il codice CUP permette di ritrovare il progetto su OpenCUP.</p>
+          <p>In ordine di importo attribuito a Castellammare. Con il codice CUP ritrovi ogni progetto su OpenCUP.</p>
         </div>
         <div className="table-wrap">
           <table>
@@ -126,7 +126,7 @@ export default function PnrrPage() {
                 </tr>
               ))}
             </tbody>
-            <caption>Evidenziati i progetti gestiti dal Comune di Castellammare di Stabia.</caption>
+            <caption>In giallo i progetti che gestisce il Comune di Castellammare di Stabia.</caption>
           </table>
         </div>
         <Fonte dataset={pnrr} />

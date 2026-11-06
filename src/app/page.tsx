@@ -54,8 +54,8 @@ export default function Home() {
           Dove vanno i soldi che <em>versi</em>?
         </h1>
         <p className="lead">
-          Una parte delle tue tasse resta in città, una parte va a Regione e Stato, e altri soldi pubblici arrivano a
-          Castellammare da fuori. Qui li trovi tutti, in parole semplici, ognuno con la sua fonte.
+          Una parte delle tue tasse resta in città, una parte va a Regione e Stato. Poi ci sono i soldi pubblici che arrivano a
+          Castellammare da fuori, come il PNRR e i fondi europei. Li trovi tutti qui, ognuno con la sua fonte.
         </p>
         <div className="hero-actions">
           <a className="btn btn-primary" href="#tu">
@@ -115,8 +115,8 @@ export default function Home() {
               .
             </p>
             <p className="callout">
-              Spendere di più non dimostra uno spreco, spendere di meno non dimostra un risparmio: può voler dire anche meno
-              servizi. Il voto dei servizi (da 0 a 10) confronta ciò che il Comune offre con i Comuni della stessa dimensione.
+              Dove il Comune spende più dello standard, chiedi perché. Dove spende meno, controlla quali servizi mancano. Il voto
+              dei servizi (da 0 a 10) misura quanto offre il Comune rispetto ai Comuni della stessa dimensione.
             </p>
             <Link href="/comune">Entrate, uscite e andamento negli anni →</Link>
             <Fonte dataset={opencivitas} avvertenze={false} />
@@ -132,7 +132,7 @@ export default function Home() {
             <span className="count">{segnali.length} punti</span>
           </h2>
           <p className="note">
-            I punti critici che emergono dai dati, ognuno con il suo confronto. Indicano dove guardare meglio: non sono accuse.
+            I punti critici che abbiamo trovato nei dati, ognuno con il suo confronto. Ti dicono dove fare domande prima di trarre conclusioni.
           </p>
           <ul className="alert-list">
             {segnali.map((x) => (

@@ -158,7 +158,7 @@ export function Calcolatore({ redditoIniziale, quoteComune, annoScontrino }: { r
         {tari.totale > 0 && (
           <p className="callout">
             La tua bolletta TARI stimata è di <strong>{euro(tari.totale, true)}</strong> l&apos;anno: {euro(tari.tari, true)} di tariffa comunale,{" "}
-            {euro(tari.tefa, true)} di TEFA e {euro(tari.arera, true)} di componenti nazionali ARERA. La TARI paga solo il servizio rifiuti, che nel {ANNO_FISCALE} costa al Comune circa 15,7 milioni di euro.
+            {euro(tari.tefa, true)} di TEFA e {euro(tari.arera, true)} di componenti nazionali ARERA. Con la TARI il Comune copre solo il servizio rifiuti, che nel {ANNO_FISCALE} gli costa circa 15,7 milioni di euro.
           </p>
         )}
 
@@ -167,8 +167,8 @@ export function Calcolatore({ redditoIniziale, quoteComune, annoScontrino }: { r
             <summary>Segui i tuoi {euro(generale)} al bilancio del Comune</summary>
             <div>
               <p className="note">
-                {imu > 0 ? "Addizionale e IMU entrano" : "L'addizionale entra"} nel bilancio comunale insieme agli altri tributi e non {imu > 0 ? "hanno" : "ha"} una
-                destinazione vincolata. Se seguissero la spesa del Comune per le funzioni fondamentali ({annoScontrino}), si dividerebbero così:
+                Il Comune mette {imu > 0 ? "addizionale e IMU" : "l'addizionale"} nel bilancio insieme agli altri tributi e può usarli per qualsiasi
+                spesa. Se li dividessimo come la spesa per le funzioni fondamentali ({annoScontrino}), andrebbero così:
               </p>
               <BarList
                 label="I tuoi soldi al Comune, divisi come la spesa comunale"
@@ -188,7 +188,7 @@ export function Calcolatore({ redditoIniziale, quoteComune, annoScontrino }: { r
           e aliquote IMU deliberate. Non considera familiari a carico, spese detraibili, oneri deducibili, riduzioni TARI (ISEE, compostaggio, disabilità) né
           altri immobili.
           {tipo === "dipendente" && reddito > 0 && reddito <= 20000 &&
-            " Per i dipendenti fino a 20.000 € è previsto anche un bonus in busta paga (dal 4,8% al 7,1% del reddito da lavoro) che qui non è sottratto."}{" "}
+            " Se sei un dipendente e guadagni fino a 20.000 €, ricevi anche un bonus in busta paga (dal 4,8% al 7,1% del reddito da lavoro) che qui non togliamo."}{" "}
           <a href="/fonti#calcolatore">Regole e fonti</a>.
         </p>
       </div>

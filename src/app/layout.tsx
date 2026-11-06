@@ -56,15 +56,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="wrap">
             <p className="footer-brand">Dove vanno i soldi degli stabiesi</p>
             <p>
-              Progetto civico indipendente. Ogni numero riporta fonte, periodo e limiti: un dato insolito indica dove
-              guardare meglio, non dimostra da solo uno spreco o un illecito.
+              Progetto civico indipendente. Accanto a ogni numero trovi fonte, periodo e limiti. Un dato insolito ti dice dove
+              guardare; per accertare sprechi o illeciti servono gli atti.
             </p>
             <p>
               Versione cittadina di{" "}
-              <a href="https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi">DoveVannoINostriSoldi</a>, da cui
-              provengono gli snapshot dei dati ufficiali. Codice libero sotto licenza{" "}
-              <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU AGPL v3</a>; i dati restano soggetti alle licenze
-              delle rispettive fonti. <Link href="/fonti">Fonti e metodo</Link>.
+              <a href="https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi">DoveVannoINostriSoldi</a>, che ci fornisce
+              le copie verificate di molti dati ufficiali. Il codice è libero, con licenza{" "}
+              <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU AGPL v3</a>; per i dati valgono le licenze
+              dei singoli enti. <Link href="/fonti">Fonti e metodo</Link>.
             </p>
           </div>
         </footer>

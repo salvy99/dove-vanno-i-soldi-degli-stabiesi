@@ -327,7 +327,7 @@ write("opencivitas", {
   },
   avvertenze: [
     "La spesa standard è quanto lo Stato stima che servirebbe a un Comune con le stesse caratteristiche: non è un tetto né un obiettivo di legge.",
-    "Spendere più dello standard non dimostra uno spreco; spendere meno non dimostra un risparmio: può significare anche meno servizi.",
+    "Una spesa sopra lo standard chiede una spiegazione; una spesa sotto lo standard può corrispondere a meno servizi.",
     "Riguarda solo le funzioni fondamentali (amministrazione, polizia locale, istruzione, strade, rifiuti, sociale), non tutto il bilancio.",
     "Il livello dei servizi confronta i servizi offerti con la media dei Comuni della stessa fascia di popolazione.",
   ],
@@ -529,7 +529,7 @@ write("appalti", {
   avvertenze: [
     "L'importo è quello di aggiudicazione dichiarato, non quanto è stato effettivamente pagato.",
     "Quando un appalto è diviso fra più imprese l'importo resta nel totale del Comune ma non viene attribuito alle singole imprese.",
-    "Classifiche e totali descrivono i dati: non indicano irregolarità.",
+    "Classifiche e totali descrivono i dati; per valutare un caso servono gli atti.",
     ...anacMeta.data.limitations.filter((l) => /snapshot|copertura/.test(l)),
   ],
   estratto: estratto({ file: `src/data/generated/${anacRel}`, sha256: sha256(anacBuf) }, anacMeta),

@@ -9,7 +9,7 @@
   },
   "avvertenze": [
     "La spesa standard è quanto lo Stato stima che servirebbe a un Comune con le stesse caratteristiche: non è un tetto né un obiettivo di legge.",
-    "Spendere più dello standard non dimostra uno spreco; spendere meno non dimostra un risparmio: può significare anche meno servizi.",
+    "Una spesa sopra lo standard chiede una spiegazione; una spesa sotto lo standard può corrispondere a meno servizi.",
     "Riguarda solo le funzioni fondamentali (amministrazione, polizia locale, istruzione, strade, rifiuti, sociale), non tutto il bilancio.",
     "Il livello dei servizi confronta i servizi offerti con la media dei Comuni della stessa fascia di popolazione."
   ],
@@ -125,7 +125,7 @@
       }
     ]
   },
-  "generato": "2026-11-06T17:42:56.427Z",
+  "generato": "2026-11-06T18:55:01.713Z",
   "serie": [
     {
       "anno": 2015,

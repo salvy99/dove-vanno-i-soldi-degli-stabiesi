@@ -10,7 +10,7 @@
   "avvertenze": [
     "L'importo è quello di aggiudicazione dichiarato, non quanto è stato effettivamente pagato.",
     "Quando un appalto è diviso fra più imprese l'importo resta nel totale del Comune ma non viene attribuito alle singole imprese.",
-    "Classifiche e totali descrivono i dati: non indicano irregolarità.",
+    "Classifiche e totali descrivono i dati; per valutare un caso servono gli atti.",
     "CIG, aggiudicazioni, aggiudicatari, stazioni e IPA sono snapshot cross-temporali",
     "la copertura nazionale corrente non e dichiarata"
   ],
@@ -28,7 +28,7 @@
       }
     ]
   },
-  "generato": "2026-11-06T17:42:56.427Z",
+  "generato": "2026-11-06T18:55:01.713Z",
   "riepilogo": {
     "attributedAwardValue": "13299072.33",
     "awardCount": 188,

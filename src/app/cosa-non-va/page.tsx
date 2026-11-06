@@ -6,7 +6,7 @@ import { SOGLIE } from "@/lib/segnali";
 export const metadata: Metadata = {
   title: "Cosa non va",
   description:
-    "Lo specchietto dei punti critici che emergono dai dati ufficiali su Castellammare di Stabia: cosa misura ogni punto, con cosa si confronta e cosa chiedere.",
+    "Lo specchietto dei punti critici nei dati ufficiali su Castellammare di Stabia: cosa misura ogni punto, con cosa lo confrontiamo e cosa chiedere.",
 };
 
 export default function CosaNonVaPage() {
@@ -16,12 +16,12 @@ export default function CosaNonVaPage() {
         <p className="kicker">Specchietto</p>
         <h1>Cosa non va (o va capito meglio)</h1>
         <p className="lead">
-          {segnali.length} punti critici che emergono dai dati ufficiali. Per ognuno trovi il numero, il termine di confronto e la
+          Nei dati ufficiali abbiamo trovato {segnali.length} punti critici. Per ognuno trovi il numero, il confronto e la
           domanda da fare a chi amministra.
         </p>
         <p className="callout warn">
-          Un punto di questo elenco indica dove guardare meglio: non dimostra da solo uno spreco, un errore o un illecito. Ogni dato ha
-          una spiegazione possibile, ed è giusto chiederla.
+          Ogni punto ti dice dove guardare. Per accertare sprechi, errori o illeciti servono gli atti: chiedi a chi amministra
+          di spiegare i numeri.
         </p>
       </section>
 
@@ -70,7 +70,7 @@ export default function CosaNonVaPage() {
         <section className="section" aria-labelledby="cosa-va-bene">
           <div className="section-head">
             <h2 id="cosa-va-bene">E cosa va bene</h2>
-            <p>Con le stesse regole fisse, i dati mostrano anche punti in cui il Comune fa meglio dei vicini o migliora.</p>
+            <p>Con le stesse regole abbiamo cercato anche dove il Comune fa meglio dei vicini o migliora.</p>
           </div>
           <div className="grid-2">
             {coseCheVanno.map((x) => (
@@ -92,8 +92,8 @@ export default function CosaNonVaPage() {
       <section className="section">
         <h2>Come scegliamo i punti</h2>
         <p style={{ maxWidth: "70ch" }}>
-          L&apos;elenco non è scritto a mano: il sito lo ricava dai dati con regole fisse, uguali per ogni aggiornamento. Un punto
-          compare solo se supera una soglia:
+          Il sito ricava i punti dai dati con regole fisse, le stesse a ogni aggiornamento. Un punto compare solo se
+          supera una soglia:
         </p>
         <ul style={{ maxWidth: "70ch", paddingLeft: 20, margin: 0 }}>
           <li>spesa per una funzione almeno il {SOGLIE.sopraStandard}% sopra lo standard, o almeno il {Math.abs(SOGLIE.sottoStandard)}% sotto;</li>
@@ -107,7 +107,7 @@ export default function CosaNonVaPage() {
           <li>edifici del Comune dichiarati non utilizzati o inutilizzabili;</li>
           <li>reddito medio almeno il {Math.abs(SOGLIE.redditoSottoItalia)}% sotto la media italiana (come contesto).</li>
         </ul>
-        <p className="note">Quando i dati si aggiornano, i punti che non superano più la soglia spariscono da soli.</p>
+        <p className="note">A ogni aggiornamento il sito toglie i punti che non superano più la soglia.</p>
       </section>
     </div>
   );

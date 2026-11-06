@@ -132,7 +132,7 @@ export function calcolaSegnali(d: DatiSegnali): Segnale[] {
         titolo: serviziBassi ? `${f.voce}: si spende di più, ma i servizi sono bassi` : `${f.voce}: si spende molto più dello standard`,
         dato: `${euro(c.storicaPerAbitanteCentesimi / 100)} per abitante nel ${blocco.anno}`,
         confronto: `standard ${euro(c.standardPerAbitanteCentesimi / 100)} (${percentualeConSegno(scarto)})${serviziBassi ? ` · servizi ${numero(c.livelloServizi)}/10` : ""}`,
-        spiegazione: `La spesa standard è quanto servirebbe a un Comune con le stesse caratteristiche. Spendere di più non prova uno spreco, ma chiede una spiegazione.${
+        spiegazione: `La spesa standard è la stima dello Stato per un Comune con le stesse caratteristiche. Se il Comune spende di più, chi amministra dovrebbe spiegare perché.${
           serviziBassi ? ` Qui però il livello dei servizi è ${numero(c.livelloServizi)}/10 rispetto ai Comuni della stessa dimensione.` : ""
         }`,
         domanda: DOMANDE_SOPRA[f.id] ?? `Cosa spiega la spesa sopra lo standard per ${f.voce.toLowerCase()}?`,
@@ -151,7 +151,7 @@ export function calcolaSegnali(d: DatiSegnali): Segnale[] {
         titolo: "Per alcuni servizi si spende molto meno del necessario",
         dato: sotto.map((f) => `${breve(f)} ${percentualeConSegno(f.castellammare.differenzaPuntiBase / 100)}`).join(" · "),
         confronto: `rispetto al fabbisogno standard, ${blocco.anno}`,
-        spiegazione: "Spendere meno dello standard non è per forza un risparmio: spesso significa servizi ridotti o assenti.",
+        spiegazione: "Una spesa sotto lo standard spesso corrisponde a servizi ridotti o assenti.",
         domanda: `Quali servizi mancano o sono ridotti per ${elenco(sotto.map(breve))}?`,
         fonte: `OpenCivitas ${blocco.anno}`,
         link: "/comune",
@@ -200,7 +200,7 @@ export function calcolaSegnali(d: DatiSegnali): Segnale[] {
         dato: `${euroMln(p)} pagati, ${euroMln(i)} incassati`,
         confronto: `differenza ${euroMln(p - i)}, al netto delle partite di giro`,
         spiegazione:
-          "Può essere coperto dalla cassa accumulata negli anni precedenti o da fondi già ricevuti (per esempio per il PNRR): da solo non indica un buco, ma va capito.",
+          "Il Comune può coprire la differenza con la cassa degli anni precedenti o con fondi già ricevuti, per esempio per il PNRR. Per capire se c'è un buco serve il rendiconto.",
         domanda: `Con quali risorse è stata coperta la differenza del ${ultimo}, e quanta cassa resta?`,
         fonte: `SIOPE ${ultimo}`,
         link: "/comune",
@@ -248,7 +248,7 @@ export function calcolaSegnali(d: DatiSegnali): Segnale[] {
         dato: `${numero(ritardo.length)} progetti ancora in corso oltre la fine prevista, per ${euroMln(somma(ritardo, "finanziamentoCentesimi"))} (pagati ${euroMln(somma(ritardo, "pagamentiCentesimi"))})`,
         confronto: `dati al ${data(oc.dataDati)} · ${numero(delComune.length)} del Comune (${euroMln(somma(delComune, "finanziamentoCentesimi"))})`,
         spiegazione:
-          "Alcuni hanno una fine prevista di molti anni fa. Può trattarsi di opere davvero ferme o di dati non aggiornati da chi gestisce il progetto: in entrambi i casi va chiarito.",
+          "Alcuni dovevano finire molti anni fa. O i lavori sono fermi, o chi gestisce il progetto non ha aggiornato i dati: in entrambi i casi chi amministra deve chiarirlo.",
         domanda: "Quali di questi progetti sono fermi, quali sono conclusi ma non aggiornati, e che fine hanno fatto i soldi non spesi?",
         fonte: "OpenCoesione",
         link: "/fondi-europei",
@@ -323,7 +323,7 @@ export function calcolaSegnali(d: DatiSegnali): Segnale[] {
       titolo: "I redditi in città sono più bassi della media italiana",
       dato: `${euro(medio)} di reddito medio dichiarato nel ${d.irpef.annoImposta}`,
       confronto: `in Italia ${euro(italia)} (${percentualeConSegno(v)})`,
-      spiegazione: "Non dipende solo dal Comune, ma pesa su quanto la città può incassare e su quanti servizi sociali servono.",
+      spiegazione: "Dai redditi dipendono quanto può incassare il Comune e quanti servizi sociali servono in città.",
       domanda: "Come tiene conto il bilancio comunale dei redditi bassi, tra esenzioni, tariffe e servizi sociali?",
       fonte: `MEF · redditi ${d.irpef.annoImposta}`,
       link: "/redditi",

@@ -25,8 +25,8 @@ export default function FontiPage() {
         <ul className="lead" style={{ fontSize: 15, paddingLeft: 20, margin: 0 }}>
           <li>Nessun numero senza fonte e data.</li>
           <li>Nessun dato inventato o dimostrativo: se un dato manca, lo diciamo.</li>
-          <li>Pagamenti, importi assegnati, stime e imposte dichiarate restano separati e non si sommano tra loro.</li>
-          <li>Un valore insolito indica dove guardare meglio: non è un&apos;accusa né la prova di uno spreco.</li>
+          <li>Teniamo separati pagamenti, importi assegnati, stime e imposte dichiarate, e non li sommiamo tra loro.</li>
+          <li>Un valore insolito ti dice dove guardare. Per accertare uno spreco servono gli atti.</li>
           <li>I confronti usano solo misure compatibili, per abitante.</li>
         </ul>
       </section>
@@ -89,7 +89,7 @@ export default function FontiPage() {
       <section className="section">
         <h2>Come sono stati raccolti</h2>
         <p style={{ maxWidth: "70ch" }}>
-          I dati sono estratti dagli snapshot verificati del progetto open source{" "}
+          Molti dati arrivano dalle copie verificate del progetto open source{" "}
           <a href="https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi">DoveVannoINostriSoldi</a> (versione{" "}
           <code>{commit.slice(0, 12)}</code>), che scarica le fonti ufficiali e ne conserva provenienza e impronte di controllo. Da lì
           prendiamo solo le righe di Castellammare di Stabia e dei Comuni di confronto. Tre fonti le scarichiamo direttamente:
@@ -98,7 +98,8 @@ export default function FontiPage() {
           un controllo automatico riscarica tutto, rifà i test e aggiorna il sito solo se i dati sono cambiati e coerenti.
         </p>
         <p className="note">
-          Hai trovato un errore o vuoi proporre una fonte? Il codice è aperto (licenza AGPL v3): ogni correzione è benvenuta.
+          Hai trovato un errore o vuoi proporre una fonte? Il codice è aperto (licenza AGPL v3):{" "}
+          <a href="https://github.com/salvy99/dove-vanno-i-soldi-degli-stabiesi/issues">scrivici su GitHub</a>.
         </p>
       </section>
     </div>

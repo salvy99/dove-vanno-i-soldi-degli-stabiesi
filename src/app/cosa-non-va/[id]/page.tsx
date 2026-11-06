@@ -71,7 +71,7 @@ async function Segnale({ params }: { params: Promise<{ id: string }> }) {
       </div>
 
       <p className="callout warn" style={{ marginTop: 24 }}>
-        Un segnale indica dove guardare meglio: non dimostra da solo uno spreco, un errore o un illecito.
+        Questo punto ti dice dove guardare. Per accertare sprechi, errori o illeciti servono gli atti.
       </p>
       <p style={{ marginTop: 16 }}>
         <Link href="/cosa-non-va">← Tutti i punti dello specchietto</Link>

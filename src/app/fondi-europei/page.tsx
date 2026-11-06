@@ -7,7 +7,7 @@ import { data, euro, euroMln, leggibile, numero, percentuale } from "@/lib/forma
 export const metadata: Metadata = {
   title: "Fondi europei e di coesione",
   description:
-    "I progetti finanziati a Castellammare di Stabia con fondi europei (FESR, FSE) e nazionali per la coesione (FSC, POC, PAC): quanto è stato assegnato, quanto speso e cosa è fermo.",
+    "I progetti finanziati a Castellammare di Stabia con fondi europei (FESR, FSE) e nazionali per la coesione (FSC, POC, PAC): soldi assegnati, soldi spesi e progetti fermi.",
 };
 
 const fin = (p: ProgettoCoesione) => (p.finanziamentoCentesimi ?? 0) / 100;
@@ -82,8 +82,8 @@ export default function FondiEuropeiPage() {
           />
           {ritardo.length > 0 && (
             <p className="callout warn">
-              {numero(ritardo.length)} progetti risultano ancora in corso dopo la fine prevista ({euroMln(ritardo.reduce((a, p) => a + fin(p), 0))}).
-              Alcuni hanno una scadenza di molti anni fa: possono essere opere ferme o dati non aggiornati.
+              Per OpenCoesione {numero(ritardo.length)} progetti sono ancora in corso dopo la fine prevista ({euroMln(ritardo.reduce((a, p) => a + fin(p), 0))}).
+              Alcuni dovevano finire anni fa: o i lavori sono fermi, o chi li gestisce non ha aggiornato i dati.
             </p>
           )}
         </div>
@@ -93,7 +93,7 @@ export default function FondiEuropeiPage() {
             label="Finanziamento per ciclo"
             items={perCiclo.map((g) => ({ id: g.nome, label: g.nome, value: g.fin, display: euroMln(g.fin), sub: `${numero(g.n)} progetti · pagati ${euroMln(g.pag)}` }))}
           />
-          <p className="note">Ogni ciclo dura sette anni, ma i progetti possono essere pagati anche negli anni successivi.</p>
+          <p className="note">Ogni ciclo dura sette anni, ma gli enti possono pagare i progetti anche dopo.</p>
         </div>
       </section>
 
@@ -111,8 +111,8 @@ export default function FondiEuropeiPage() {
         <div className="section-head">
           <h2>I {principali.length} progetti più grandi</h2>
           <p>
-            Tutti i {numero(tutti.length)} progetti sono consultabili su{" "}
-            <a href="https://opencoesione.gov.it/it/territori/castellammare-di-stabia-comune/">OpenCoesione</a>, con le schede di dettaglio.
+            Trovi tutti i {numero(tutti.length)} progetti, con le schede di dettaglio, su{" "}
+            <a href="https://opencoesione.gov.it/it/territori/castellammare-di-stabia-comune/">OpenCoesione</a>.
           </p>
         </div>
         <div className="table-wrap">
@@ -144,7 +144,7 @@ export default function FondiEuropeiPage() {
                 </tr>
               ))}
             </tbody>
-            <caption>Evidenziati i progetti in cui il Comune di Castellammare è beneficiario o attuatore.</caption>
+            <caption>In giallo i progetti in cui il Comune di Castellammare riceve i fondi o gestisce i lavori.</caption>
           </table>
         </div>
         <Fonte dataset={opencoesione} />

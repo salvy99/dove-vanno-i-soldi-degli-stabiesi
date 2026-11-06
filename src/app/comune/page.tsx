@@ -57,7 +57,7 @@ export default function ComunePage() {
         <p className="kicker">Il Comune</p>
         <h1>Quanto entra e quanto esce dalle casse del Comune</h1>
         <p className="lead">
-          Sono i movimenti di cassa registrati dalla tesoreria: i soldi davvero incassati e pagati nell&apos;anno, voce per voce.
+          La tesoreria registra ogni euro che il Comune incassa e paga. Qui trovi i movimenti dell&apos;anno, voce per voce.
           Nel {anno} il Comune ha pagato <strong>{euro(totaleProprio(pag, "pagamenti") / pop)}</strong> per ogni abitante.
         </p>
       </section>
@@ -167,7 +167,7 @@ export default function ComunePage() {
             punti={serie.map((s) => ({ x: s.anno, y: s.castellammare.storicaPerAbitanteCentesimi / 100, display: euro(s.castellammare.storicaPerAbitanteCentesimi / 100) }))}
             unita="euro"
           />
-          <p className="note">Il 2020 non è pubblicato dalla fonte: la linea collega 2019 e 2021.</p>
+          <p className="note">OpenCivitas non pubblica il 2020: la linea va dal 2019 al 2021.</p>
         </div>
         <div className="table-wrap">
           <table>
@@ -241,7 +241,7 @@ function Pagamenti() {
               alt: x.me,
             }))}
           />
-          <p className="note">Dal più veloce al più lento. Un numero negativo rispetto alla scadenza vuol dire che in media si paga in anticipo.</p>
+          <p className="note">Dal più veloce al più lento. Un numero negativo vuol dire che il Comune paga in media prima della scadenza.</p>
         </div>
         <div className="panel">
           <p className="panel-title">Castellammare nel tempo</p>

@@ -33,8 +33,8 @@ export default function PatrimonioPage() {
         <h1>Immobili pubblici in città</h1>
         <p className="lead">
           Il Comune ha dichiarato <strong>{numero(totNonUsati)} fabbricati non utilizzati o inutilizzabili</strong> a Castellammare
-          nel censimento 2023 del Ministero dell&apos;Economia, più altri in ristrutturazione. Un immobile pubblico vuoto è un costo
-          e un&apos;occasione: vale la pena sapere quali sono.
+          nel censimento 2023 del Ministero dell&apos;Economia, più altri in ristrutturazione. Un immobile pubblico vuoto costa
+          manutenzione e non produce servizi né affitti: qui sotto trovi quali sono.
         </p>
       </section>
 
@@ -76,7 +76,7 @@ export default function PatrimonioPage() {
             label="Beni per ente proprietario"
             items={perEnte.map((e) => ({ id: e.ente, label: leggibile(e.ente), value: e.beni, display: `${numero(e.beni)} beni`, sub: mq(e.mq), alt: /CASTELLAMMARE/.test(e.ente) }))}
           />
-          <p className="note">Comprende abitazioni, uffici, aree e terreni dichiarati da ciascun ente; il Comune è evidenziato in ambra.</p>
+          <p className="note">Comprende abitazioni, uffici, aree e terreni dichiarati da ciascun ente. Il Comune ha la barra color oro.</p>
         </div>
         <Fonte dataset={patrimonio} />
       </section>

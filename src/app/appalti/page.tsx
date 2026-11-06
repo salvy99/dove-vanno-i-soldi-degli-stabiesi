@@ -25,8 +25,8 @@ export default function AppaltiPage() {
         <h1>A chi affida lavori e servizi il Comune</h1>
         <p className="lead">
           {numero(r.awardCount)} aggiudicazioni per <strong>{euroCompatto(totale)}</strong> a {numero(r.awardeeCount)} operatori diversi,
-          secondo la banca dati nazionale dei contratti pubblici. È l&apos;importo con cui l&apos;appalto è stato assegnato, non
-          quanto è già stato pagato.
+          secondo la banca dati nazionale dei contratti pubblici. L&apos;importo è quello con cui il Comune ha assegnato
+          l&apos;appalto; quanto ha già pagato può essere diverso.
         </p>
       </section>
 
@@ -44,8 +44,8 @@ export default function AppaltiPage() {
             }))}
           />
           <p className="note">
-            {euroCompatto(Number(r.unattributedAwardValue))} riguardano appalti divisi fra più imprese o con identità non risolta:
-            restano nel totale ma non sono attribuiti ai singoli operatori.
+            {euroCompatto(Number(r.unattributedAwardValue))} riguardano appalti divisi fra più imprese o con imprese non identificate:
+            li contiamo nel totale, ma non li attribuiamo ai singoli operatori.
           </p>
         </div>
         <div className="panel">
@@ -54,7 +54,7 @@ export default function AppaltiPage() {
             label="Operatori per numero di aggiudicazioni"
             items={perCount.map((f) => ({ id: f.nome, label: leggibile(f.nome), value: f.aggiudicazioni, display: numero(f.aggiudicazioni), alt: true }))}
           />
-          <p className="callout">Una classifica descrive i dati: non indica irregolarità. Per capire un caso apri il CIG e leggi l&apos;atto.</p>
+          <p className="callout">La classifica mostra chi ha ricevuto più appalti. Per capire un caso apri il CIG e leggi l&apos;atto.</p>
         </div>
       </section>
 

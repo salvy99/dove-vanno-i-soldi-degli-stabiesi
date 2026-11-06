@@ -70,7 +70,7 @@ export default function PersonalePage() {
         <div className="section-head">
           <h2>Quanto costa il personale (2020)</h2>
           <p>
-            Il dettaglio del costo del lavoro è pubblicato, per ora, solo per il 2020: <strong>{euroCompatto(totaleCosto)}</strong> in tutto,
+            La Ragioneria pubblica il dettaglio del costo del lavoro, per ora, solo per il 2020: <strong>{euroCompatto(totaleCosto)}</strong> in tutto,
             fra stipendi, contributi, IRAP e altre voci.
           </p>
         </div>

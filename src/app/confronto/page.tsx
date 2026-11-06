@@ -46,8 +46,8 @@ export default function ConfrontoPage() {
         <p className="kicker">Confronto</p>
         <h1>Castellammare e i Comuni vicini</h1>
         <p className="lead">
-          Dodici Comuni della Città metropolitana di Napoli, vicini o di dimensioni simili. Tutti i valori sono per abitante, così si
-          possono confrontare città grandi e piccole.
+          Dodici Comuni della Città metropolitana di Napoli, vicini o di dimensioni simili. Tutti i valori sono per abitante, così
+          puoi confrontare città grandi e piccole.
         </p>
       </section>
 
