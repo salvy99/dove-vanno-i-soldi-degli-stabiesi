@@ -111,6 +111,11 @@ export default function FondiEuropeiPage() {
         <div className="section-head">
           <h2>I {principali.length} progetti più grandi</h2>
           <p>
+            Le righe in giallo, con l&apos;etichetta <span className="tag up">Comune</span>, sono i progetti che il Comune di
+            Castellammare gestisce direttamente: ne risponde l&apos;amministrazione comunale. Gli altri li gestiscono Regione, ASL,
+            EAV, imprese private e altri enti.
+          </p>
+          <p>
             Trovi tutti i {numero(tutti.length)} progetti, con le schede di dettaglio, su{" "}
             <a href="https://opencoesione.gov.it/it/territori/castellammare-di-stabia-comune/">OpenCoesione</a>.
           </p>
@@ -133,6 +138,7 @@ export default function FondiEuropeiPage() {
                   <td style={{ minWidth: 260 }}>
                     {p.link ? <a href={p.link}>{p.titolo}</a> : p.titolo}
                     <div className="note">
+                      {p.delComune && <span className="tag up">Comune</span>}
                       {p.tema} · {p.fondo} {p.ciclo}
                     </div>
                   </td>
@@ -144,7 +150,6 @@ export default function FondiEuropeiPage() {
                 </tr>
               ))}
             </tbody>
-            <caption>In giallo i progetti in cui il Comune di Castellammare riceve i fondi o gestisce i lavori.</caption>
           </table>
         </div>
         <Fonte dataset={opencoesione} />

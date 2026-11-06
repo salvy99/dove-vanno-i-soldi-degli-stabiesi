@@ -91,6 +91,11 @@ export default function PnrrPage() {
       <section className="section">
         <div className="section-head">
           <h2>Tutti i progetti</h2>
+          <p>
+            Le righe in giallo, con l&apos;etichetta <span className="tag up">Comune</span>, sono i progetti che il Comune di
+            Castellammare gestisce direttamente: ne risponde l&apos;amministrazione comunale. Gli altri li gestiscono ministeri,
+            Regione, scuole e altri enti.
+          </p>
           <p>In ordine di importo attribuito a Castellammare. Con il codice CUP ritrovi ogni progetto su OpenCUP.</p>
         </div>
         <div className="table-wrap">
@@ -111,6 +116,7 @@ export default function PnrrPage() {
                   <td style={{ minWidth: 260 }}>
                     {leggibile(p.titolo)}
                     <div className="note">
+                      {isComune(p.soggettoAttuatore) && <span className="tag up">Comune</span>}
                       {p.submisura} ·{" "}
                       <a href={`https://www.opencup.gov.it/portale/web/opencup/home/progetto/-/cup/${p.cup}`}>CUP {p.cup}</a>
                     </div>
@@ -126,7 +132,6 @@ export default function PnrrPage() {
                 </tr>
               ))}
             </tbody>
-            <caption>In giallo i progetti che gestisce il Comune di Castellammare di Stabia.</caption>
           </table>
         </div>
         <Fonte dataset={pnrr} />

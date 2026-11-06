@@ -304,6 +304,7 @@ td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space:
 tbody tr { transition: background 0.15s; }
 tbody tr:hover td { background: color-mix(in srgb, var(--surface) 60%, transparent); }
 tr.me td { background: var(--giallo-tenue); font-weight: 600; }
+td .note .tag { margin: 0 6px 0 0; }
 caption { text-align: left; padding: 12px 14px; font-size: 13px; color: var(--muted); caption-side: bottom; }
 
 details.more { border: 1px solid var(--line-soft); background: var(--raised); border-radius: var(--radius-md); }
