@@ -47,7 +47,7 @@ npm test
 | `npm run dati:scarica` | Scarica solo i file necessari del repository originale (circa 235 MB invece di 4 GB) in `.cache/upstream` | DoveVannoINostriSoldi |
 | `npm run dati:estrai` | Estrae le righe di Castellammare e dei 12 Comuni di confronto; scopre da solo i nuovi anni | SIOPE, OpenCivitas, MEF, Italia Domani, ANAC, RGS, MIM |
 | `npm run dati:pagamenti` | Tempi di pagamento e debito commerciale | MEF-RGS, Piattaforma crediti commerciali |
-| `npm run dati:coesione` | Progetti dei fondi di coesione localizzati in città | OpenCoesione (file open data della Campania) |
+| `npm run dati:coesione` | Progetti dei fondi di coesione localizzati in città. OpenCoesione rifiuta i download dai server di GitHub: se il workflow lo segnala, lanciarlo dal proprio computer e fare commit | OpenCoesione (file open data della Campania) |
 
 Ogni file registra fonte ufficiale, licenza e provenienza (commit del repository originale oppure impronta SHA-256 del file scaricato). I file vengono riscritti solo se i dati cambiano davvero.
 

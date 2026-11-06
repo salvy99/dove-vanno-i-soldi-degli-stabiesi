@@ -13,6 +13,7 @@ import json
 import re
 import ssl
 import sys
+import urllib.error
 import urllib.request
 import zipfile
 from pathlib import Path
@@ -54,9 +55,14 @@ def lista(v: str):
 def main():
     CACHE.mkdir(parents=True, exist_ok=True)
     req = urllib.request.Request(URL, headers=UA)
-    with urllib.request.urlopen(req, timeout=300, context=_contesto_ssl()) as r:
-        url_finale = r.geturl()
-        dati = r.read()
+    try:
+        with urllib.request.urlopen(req, timeout=300, context=_contesto_ssl()) as r:
+            url_finale = r.geturl()
+            dati = r.read()
+    except urllib.error.HTTPError as e:
+        # OpenCoesione può rifiutare richieste da alcune reti (per esempio i server
+        # di GitHub Actions): i dati già salvati restano validi.
+        raise SystemExit(f"OpenCoesione ha risposto {e.code} {e.reason}: dati non aggiornati, restano quelli precedenti.")
     nome_zip = url_finale.rsplit("/", 1)[-1]
     (CACHE / nome_zip).write_bytes(dati)
     m = re.search(r"_(\d{8})\.zip$", nome_zip)

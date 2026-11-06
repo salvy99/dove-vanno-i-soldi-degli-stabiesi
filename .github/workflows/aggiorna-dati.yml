@@ -38,10 +38,17 @@ jobs:
       - name: Estrai i dati di Castellammare
         run: npm run dati:estrai
 
+      # Le fonti scaricate direttamente possono non rispondere (o bloccare i server
+      # di GitHub): in quel caso si tengono i dati della settimana prima, si
+      # aggiornano le altre fonti e alla fine il workflow segnala l'errore.
       - name: Tempi di pagamento dalla Ragioneria dello Stato
+        id: pagamenti
+        continue-on-error: true
         run: npm run dati:pagamenti
 
       - name: Progetti dei fondi di coesione da OpenCoesione
+        id: coesione
+        continue-on-error: true
         run: npm run dati:coesione
 
       - name: Controlli
@@ -61,3 +68,13 @@ jobs:
           git add src/data
           git commit -m "Aggiornamento dati ufficiali ($(date -u +%Y-%m-%d))"
           git push
+
+      - name: Segnala le fonti che non hanno risposto
+        if: steps.pagamenti.outcome == 'failure' || steps.coesione.outcome == 'failure'
+        run: |
+          {
+            echo "## Fonti non aggiornate"
+            if [ "${{ steps.pagamenti.outcome }}" = "failure" ]; then echo "- Ragioneria dello Stato (tempi di pagamento): restano i dati precedenti."; fi
+            if [ "${{ steps.coesione.outcome }}" = "failure" ]; then echo "- OpenCoesione (fondi europei): restano i dati precedenti. Si aggiornano dal computer con npm run dati:coesione."; fi
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 1
