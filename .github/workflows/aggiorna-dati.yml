@@ -69,12 +69,17 @@ jobs:
           git commit -m "Aggiornamento dati ufficiali ($(date -u +%Y-%m-%d))"
           git push
 
-      - name: Segnala le fonti che non hanno risposto
-        if: steps.pagamenti.outcome == 'failure' || steps.coesione.outcome == 'failure'
+      # OpenCoesione rifiuta stabilmente i server di GitHub: basta un avviso (i fondi
+      # europei si aggiornano ogni due mesi, dal computer con npm run dati:coesione).
+      - name: Avviso se OpenCoesione non ha risposto
+        if: steps.coesione.outcome == 'failure'
         run: |
-          {
-            echo "## Fonti non aggiornate"
-            if [ "${{ steps.pagamenti.outcome }}" = "failure" ]; then echo "- Ragioneria dello Stato (tempi di pagamento): restano i dati precedenti."; fi
-            if [ "${{ steps.coesione.outcome }}" = "failure" ]; then echo "- OpenCoesione (fondi europei): restano i dati precedenti. Si aggiornano dal computer con npm run dati:coesione."; fi
-          } >> "$GITHUB_STEP_SUMMARY"
+          echo "::warning title=OpenCoesione::Fondi europei non aggiornati: restano i dati precedenti. Si aggiornano dal computer con npm run dati:coesione."
+          echo "- OpenCoesione (fondi europei): non aggiornato da GitHub, restano i dati precedenti." >> "$GITHUB_STEP_SUMMARY"
+
+      # La Ragioneria invece di solito risponde: se fallisce, il workflow va in errore e arriva l'email.
+      - name: Errore se la Ragioneria non ha risposto
+        if: steps.pagamenti.outcome == 'failure'
+        run: |
+          echo "- Ragioneria dello Stato (tempi di pagamento): non aggiornati, restano i dati precedenti." >> "$GITHUB_STEP_SUMMARY"
           exit 1
