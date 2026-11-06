@@ -50,11 +50,21 @@ export default function Home() {
     <div className="wrap">
       <section className="hero">
         <p className="kicker">Castellammare di Stabia · dati pubblici ufficiali</p>
-        <h1>Dove vanno i soldi che versi?</h1>
+        <h1>
+          Dove vanno i soldi che <em>versi</em>?
+        </h1>
         <p className="lead">
           Una parte delle tue tasse resta in città, una parte va a Regione e Stato, e altri soldi pubblici arrivano a
           Castellammare da fuori. Qui li trovi tutti, in parole semplici, ognuno con la sua fonte.
         </p>
+        <div className="hero-actions">
+          <a className="btn btn-primary" href="#tu">
+            Calcola quanto versi
+          </a>
+          <a className="btn btn-ghost" href="#cosa-non-va">
+            Cosa non va ({segnali.length})
+          </a>
+        </div>
       </section>
 
       {/* 1 · TU */}

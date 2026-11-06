@@ -1,4 +1,4 @@
-# Dove vanno i soldi · Castellammare di Stabia
+# Dove vanno i soldi degli stabiesi
 
 Sito civico che spiega ai cittadini stabiesi, con dati pubblici ufficiali, **dove vanno i soldi che versano** e quali altri soldi pubblici girano intorno alla città.
 
