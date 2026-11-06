@@ -1,0 +1,37 @@
+{
+  "name": "dove-vanno-i-soldi-castellammare",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "node --test \"tests/**/*.test.mjs\"",
+    "dati:estrai": "node scripts/estrai-dati.mjs",
+    "dati:scarica": "bash scripts/scarica-upstream.sh",
+    "dati:pagamenti": "python3 -I scripts/estrai-pagamenti.py",
+    "dati:coesione": "python3 -I scripts/estrai-opencoesione.py",
+    "dati:aggiorna": "npm run dati:scarica && npm run dati:estrai && npm run dati:pagamenti && npm run dati:coesione"
+  },
+  "dependencies": {
+    "next": "16.4.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "typescript": "^5"
+  },
+  "type": "module",
+  "description": "Dove vanno i soldi pubblici di Castellammare di Stabia, con dati ufficiali e fonti verificabili.",
+  "license": "AGPL-3.0-or-later",
+  "engines": {
+    "node": ">=22.19.0"
+  }
+}

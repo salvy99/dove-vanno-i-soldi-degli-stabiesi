@@ -1,0 +1,1411 @@
+{
+  "id": "irpef",
+  "titolo": "Redditi e IRPEF dichiarati dai contribuenti",
+  "fonte": {
+    "ente": "MEF – Dipartimento delle Finanze",
+    "url": "https://www1.finanze.gov.it/finanze/analisi_stat/public/index.php?tree=2025",
+    "fileUfficiale": "https://www1.finanze.gov.it/finanze/analisi_stat/public/v_4_0_0/contenuti/Redditi_e_principali_variabili_IRPEF_su_base_comunale_CSV_2024.zip",
+    "licenza": "CC BY 3.0",
+    "periodo": "Anno d'imposta 2024 (dichiarazioni 2025)",
+    "pubblicato": "2026-04-23"
+  },
+  "avvertenze": [
+    "Imposta dichiarata non significa imposta incassata: sono gli importi dovuti secondo le dichiarazioni.",
+    "Il Comune è quello del domicilio fiscale del contribuente.",
+    "Quando una cella ha troppo pochi contribuenti il MEF la oscura per privacy: il totale noto è allora un minimo."
+  ],
+  "estratto": {
+    "repository": "https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi",
+    "commit": "1d02f4b31385bfec95b2ef9b90c5a8e1c6688929",
+    "file": [
+      {
+        "percorso": "src/data/generated/mef-irpef-2024.data.json",
+        "sha256": "ca54bc78ba33ba4dd61b411b51a237245646c6fd859c2c3ea30b567c463b13c3"
+      },
+      {
+        "percorso": "src/data/generated/mef-irpef-2024.meta.json",
+        "sha256": "32c68d8270e675cda02fbc97787c15fedc9a6f45947f72eec3caddf1e966301a"
+      }
+    ]
+  },
+  "generato": "2026-11-06T17:42:56.427Z",
+  "annoImposta": 2024,
+  "misure": [
+    "comprehensiveIncome",
+    "taxableIncome",
+    "netTaxDeclared",
+    "regionalSurtaxDue",
+    "municipalSurtaxDue",
+    "buildingIncome",
+    "employmentIncome",
+    "pensionIncome",
+    "selfEmploymentIncome",
+    "ordinaryBusinessIncome",
+    "simplifiedBusinessIncome",
+    "participationIncome",
+    "nonPositiveComprehensiveIncome",
+    "comprehensiveIncome0To10000",
+    "comprehensiveIncome10000To15000",
+    "comprehensiveIncome15000To26000",
+    "comprehensiveIncome26000To55000",
+    "comprehensiveIncome55000To75000",
+    "comprehensiveIncome75000To120000",
+    "comprehensiveIncomeOver120000"
+  ],
+  "castellammare": {
+    "istat": "063024",
+    "catastale": "C129",
+    "nome": "CASTELLAMMARE DI STABIA",
+    "contribuenti": 37511,
+    "misure": {
+      "comprehensiveIncome": {
+        "frequenza": 36407,
+        "centesimi": 81907957100
+      },
+      "taxableIncome": {
+        "frequenza": 35532,
+        "centesimi": 77448536800
+      },
+      "netTaxDeclared": {
+        "frequenza": 28759,
+        "centesimi": 13727569400
+      },
+      "regionalSurtaxDue": {
+        "frequenza": 27437,
+        "centesimi": 1711662400
+      },
+      "municipalSurtaxDue": {
+        "frequenza": 24977,
+        "centesimi": 497307700
+      },
+      "buildingIncome": {
+        "frequenza": 12157,
+        "centesimi": 2444395800
+      },
+      "employmentIncome": {
+        "frequenza": 22033,
+        "centesimi": 45636310700
+      },
+      "pensionIncome": {
+        "frequenza": 11578,
+        "centesimi": 24969705800
+      },
+      "selfEmploymentIncome": {
+        "frequenza": 466,
+        "centesimi": 2579129500
+      },
+      "ordinaryBusinessIncome": {
+        "frequenza": 55,
+        "centesimi": 238205700
+      },
+      "simplifiedBusinessIncome": {
+        "frequenza": 832,
+        "centesimi": 1710198600
+      },
+      "participationIncome": {
+        "frequenza": 829,
+        "centesimi": 1368986800
+      },
+      "nonPositiveComprehensiveIncome": {
+        "frequenza": 5,
+        "centesimi": -2637100
+      },
+      "comprehensiveIncome0To10000": {
+        "frequenza": 10055,
+        "centesimi": 4671875400
+      },
+      "comprehensiveIncome10000To15000": {
+        "frequenza": 4506,
+        "centesimi": 5631684200
+      },
+      "comprehensiveIncome15000To26000": {
+        "frequenza": 9509,
+        "centesimi": 19577926200
+      },
+      "comprehensiveIncome26000To55000": {
+        "frequenza": 10742,
+        "centesimi": 37268180800
+      },
+      "comprehensiveIncome55000To75000": {
+        "frequenza": 733,
+        "centesimi": 4652530200
+      },
+      "comprehensiveIncome75000To120000": {
+        "frequenza": 617,
+        "centesimi": 5648759900
+      },
+      "comprehensiveIncomeOver120000": {
+        "frequenza": 240,
+        "centesimi": 4459637500
+      }
+    }
+  },
+  "campania": {
+    "contribuenti": 3366687,
+    "misure": {
+      "comprehensiveIncome": {
+        "frequenza": 3255759,
+        "centesimi": 6952817491800,
+        "righeSoppresse": 0
+      },
+      "taxableIncome": {
+        "frequenza": 3177437,
+        "centesimi": 6586587202600,
+        "righeSoppresse": 0
+      },
+      "netTaxDeclared": {
+        "frequenza": 2472768,
+        "centesimi": 1170149117700,
+        "righeSoppresse": 0
+      },
+      "regionalSurtaxDue": {
+        "frequenza": 2359086,
+        "centesimi": 144062620900,
+        "righeSoppresse": 0
+      },
+      "municipalSurtaxDue": {
+        "frequenza": 2226999,
+        "centesimi": 48023042200,
+        "righeSoppresse": 2
+      },
+      "buildingIncome": {
+        "frequenza": 1145933,
+        "centesimi": 197677880700,
+        "righeSoppresse": 0
+      },
+      "employmentIncome": {
+        "frequenza": 1940824,
+        "centesimi": 3877784212800,
+        "righeSoppresse": 0
+      },
+      "pensionIncome": {
+        "frequenza": 1036367,
+        "centesimi": 2070217623400,
+        "righeSoppresse": 0
+      },
+      "selfEmploymentIncome": {
+        "frequenza": 38777,
+        "centesimi": 206306574000,
+        "righeSoppresse": 49
+      },
+      "ordinaryBusinessIncome": {
+        "frequenza": 5929,
+        "centesimi": 28958203400,
+        "righeSoppresse": 158
+      },
+      "simplifiedBusinessIncome": {
+        "frequenza": 77903,
+        "centesimi": 154746444000,
+        "righeSoppresse": 6
+      },
+      "participationIncome": {
+        "frequenza": 79598,
+        "centesimi": 148214798300,
+        "righeSoppresse": 17
+      },
+      "nonPositiveComprehensiveIncome": {
+        "frequenza": 60,
+        "centesimi": -39237000,
+        "righeSoppresse": 67
+      },
+      "comprehensiveIncome0To10000": {
+        "frequenza": 1027159,
+        "centesimi": 482588520800,
+        "righeSoppresse": 0
+      },
+      "comprehensiveIncome10000To15000": {
+        "frequenza": 431792,
+        "centesimi": 538073299800,
+        "righeSoppresse": 0
+      },
+      "comprehensiveIncome15000To26000": {
+        "frequenza": 815203,
+        "centesimi": 1671733680300,
+        "righeSoppresse": 0
+      },
+      "comprehensiveIncome26000To55000": {
+        "frequenza": 843999,
+        "centesimi": 2930251498500,
+        "righeSoppresse": 3
+      },
+      "comprehensiveIncome55000To75000": {
+        "frequenza": 62766,
+        "centesimi": 399068974500,
+        "righeSoppresse": 89
+      },
+      "comprehensiveIncome75000To120000": {
+        "frequenza": 50646,
+        "centesimi": 466689112300,
+        "righeSoppresse": 132
+      },
+      "comprehensiveIncomeOver120000": {
+        "frequenza": 17050,
+        "centesimi": 345257768200,
+        "righeSoppresse": 212
+      }
+    }
+  },
+  "italia": {
+    "contribuenti": 42832658,
+    "misure": {
+      "comprehensiveIncome": {
+        "frequenza": 41686660,
+        "centesimi": 107625819018400,
+        "righeSoppresse": 0
+      },
+      "taxableIncome": {
+        "frequenza": 40704841,
+        "centesimi": 101333491652800,
+        "righeSoppresse": 0
+      },
+      "netTaxDeclared": {
+        "frequenza": 34100328,
+        "centesimi": 19737708031900,
+        "righeSoppresse": 0
+      },
+      "regionalSurtaxDue": {
+        "frequenza": 32551979,
+        "centesimi": 1617054205400,
+        "righeSoppresse": 0
+      },
+      "municipalSurtaxDue": {
+        "frequenza": 29345933,
+        "centesimi": 675502901400,
+        "righeSoppresse": 79
+      },
+      "buildingIncome": {
+        "frequenza": 19616243,
+        "centesimi": 2663312214200,
+        "righeSoppresse": 0
+      },
+      "employmentIncome": {
+        "frequenza": 24144008,
+        "centesimi": 58552129439300,
+        "righeSoppresse": 0
+      },
+      "pensionIncome": {
+        "frequenza": 14536030,
+        "centesimi": 32546500095700,
+        "righeSoppresse": 0
+      },
+      "selfEmploymentIncome": {
+        "frequenza": 510133,
+        "centesimi": 3447590313000,
+        "righeSoppresse": 1256
+      },
+      "ordinaryBusinessIncome": {
+        "frequenza": 94649,
+        "centesimi": 556571976700,
+        "righeSoppresse": 2313
+      },
+      "simplifiedBusinessIncome": {
+        "frequenza": 1000923,
+        "centesimi": 2560472866100,
+        "righeSoppresse": 206
+      },
+      "participationIncome": {
+        "frequenza": 1559601,
+        "centesimi": 3599305195600,
+        "righeSoppresse": 195
+      },
+      "nonPositiveComprehensiveIncome": {
+        "frequenza": 1148,
+        "centesimi": -1018534400,
+        "righeSoppresse": 1053
+      },
+      "comprehensiveIncome0To10000": {
+        "frequenza": 9646506,
+        "centesimi": 4359081494000,
+        "righeSoppresse": 4
+      },
+      "comprehensiveIncome10000To15000": {
+        "frequenza": 4592413,
+        "centesimi": 5759358855600,
+        "righeSoppresse": 107
+      },
+      "comprehensiveIncome15000To26000": {
+        "frequenza": 11444351,
+        "centesimi": 23746944587900,
+        "righeSoppresse": 1
+      },
+      "comprehensiveIncome26000To55000": {
+        "frequenza": 13319455,
+        "centesimi": 46489510587600,
+        "righeSoppresse": 39
+      },
+      "comprehensiveIncome55000To75000": {
+        "frequenza": 1239109,
+        "centesimi": 7865762250900,
+        "righeSoppresse": 1077
+      },
+      "comprehensiveIncome75000To120000": {
+        "frequenza": 932460,
+        "centesimi": 8592994523400,
+        "righeSoppresse": 1841
+      },
+      "comprehensiveIncomeOver120000": {
+        "frequenza": 372337,
+        "centesimi": 8253461676500,
+        "righeSoppresse": 2712
+      }
+    }
+  },
+  "confronto": [
+    {
+      "istat": "063084",
+      "catastale": "L259",
+      "nome": "TORRE DEL GRECO",
+      "contribuenti": 44544,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 43227,
+          "centesimi": 94047978300
+        },
+        "taxableIncome": {
+          "frequenza": 42002,
+          "centesimi": 89157767000
+        },
+        "netTaxDeclared": {
+          "frequenza": 33379,
+          "centesimi": 15812318600
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 31866,
+          "centesimi": 1949399400
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 31939,
+          "centesimi": 664120500
+        },
+        "buildingIncome": {
+          "frequenza": 15781,
+          "centesimi": 2821269600
+        },
+        "employmentIncome": {
+          "frequenza": 24603,
+          "centesimi": 53341551700
+        },
+        "pensionIncome": {
+          "frequenza": 14502,
+          "centesimi": 29200097100
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 375,
+          "centesimi": 1974346200
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 73,
+          "centesimi": 290887900
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 1022,
+          "centesimi": 1734588500
+        },
+        "participationIncome": {
+          "frequenza": 965,
+          "centesimi": 1336504600
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": null,
+          "centesimi": null
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 12983,
+          "centesimi": 6024636400
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 5213,
+          "centesimi": 6507063500
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 10147,
+          "centesimi": 20969336300
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 13200,
+          "centesimi": 46001030200
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 940,
+          "centesimi": 5965816700
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 537,
+          "centesimi": 4951481900
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": null,
+          "centesimi": null
+        }
+      }
+    },
+    {
+      "istat": "063083",
+      "catastale": "L245",
+      "nome": "TORRE ANNUNZIATA",
+      "contribuenti": 21663,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 21048,
+          "centesimi": 44127887700
+        },
+        "taxableIncome": {
+          "frequenza": 20663,
+          "centesimi": 42604615100
+        },
+        "netTaxDeclared": {
+          "frequenza": 16416,
+          "centesimi": 7304652700
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 15522,
+          "centesimi": 924238800
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 15488,
+          "centesimi": 316953300
+        },
+        "buildingIncome": {
+          "frequenza": 6751,
+          "centesimi": 753565100
+        },
+        "employmentIncome": {
+          "frequenza": 12753,
+          "centesimi": 24818657000
+        },
+        "pensionIncome": {
+          "frequenza": 7052,
+          "centesimi": 14870767400
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 221,
+          "centesimi": 1350144700
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 11,
+          "centesimi": 37404000
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 384,
+          "centesimi": 735205400
+        },
+        "participationIncome": {
+          "frequenza": 291,
+          "centesimi": 399500800
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": null,
+          "centesimi": null
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 6331,
+          "centesimi": 2835941600
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 2530,
+          "centesimi": 3160821100
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 5576,
+          "centesimi": 11460831400
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 5905,
+          "centesimi": 20177528700
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 332,
+          "centesimi": 2093799700
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 275,
+          "centesimi": 2517539600
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": null,
+          "centesimi": null
+        }
+      }
+    },
+    {
+      "istat": "063064",
+      "catastale": "H243",
+      "nome": "ERCOLANO",
+      "contribuenti": 26250,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 25382,
+          "centesimi": 52924828700
+        },
+        "taxableIncome": {
+          "frequenza": 24643,
+          "centesimi": 50455100200
+        },
+        "netTaxDeclared": {
+          "frequenza": 19341,
+          "centesimi": 8631493900
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 18431,
+          "centesimi": 1086719300
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 17465,
+          "centesimi": 369604900
+        },
+        "buildingIncome": {
+          "frequenza": 8914,
+          "centesimi": 1375591500
+        },
+        "employmentIncome": {
+          "frequenza": 14563,
+          "centesimi": 29810256700
+        },
+        "pensionIncome": {
+          "frequenza": 8338,
+          "centesimi": 16743451900
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 171,
+          "centesimi": 838201000
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 45,
+          "centesimi": 132766900
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 613,
+          "centesimi": 1146240600
+        },
+        "participationIncome": {
+          "frequenza": 573,
+          "centesimi": 1047652700
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": 0,
+          "centesimi": 0
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 7951,
+          "centesimi": 3789070500
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 3184,
+          "centesimi": 3975601600
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 6258,
+          "centesimi": 12883701600
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 7081,
+          "centesimi": 24463578100
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 484,
+          "centesimi": 3057250900
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 326,
+          "centesimi": 2948216600
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": 98,
+          "centesimi": 1807409400
+        }
+      }
+    },
+    {
+      "istat": "063059",
+      "catastale": "G902",
+      "nome": "PORTICI",
+      "contribuenti": 31984,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 30873,
+          "centesimi": 77562371000
+        },
+        "taxableIncome": {
+          "frequenza": 29847,
+          "centesimi": 73336687900
+        },
+        "netTaxDeclared": {
+          "frequenza": 24413,
+          "centesimi": 14493945000
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 23386,
+          "centesimi": 1695812500
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 23421,
+          "centesimi": 556590700
+        },
+        "buildingIncome": {
+          "frequenza": 13362,
+          "centesimi": 2062050900
+        },
+        "employmentIncome": {
+          "frequenza": 17328,
+          "centesimi": 41393794700
+        },
+        "pensionIncome": {
+          "frequenza": 10497,
+          "centesimi": 24871069300
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 558,
+          "centesimi": 2628867000
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 35,
+          "centesimi": 177023100
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 640,
+          "centesimi": 1837499000
+        },
+        "participationIncome": {
+          "frequenza": 732,
+          "centesimi": 1473413100
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": null,
+          "centesimi": null
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 8253,
+          "centesimi": 3649431200
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 3105,
+          "centesimi": 3892693700
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 7065,
+          "centesimi": 14670317800
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 10321,
+          "centesimi": 36590307400
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 1071,
+          "centesimi": 6805126600
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 777,
+          "centesimi": 7087431000
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": null,
+          "centesimi": null
+        }
+      }
+    },
+    {
+      "istat": "063060",
+      "catastale": "G964",
+      "nome": "POZZUOLI",
+      "contribuenti": 42443,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 41057,
+          "centesimi": 95257414800
+        },
+        "taxableIncome": {
+          "frequenza": 40031,
+          "centesimi": 88978677400
+        },
+        "netTaxDeclared": {
+          "frequenza": 31653,
+          "centesimi": 17110293900
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 29992,
+          "centesimi": 2004462900
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 29929,
+          "centesimi": 669126200
+        },
+        "buildingIncome": {
+          "frequenza": 11576,
+          "centesimi": 2651967600
+        },
+        "employmentIncome": {
+          "frequenza": 24386,
+          "centesimi": 52056216400
+        },
+        "pensionIncome": {
+          "frequenza": 13142,
+          "centesimi": 27968803300
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 535,
+          "centesimi": 3342937900
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 45,
+          "centesimi": 219326300
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 808,
+          "centesimi": 1723744800
+        },
+        "participationIncome": {
+          "frequenza": 952,
+          "centesimi": 1908357800
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": null,
+          "centesimi": null
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 12472,
+          "centesimi": 5694702500
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 4947,
+          "centesimi": 6160158400
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 9856,
+          "centesimi": 20458745100
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 11586,
+          "centesimi": 40693535800
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 1058,
+          "centesimi": 6712053000
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 807,
+          "centesimi": 7465260400
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": null,
+          "centesimi": null
+        }
+      }
+    },
+    {
+      "istat": "063023",
+      "catastale": "B990",
+      "nome": "CASORIA",
+      "contribuenti": 39940,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 38604,
+          "centesimi": 78274262200
+        },
+        "taxableIncome": {
+          "frequenza": 37460,
+          "centesimi": 74477874600
+        },
+        "netTaxDeclared": {
+          "frequenza": 29605,
+          "centesimi": 12139422700
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 28250,
+          "centesimi": 1588237000
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 28194,
+          "centesimi": 553831500
+        },
+        "buildingIncome": {
+          "frequenza": 12985,
+          "centesimi": 2053040300
+        },
+        "employmentIncome": {
+          "frequenza": 24024,
+          "centesimi": 47313233000
+        },
+        "pensionIncome": {
+          "frequenza": 11092,
+          "centesimi": 21891691500
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 267,
+          "centesimi": 1076849500
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 48,
+          "centesimi": 174745000
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 901,
+          "centesimi": 1585943000
+        },
+        "participationIncome": {
+          "frequenza": 810,
+          "centesimi": 1202908400
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": null,
+          "centesimi": null
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 11705,
+          "centesimi": 5362634900
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 5031,
+          "centesimi": 6274327100
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 10340,
+          "centesimi": 21428401800
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 10491,
+          "centesimi": 35955384000
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 546,
+          "centesimi": 3448565800
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 375,
+          "centesimi": 3380946900
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": null,
+          "centesimi": null
+        }
+      }
+    },
+    {
+      "istat": "063002",
+      "catastale": "A064",
+      "nome": "AFRAGOLA",
+      "contribuenti": 30045,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 29135,
+          "centesimi": 55184696000
+        },
+        "taxableIncome": {
+          "frequenza": 28483,
+          "centesimi": 52749687400
+        },
+        "netTaxDeclared": {
+          "frequenza": 22037,
+          "centesimi": 8068681700
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 20902,
+          "centesimi": 1090999100
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 20864,
+          "centesimi": 385702600
+        },
+        "buildingIncome": {
+          "frequenza": 7475,
+          "centesimi": 1320589700
+        },
+        "employmentIncome": {
+          "frequenza": 19181,
+          "centesimi": 35121584300
+        },
+        "pensionIncome": {
+          "frequenza": 7517,
+          "centesimi": 13197174900
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 212,
+          "centesimi": 1200581000
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 48,
+          "centesimi": 203140800
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 731,
+          "centesimi": 1406832500
+        },
+        "participationIncome": {
+          "frequenza": 551,
+          "centesimi": 802861500
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": null,
+          "centesimi": null
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 9690,
+          "centesimi": 4638435300
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 3982,
+          "centesimi": 4960388100
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 7911,
+          "centesimi": 16265882200
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 6893,
+          "centesimi": 23204790600
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 336,
+          "centesimi": 2108059400
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 226,
+          "centesimi": 2101142300
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": null,
+          "centesimi": null
+        }
+      }
+    },
+    {
+      "istat": "063001",
+      "catastale": "A024",
+      "nome": "ACERRA",
+      "contribuenti": 32298,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 31354,
+          "centesimi": 62873923700
+        },
+        "taxableIncome": {
+          "frequenza": 30573,
+          "centesimi": 60444139000
+        },
+        "netTaxDeclared": {
+          "frequenza": 24082,
+          "centesimi": 9674700600
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 22936,
+          "centesimi": 1286069800
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 22238,
+          "centesimi": 445699300
+        },
+        "buildingIncome": {
+          "frequenza": 10302,
+          "centesimi": 1028108900
+        },
+        "employmentIncome": {
+          "frequenza": 21268,
+          "centesimi": 41912706200
+        },
+        "pensionIncome": {
+          "frequenza": 8190,
+          "centesimi": 15221139300
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 212,
+          "centesimi": 1023126700
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 24,
+          "centesimi": 93582900
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 557,
+          "centesimi": 991802300
+        },
+        "participationIncome": {
+          "frequenza": 507,
+          "centesimi": 790238900
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": 0,
+          "centesimi": 0
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 9591,
+          "centesimi": 4305550000
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 3985,
+          "centesimi": 4968737200
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 8440,
+          "centesimi": 17503790100
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 8633,
+          "centesimi": 29137032700
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 371,
+          "centesimi": 2336065100
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 253,
+          "centesimi": 2310250300
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": 81,
+          "centesimi": 2312498300
+        }
+      }
+    },
+    {
+      "istat": "063035",
+      "catastale": "E131",
+      "nome": "GRAGNANO",
+      "contribuenti": 16430,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 15884,
+          "centesimi": 32516423100
+        },
+        "taxableIncome": {
+          "frequenza": 15525,
+          "centesimi": 30973610400
+        },
+        "netTaxDeclared": {
+          "frequenza": 12250,
+          "centesimi": 5056611800
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 11719,
+          "centesimi": 660483600
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 8839,
+          "centesimi": 205316400
+        },
+        "buildingIncome": {
+          "frequenza": 5239,
+          "centesimi": 930720600
+        },
+        "employmentIncome": {
+          "frequenza": 9727,
+          "centesimi": 19098141000
+        },
+        "pensionIncome": {
+          "frequenza": 4788,
+          "centesimi": 9159048300
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 154,
+          "centesimi": 763308900
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 18,
+          "centesimi": 116904200
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 401,
+          "centesimi": 790182200
+        },
+        "participationIncome": {
+          "frequenza": 423,
+          "centesimi": 647366000
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": 0,
+          "centesimi": 0
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 4780,
+          "centesimi": 2245854100
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 2079,
+          "centesimi": 2599348300
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 4219,
+          "centesimi": 8699676100
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 4355,
+          "centesimi": 14811929200
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 207,
+          "centesimi": 1308415700
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 170,
+          "centesimi": 1535059300
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": 74,
+          "centesimi": 1316140400
+        }
+      }
+    },
+    {
+      "istat": "063058",
+      "catastale": "G813",
+      "nome": "POMPEI",
+      "contribuenti": 14431,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 13941,
+          "centesimi": 30023912400
+        },
+        "taxableIncome": {
+          "frequenza": 13612,
+          "centesimi": 28065365900
+        },
+        "netTaxDeclared": {
+          "frequenza": 10802,
+          "centesimi": 4950010400
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 10287,
+          "centesimi": 611712800
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 10305,
+          "centesimi": 208240600
+        },
+        "buildingIncome": {
+          "frequenza": 4615,
+          "centesimi": 1319893100
+        },
+        "employmentIncome": {
+          "frequenza": 7905,
+          "centesimi": 15837832000
+        },
+        "pensionIncome": {
+          "frequenza": 4525,
+          "centesimi": 8886165500
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 190,
+          "centesimi": 904386800
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 23,
+          "centesimi": 64521600
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 371,
+          "centesimi": 759982100
+        },
+        "participationIncome": {
+          "frequenza": 428,
+          "centesimi": 844894600
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": null,
+          "centesimi": null
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 4251,
+          "centesimi": 2044432100
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 1877,
+          "centesimi": 2334960400
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 3528,
+          "centesimi": 7261526800
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 3679,
+          "centesimi": 12746307700
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 299,
+          "centesimi": 1894067800
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 215,
+          "centesimi": 1982327500
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": null,
+          "centesimi": null
+        }
+      }
+    },
+    {
+      "istat": "063080",
+      "catastale": "I862",
+      "nome": "SORRENTO",
+      "contribuenti": 11086,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 10669,
+          "centesimi": 33211191700
+        },
+        "taxableIncome": {
+          "frequenza": 10406,
+          "centesimi": 29710402400
+        },
+        "netTaxDeclared": {
+          "frequenza": 8700,
+          "centesimi": 6849804500
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 8435,
+          "centesimi": 731095900
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 6644,
+          "centesimi": 187322800
+        },
+        "buildingIncome": {
+          "frequenza": 4175,
+          "centesimi": 2488748300
+        },
+        "employmentIncome": {
+          "frequenza": 5853,
+          "centesimi": 13551130100
+        },
+        "pensionIncome": {
+          "frequenza": 3383,
+          "centesimi": 7590463800
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 193,
+          "centesimi": 805817000
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 47,
+          "centesimi": 1758926100
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 389,
+          "centesimi": 1204350600
+        },
+        "participationIncome": {
+          "frequenza": 915,
+          "centesimi": 3091478900
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": null,
+          "centesimi": null
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 2543,
+          "centesimi": 1210557300
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 1230,
+          "centesimi": 1540757800
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 2920,
+          "centesimi": 5942591600
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 2747,
+          "centesimi": 9959175300
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 520,
+          "centesimi": 3328820300
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 428,
+          "centesimi": 3969911300
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": null,
+          "centesimi": null
+        }
+      }
+    },
+    {
+      "istat": "063086",
+      "catastale": "L845",
+      "nome": "VICO EQUENSE",
+      "contribuenti": 13314,
+      "misure": {
+        "comprehensiveIncome": {
+          "frequenza": 12890,
+          "centesimi": 29352317000
+        },
+        "taxableIncome": {
+          "frequenza": 12623,
+          "centesimi": 27218006100
+        },
+        "netTaxDeclared": {
+          "frequenza": 10239,
+          "centesimi": 4818495000
+        },
+        "regionalSurtaxDue": {
+          "frequenza": 9865,
+          "centesimi": 601001300
+        },
+        "municipalSurtaxDue": {
+          "frequenza": 8963,
+          "centesimi": 199019500
+        },
+        "buildingIncome": {
+          "frequenza": 4564,
+          "centesimi": 989549900
+        },
+        "employmentIncome": {
+          "frequenza": 7389,
+          "centesimi": 15749810600
+        },
+        "pensionIncome": {
+          "frequenza": 4133,
+          "centesimi": 8136914700
+        },
+        "selfEmploymentIncome": {
+          "frequenza": 140,
+          "centesimi": 708305000
+        },
+        "ordinaryBusinessIncome": {
+          "frequenza": 34,
+          "centesimi": 121897300
+        },
+        "simplifiedBusinessIncome": {
+          "frequenza": 411,
+          "centesimi": 902714400
+        },
+        "participationIncome": {
+          "frequenza": 596,
+          "centesimi": 1453390400
+        },
+        "nonPositiveComprehensiveIncome": {
+          "frequenza": 0,
+          "centesimi": 0
+        },
+        "comprehensiveIncome0To10000": {
+          "frequenza": 3413,
+          "centesimi": 1659391500
+        },
+        "comprehensiveIncome10000To15000": {
+          "frequenza": 1774,
+          "centesimi": 2214656200
+        },
+        "comprehensiveIncome15000To26000": {
+          "frequenza": 3635,
+          "centesimi": 7464163200
+        },
+        "comprehensiveIncome26000To55000": {
+          "frequenza": 3433,
+          "centesimi": 11917266900
+        },
+        "comprehensiveIncome55000To75000": {
+          "frequenza": 300,
+          "centesimi": 1898927400
+        },
+        "comprehensiveIncome75000To120000": {
+          "frequenza": 229,
+          "centesimi": 2112369100
+        },
+        "comprehensiveIncomeOver120000": {
+          "frequenza": 106,
+          "centesimi": 2085542700
+        }
+      }
+    }
+  ]
+}

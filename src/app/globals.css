@@ -1,0 +1,259 @@
+/* Dove vanno i soldi · Castellammare di Stabia
+   Stile "registro pubblico" del progetto originale: carta fredda, inchiostro
+   blu scuro, superfici piatte. Dati in blu mare, il Comune in ambra. */
+
+:root {
+  --bg: #f3f5f7;
+  --surface: #e8edf2;
+  --raised: #ffffff;
+  --text: #182b3a;
+  --text-2: #435565;
+  --muted: #536474;
+  --line: #c5cfd8;
+  --line-soft: #e5eaf0;
+  --accent: #b42332;
+  --accent-soft: #fbeaec;
+
+  --data: #0a6aa1;
+  --data-2: #b86e00;
+  --data-track: #dde8f0;
+  --reference: #182b3a;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+
+  --font: var(--font-geist-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: var(--font-geist-mono), ui-monospace, Menlo, monospace;
+  --max: 1080px;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121416;
+    --surface: #1a1d20;
+    --raised: #1f2327;
+    --text: #eef1f3;
+    --text-2: #c3cbd2;
+    --muted: #9aa6b1;
+    --line: #3a4148;
+    --line-soft: #2a3035;
+    --accent: #ff8897;
+    --accent-soft: #3a1f24;
+
+    --data: #3592cc;
+    --data-2: #c2781a;
+    --data-track: #24313b;
+    --reference: #eef1f3;
+
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.55;
+}
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--data); }
+:focus-visible { outline: 2px solid var(--data); outline-offset: 2px; }
+h1, h2, h3 { line-height: 1.2; letter-spacing: -0.02em; font-weight: 600; margin: 0; }
+h1 { font-size: clamp(28px, 6vw, 42px); }
+h2 { font-size: clamp(21px, 4vw, 26px); }
+h3 { font-size: 17px; }
+p { margin: 0; }
+.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------------------------------------------------------------- struttura */
+.skip { position: absolute; left: -999px; top: 8px; background: var(--raised); padding: 8px 12px; z-index: 10; }
+.skip:focus { left: 8px; }
+
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--space-4); }
+
+.site-header { background: var(--raised); border-bottom: 1px solid var(--line); }
+.site-header .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-2) var(--space-6); padding-top: var(--space-3); padding-bottom: var(--space-3); }
+.brand { text-decoration: none; display: flex; flex-direction: column; line-height: 1.15; }
+.brand strong { font-size: 16px; letter-spacing: -0.01em; }
+.brand span { font-size: 12px; color: var(--muted); }
+.nav { display: flex; gap: var(--space-1) var(--space-4); flex-wrap: wrap; font-size: 14px; }
+.nav a { text-decoration: none; color: var(--text-2); padding: 4px 0; border-bottom: 2px solid transparent; }
+.nav a:hover, .nav a[aria-current="page"] { color: var(--text); border-bottom-color: var(--data); }
+
+main { padding-bottom: var(--space-12); }
+
+.site-footer { border-top: 1px solid var(--line); background: var(--raised); font-size: 13px; color: var(--muted); }
+.site-footer .wrap { padding-top: var(--space-6); padding-bottom: var(--space-8); display: grid; gap: var(--space-3); }
+
+/* ---------------------------------------------------------------- blocchi */
+.hero { padding: var(--space-8) 0 var(--space-6); display: grid; gap: var(--space-3); }
+.kicker { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: var(--muted); }
+.lead { font-size: 17px; color: var(--text-2); max-width: 62ch; }
+
+.section { padding-top: var(--space-8); display: grid; gap: var(--space-4); }
+.section-head { display: grid; gap: var(--space-2); }
+.section-head p { color: var(--text-2); max-width: 66ch; }
+.step { display: inline-flex; align-items: center; gap: var(--space-2); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--data); }
+.step b { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--data); color: var(--raised); font-size: 12px; letter-spacing: 0; }
+
+.panel { background: var(--raised); border: 1px solid var(--line); padding: var(--space-5); display: grid; gap: var(--space-4); min-width: 0; align-content: start; }
+.panel-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: var(--text-2); }
+.grid-2 { display: grid; gap: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
+.grid-3 { display: grid; gap: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+
+.figure { display: grid; gap: 2px; }
+.figure .value { font-size: 34px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.1; }
+.figure .label { font-size: 13px; color: var(--muted); }
+.figure .exact { font-size: 12px; color: var(--muted); }
+
+.note { font-size: 13px; color: var(--muted); }
+.callout { border-left: 3px solid var(--data); background: var(--surface); padding: var(--space-3) var(--space-4); font-size: 14px; color: var(--text-2); }
+.callout.warn { border-left-color: var(--accent); }
+
+/* ---------------------------------------------------------------- tessere di navigazione */
+.tiles { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); }
+.tile { background: var(--raised); border: 1px solid var(--line); padding: var(--space-4); text-decoration: none; display: grid; gap: var(--space-1); align-content: start; min-height: 120px; transition: border-color .15s; }
+.tile:hover { border-color: var(--data); color: inherit; }
+.tile .q { font-size: 15px; font-weight: 600; }
+.tile .a { font-size: 22px; font-weight: 600; color: var(--data); letter-spacing: -0.01em; }
+.tile .s { font-size: 13px; color: var(--muted); }
+.tile .go { font-size: 13px; color: var(--text-2); margin-top: auto; }
+
+/* ---------------------------------------------------------------- barre */
+.bars { display: grid; gap: var(--space-3); margin: 0; padding: 0; list-style: none; }
+.bar-row { display: grid; gap: 4px; }
+.bar-head { display: flex; justify-content: space-between; gap: var(--space-3); align-items: baseline; font-size: 14px; }
+.bar-head .v { font-weight: 600; }
+.bar-track { position: relative; height: 14px; background: var(--data-track); border-radius: 0 4px 4px 0; }
+.bar-fill { position: absolute; inset: 0 auto 0 0; background: var(--data); border-radius: 0 4px 4px 0; min-width: 2px; }
+.bar-fill.alt { background: var(--data-2); }
+.bar-ref { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--reference); }
+.bar-sub { font-size: 12px; color: var(--muted); }
+.bar-row:hover .bar-fill { filter: brightness(1.08); }
+
+.legend { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); font-size: 12px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.key-fill { width: 14px; height: 10px; background: var(--data); border-radius: 0 3px 3px 0; display: inline-block; }
+.key-fill.alt { background: var(--data-2); }
+.key-ref { width: 2px; height: 14px; background: var(--reference); display: inline-block; }
+
+/* ---------------------------------------------------------------- scontrino */
+.receipt { background: var(--raised); border: 1px solid var(--line); padding: var(--space-5) var(--space-5) var(--space-4); font-family: var(--mono); font-size: 14px; position: relative; }
+.receipt::after { content: ""; position: absolute; left: 0; right: 0; bottom: -7px; height: 7px; background: linear-gradient(-45deg, transparent 5px, var(--raised) 5px) 0 0 / 10px 7px repeat-x, linear-gradient(45deg, transparent 5px, var(--raised) 5px) 0 0 / 10px 7px repeat-x; }
+.receipt-head { text-align: center; display: grid; gap: 2px; padding-bottom: var(--space-3); border-bottom: 1px dashed var(--line); margin-bottom: var(--space-2); font-size: 12px; color: var(--muted); }
+.receipt-head strong { color: var(--text); font-size: 14px; letter-spacing: 0.06em; }
+.receipt-row { display: grid; grid-template-columns: 1fr auto; gap: var(--space-3); padding: 7px 0; border-bottom: 1px dotted var(--line); align-items: baseline; }
+.receipt-row .what { font-family: var(--font); }
+.receipt-row .what small { display: block; font-size: 12px; color: var(--muted); }
+.receipt-row .amount { font-variant-numeric: tabular-nums; font-weight: 600; text-align: right; }
+.receipt-total { display: grid; grid-template-columns: 1fr auto; padding: var(--space-3) 0 var(--space-1); border-top: 2px solid var(--text); margin-top: var(--space-2); font-weight: 700; font-size: 16px; }
+.tag { display: inline-block; font-family: var(--font); font-size: 11px; font-weight: 600; padding: 1px 6px; margin-left: 6px; border: 1px solid var(--line); color: var(--text-2); white-space: nowrap; }
+.tag.up { border-color: var(--accent); color: var(--accent); }
+
+/* ---------------------------------------------------------------- calcolatore */
+.calc { display: grid; gap: var(--space-5); }
+.calc-form { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); align-items: end; }
+.field { display: grid; gap: 6px; font-size: 14px; }
+.field label, .field legend { font-weight: 600; padding: 0; }
+.field .hint { font-size: 12px; color: var(--muted); }
+.input { font: inherit; font-size: 18px; padding: 10px 12px; border: 1px solid var(--muted); background: var(--raised); color: var(--text); width: 100%; font-variant-numeric: tabular-nums; }
+.segmented { display: flex; border: 1px solid var(--muted); }
+.segmented label { flex: 1; text-align: center; padding: 10px 6px; cursor: pointer; font-weight: 500; font-size: 14px; border-right: 1px solid var(--line); }
+.segmented label:last-child { border-right: 0; }
+.segmented input { position: absolute; opacity: 0; pointer-events: none; }
+.segmented input:checked + span { font-weight: 700; }
+.segmented label:has(input:checked) { background: var(--text); color: var(--raised); }
+.segmented label:has(input:focus-visible) { outline: 2px solid var(--data); outline-offset: -2px; }
+.calc-result { display: grid; gap: var(--space-4); }
+.calc-total { font-size: 15px; color: var(--text-2); }
+.calc-total strong { font-size: 30px; color: var(--text); display: block; letter-spacing: -0.02em; }
+
+/* ---------------------------------------------------------------- tabelle */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); background: var(--raised); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
+th { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-2); background: var(--surface); white-space: nowrap; }
+td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.me td { background: var(--accent-soft); font-weight: 600; }
+caption { text-align: left; padding: 10px 12px; font-size: 13px; color: var(--muted); caption-side: bottom; }
+
+details.more { border: 1px solid var(--line); background: var(--raised); }
+details.more > summary { cursor: pointer; padding: var(--space-3) var(--space-4); font-weight: 600; font-size: 14px; }
+details.more > div { padding: 0 var(--space-4) var(--space-4); display: grid; gap: var(--space-3); }
+
+/* ---------------------------------------------------------------- fonte */
+.source { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line-soft); padding-top: var(--space-3); display: grid; gap: 4px; }
+.source ul { margin: 4px 0 0; padding-left: 18px; }
+.source li { margin-bottom: 2px; }
+
+/* ---------------------------------------------------------------- grafico a linee */
+.chart { width: 100%; max-width: 760px; height: auto; display: block; overflow: visible; }
+.chart text { fill: var(--muted); font-size: 11px; font-family: var(--font); }
+.chart .grid { stroke: var(--line-soft); stroke-width: 1; }
+.chart .line { fill: none; stroke: var(--data); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.chart .area { fill: var(--data); opacity: 0.1; }
+.chart .dot { fill: var(--data); stroke: var(--raised); stroke-width: 2; }
+.chart .label { fill: var(--text); font-weight: 600; font-size: 12px; }
+.chart-tip { font-size: 13px; min-height: 20px; color: var(--text-2); }
+
+@media (max-width: 620px) {
+  body { font-size: 14px; }
+  .panel { padding: var(--space-4); }
+  .figure .value { font-size: 28px; }
+  .receipt { padding: var(--space-4) var(--space-3) var(--space-3); font-size: 13px; }
+}
+
+/* ---------------------------------------------------------------- specchietto "Cosa non va" */
+.specchietto td { font-size: 14px; }
+.specchietto td:first-child { min-width: 260px; }
+.spec-cosa { display: grid; gap: 4px; justify-items: start; }
+.specchietto .tag { margin-left: 0; }
+.spec-title { font-size: 15px; }
+.spec-dato { font-weight: 600; min-width: 170px; }
+.spec-domanda { font-style: italic; color: var(--text-2); min-width: 200px; }
+.specchietto tr:target td { background: var(--accent-soft); }
+
+@media (max-width: 760px) {
+  .specchietto-wrap { border: 0; background: none; overflow: visible; }
+  .specchietto thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .specchietto, .specchietto tbody, .specchietto tr { display: block; width: 100%; }
+  .specchietto tr { background: var(--raised); border: 1px solid var(--line); border-left: 3px solid var(--accent); margin-bottom: var(--space-3); padding: var(--space-3) var(--space-4); }
+  .specchietto td { display: block; border: 0; padding: 4px 0; min-width: 0; }
+  .specchietto td:first-child { min-width: 0; }
+  .specchietto td:not(:first-child)::before { content: attr(data-label); display: block; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: var(--muted); font-style: normal; }
+}
+
+/* ---------------------------------------------------------------- riquadro in home */
+.alert-band { background: var(--raised); border: 1px solid var(--line); border-left: 4px solid var(--accent); padding: var(--space-5); display: grid; gap: var(--space-3); }
+.alert-band h2 { display: flex; align-items: baseline; gap: var(--space-3); flex-wrap: wrap; }
+.alert-band .count { font-size: 13px; font-weight: 600; color: var(--accent); border: 1px solid var(--accent); padding: 1px 8px; letter-spacing: 0; }
+.alert-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.alert-list li { border-top: 1px solid var(--line-soft); }
+.alert-list a { display: grid; gap: 2px; padding: var(--space-2) var(--space-2) var(--space-2) 0; text-decoration: none; }
+.alert-list a strong { font-size: 14px; }
+.alert-list a span { font-size: 13px; color: var(--muted); }
+.alert-list a:hover strong { text-decoration: underline; }
+
+/* ---------------------------------------------------------------- condivisione */
+.share { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.share button, .share .button { font: inherit; font-size: 14px; font-weight: 600; padding: 9px 14px; border: 1px solid var(--muted); background: var(--raised); color: var(--text); cursor: pointer; text-decoration: none; }
+.share button:hover, .share .button:hover { border-color: var(--data); color: var(--data); }
+
+/* ---------------------------------------------------------------- calcolatore: la casa */
+.casa > div { padding-top: var(--space-2); }
+select.input { appearance: auto; font-size: 16px; }
+
+.panel.good { border-left: 4px solid var(--data); }

@@ -1,0 +1,1031 @@
+{
+  "id": "pagamenti",
+  "titolo": "Tempi di pagamento dei fornitori e debiti commerciali",
+  "fonte": {
+    "ente": "MEF · Ragioneria Generale dello Stato (Piattaforma dei Crediti Commerciali)",
+    "url": "https://www.rgs.mef.gov.it/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio/dati_per_singola_amministrazione/",
+    "licenza": "Nessuna licenza aperta dichiarata: uso non commerciale con citazione della fonte",
+    "periodo": "Fatture dal 2023 al 1° semestre 2026; debito dal 31/12/2023 al 30/06/2026"
+  },
+  "avvertenze": [
+    "Il ritardo medio è il Tempo medio ponderato di ritardo (TMR) calcolato dalla Ragioneria per tutti gli enti: un numero negativo vuol dire che in media il Comune paga prima della scadenza.",
+    "Non coincide con l'indicatore di tempestività che il Comune pubblica in Amministrazione trasparente: il TMR guarda le fatture ricevute nell'anno, l'indicatore comunale quelle pagate nell'anno (compresi gli arretrati).",
+    "I tempi sono ponderati sugli importi delle fatture, al netto dell'IVA e dei periodi di sospensione.",
+    "Il debito scaduto è spesso comunicato dal Comune stesso; se non lo comunica, lo calcola la piattaforma. I valori possono essere rivisti nei file successivi."
+  ],
+  "metodologia": "https://www.rgs.mef.gov.it/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/cosa_sapere/indicatori_dei_tempi_di_pagamento/",
+  "estratto": {
+    "repository": "https://www.rgs.mef.gov.it/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio/dati_per_singola_amministrazione/",
+    "scaricato": "2026-11-06",
+    "file": [
+      {
+        "url": "https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio_dei_tempi_di_pagamento_delle_pubbliche_amministrazioni/il_monitoraggio_dello_stock_di_debiti_commerciali_residui/2023/Tempi-di-pagamento/Fatture-del-2023-Pagamenti-e-relativi-tempi-medi-ponderati-di-pagamento-e-di-ritardo.xlsx",
+        "sha256": "75f0a1cb052da1fcc28b853e9bca8ae122f0d90fe603af33182bf0fec63ccb7d"
+      },
+      {
+        "url": "https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio_dei_tempi_di_pagamento_delle_pubbliche_amministrazioni/il_monitoraggio_dello_stock_di_debiti_commerciali_residui/2024/Tempi-di-pagamento/Fatture-del-2024-Pagamenti-e-relativi-tempi-medi-ponderati-di-pagamento-e-di-ritardo.xlsx",
+        "sha256": "f6f67ff3fdfb37a74102c246e3a9c7a050bebee249c0c2c3b911e66151d691e8"
+      },
+      {
+        "url": "https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio_dei_tempi_di_pagamento_delle_pubbliche_amministrazioni/il_monitoraggio_dello_stock_di_debiti_commerciali_residui/2025/Tempi-di-pagamento/Fatture-del-2025-Pagamenti-e-relativi-tempi-medi-ponderati-di-pagamento-e-di-ritardo.xlsx",
+        "sha256": "acac14aad8399a92e6fcfc6926cf61aa0557e8ed9cd40102183c9a9f893e918f"
+      },
+      {
+        "url": "https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio_dei_tempi_di_pagamento_delle_pubbliche_amministrazioni/il_monitoraggio_dello_stock_di_debiti_commerciali_residui/2026/Tempi-di-pagamento/Fatture-primo-semestre-del-2026-Pagamenti-effettuati-e-relativi-tempi-medi-ponderati-di-pagamento-e-di-ritardo.xlsx",
+        "sha256": "aede0326d5a4cb757dcb5f90d78afd5d611a6f9b03ba77da418b55b167b89f98"
+      },
+      {
+        "url": "https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio_dei_tempi_di_pagamento_delle_pubbliche_amministrazioni/il_monitoraggio_dello_stock_di_debiti_commerciali_residui/2025/Debito/Debito-scaduto-al-31-dicembre-2023.pdf",
+        "nota": "valori trascritti dal PDF"
+      },
+      {
+        "url": "https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio_dei_tempi_di_pagamento_delle_pubbliche_amministrazioni/il_monitoraggio_dello_stock_di_debiti_commerciali_residui/2024/Debito/Debito-scaduto-al-31-dicembre-2024.xlsx",
+        "sha256": "c4761ac67f3184c7f1b598b30837959ca35a6763426f56378cd0c952649df514"
+      },
+      {
+        "url": "https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio_dei_tempi_di_pagamento_delle_pubbliche_amministrazioni/il_monitoraggio_dello_stock_di_debiti_commerciali_residui/2025/Debito/Debito-scaduto-al-31-dicembre-2025.xlsx",
+        "sha256": "de124958f2b822a6d617ff751be3ddcfad6b98666824b5d81ef3ceed950a8ac4"
+      },
+      {
+        "url": "https://www.rgs.mef.gov.it/_Documenti/VERSIONE-I/tempi_di_pagamento_e_debiti_commerciali_delle_pubbliche_amministrazioni/monitoraggio_dei_tempi_di_pagamento_delle_pubbliche_amministrazioni/il_monitoraggio_dello_stock_di_debiti_commerciali_residui/2026/Debito/Debito-scaduto-al-30-giugno-2026.xlsx",
+        "sha256": "19489a92e7eb2ba9a18c34ab052cd1c2922e2e0cf77c7c0eb903a4b9eae0e69f"
+      }
+    ]
+  },
+  "comuni": [
+    {
+      "ipa": "c_c129",
+      "nome": "Castellammare di Stabia",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": -12.8,
+          "pagamentoGiorni": 19.2,
+          "fatture": 4996,
+          "dovutoCentesimi": 4151682387,
+          "pagatoCentesimi": 3978200834
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": -18.7,
+          "pagamentoGiorni": 18.5,
+          "fatture": 3465,
+          "dovutoCentesimi": 3621598267,
+          "pagatoCentesimi": 3482299934
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -18.0,
+          "pagamentoGiorni": 12.3,
+          "fatture": 4088,
+          "dovutoCentesimi": 4215460334,
+          "pagatoCentesimi": 4167228521
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -18.5,
+          "pagamentoGiorni": 11.5,
+          "fatture": 2004,
+          "dovutoCentesimi": 2061493889,
+          "pagatoCentesimi": 2013490335
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 844183753,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 543286908,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 122598114,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 142784529,
+          "tipo": "comunicato dal Comune"
+        }
+      ]
+    },
+    {
+      "ipa": "c_l259",
+      "nome": "Torre del Greco",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": 6.5,
+          "pagamentoGiorni": 39.3,
+          "fatture": 5726,
+          "dovutoCentesimi": 3831594905,
+          "pagatoCentesimi": 3408468534
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": 13.4,
+          "pagamentoGiorni": 43.4,
+          "fatture": 4393,
+          "dovutoCentesimi": 3975776544,
+          "pagatoCentesimi": 3950559251
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -10.3,
+          "pagamentoGiorni": 19.7,
+          "fatture": 4063,
+          "dovutoCentesimi": 4996143527,
+          "pagatoCentesimi": 4928580766
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -12.8,
+          "pagamentoGiorni": 17.2,
+          "fatture": 2242,
+          "dovutoCentesimi": 2584429909,
+          "pagatoCentesimi": 2575186751
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 796056046,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 673986631,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 99800435,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 140862664,
+          "tipo": "comunicato dal Comune"
+        }
+      ]
+    },
+    {
+      "ipa": "c_l245",
+      "nome": "Torre Annunziata",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": 3.2,
+          "pagamentoGiorni": 50.9,
+          "fatture": 5566,
+          "dovutoCentesimi": 2123539532,
+          "pagatoCentesimi": 1966244339
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": -7.5,
+          "pagamentoGiorni": 23.2,
+          "fatture": 6096,
+          "dovutoCentesimi": 2508853451,
+          "pagatoCentesimi": 2392655468
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -13.7,
+          "pagamentoGiorni": 19.3,
+          "fatture": 6083,
+          "dovutoCentesimi": 2526382682,
+          "pagatoCentesimi": 2455211374
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -11.2,
+          "pagamentoGiorni": 21.3,
+          "fatture": 2805,
+          "dovutoCentesimi": 1438289209,
+          "pagatoCentesimi": 1410420241
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 1200619894,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 645574140,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 370001243,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 405454619,
+          "tipo": "calcolato dalla piattaforma"
+        }
+      ]
+    },
+    {
+      "ipa": "c_h243",
+      "nome": "Ercolano",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": 19.3,
+          "pagamentoGiorni": 52.6,
+          "fatture": 3145,
+          "dovutoCentesimi": 2470145255,
+          "pagatoCentesimi": 2373554027
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": 13.8,
+          "pagamentoGiorni": 45.9,
+          "fatture": 3400,
+          "dovutoCentesimi": 2731332913,
+          "pagatoCentesimi": 2617800511
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": 1.1,
+          "pagamentoGiorni": 31.0,
+          "fatture": 3351,
+          "dovutoCentesimi": 2670050454,
+          "pagatoCentesimi": 2640366526
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": 7.5,
+          "pagamentoGiorni": 33.5,
+          "fatture": 1704,
+          "dovutoCentesimi": 1546827179,
+          "pagatoCentesimi": 1541680159
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 136102232,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 418646874,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 317791149,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 333026144,
+          "tipo": "calcolato dalla piattaforma"
+        }
+      ]
+    },
+    {
+      "ipa": "c_g902",
+      "nome": "Portici",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": 26.3,
+          "pagamentoGiorni": 56.0,
+          "fatture": 5387,
+          "dovutoCentesimi": 3933395066,
+          "pagatoCentesimi": 3698129065
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": 5.9,
+          "pagamentoGiorni": 36.1,
+          "fatture": 5450,
+          "dovutoCentesimi": 3733318774,
+          "pagatoCentesimi": 3673147085
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -13.0,
+          "pagamentoGiorni": 17.0,
+          "fatture": 5071,
+          "dovutoCentesimi": 4152806505,
+          "pagatoCentesimi": 4125811852
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -14.7,
+          "pagamentoGiorni": 15.5,
+          "fatture": 2375,
+          "dovutoCentesimi": 1733795634,
+          "pagatoCentesimi": 1719550220
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 83614127,
+          "tipo": "calcolato dalla piattaforma"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 33888638,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 25081154,
+          "tipo": "calcolato dalla piattaforma"
+        }
+      ]
+    },
+    {
+      "ipa": "c_g964",
+      "nome": "Pozzuoli",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": -20.7,
+          "pagamentoGiorni": 17.5,
+          "fatture": 17345,
+          "dovutoCentesimi": 7083987929,
+          "pagatoCentesimi": 7031696383
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": -22.0,
+          "pagamentoGiorni": 17.6,
+          "fatture": 15831,
+          "dovutoCentesimi": 6347951767,
+          "pagatoCentesimi": 6311265130
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -21.9,
+          "pagamentoGiorni": 14.0,
+          "fatture": 15569,
+          "dovutoCentesimi": 6826816613,
+          "pagatoCentesimi": 6813254916
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -16.4,
+          "pagamentoGiorni": 16.7,
+          "fatture": 7654,
+          "dovutoCentesimi": 4382226531,
+          "pagatoCentesimi": 4347792008
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 80819377,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 85994848,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 67900755,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 103143117,
+          "tipo": "calcolato dalla piattaforma"
+        }
+      ]
+    },
+    {
+      "ipa": "c_b990",
+      "nome": "Casoria",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": 10.4,
+          "pagamentoGiorni": 40.6,
+          "fatture": 4976,
+          "dovutoCentesimi": 3896981411,
+          "pagatoCentesimi": 3754318541
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": -2.6,
+          "pagamentoGiorni": 27.4,
+          "fatture": 3683,
+          "dovutoCentesimi": 3346861269,
+          "pagatoCentesimi": 3290837020
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -11.1,
+          "pagamentoGiorni": 26.6,
+          "fatture": 3696,
+          "dovutoCentesimi": 3874112106,
+          "pagatoCentesimi": 3765826924
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -13.8,
+          "pagamentoGiorni": 22.6,
+          "fatture": 1864,
+          "dovutoCentesimi": 1739278252,
+          "pagatoCentesimi": 1733215156
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 862781067,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 373657787,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 74273021,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 45761153,
+          "tipo": "comunicato dal Comune"
+        }
+      ]
+    },
+    {
+      "ipa": "c_a064",
+      "nome": "Afragola",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": 30.3,
+          "pagamentoGiorni": 60.4,
+          "fatture": 4242,
+          "dovutoCentesimi": 3331976225,
+          "pagatoCentesimi": 3150481987
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": 5.6,
+          "pagamentoGiorni": 35.7,
+          "fatture": 4214,
+          "dovutoCentesimi": 4173538156,
+          "pagatoCentesimi": 4042157390
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": 0.4,
+          "pagamentoGiorni": 27.0,
+          "fatture": 4411,
+          "dovutoCentesimi": 4850030245,
+          "pagatoCentesimi": 4841056932
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -2.1,
+          "pagamentoGiorni": 24.7,
+          "fatture": 2063,
+          "dovutoCentesimi": 2123145563,
+          "pagatoCentesimi": 2096235681
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 2593233704,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 453315212,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 84431334,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 211766087,
+          "tipo": "comunicato dal Comune"
+        }
+      ]
+    },
+    {
+      "ipa": "c_a024",
+      "nome": "Acerra",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": 21.4,
+          "pagamentoGiorni": 57.4,
+          "fatture": 3076,
+          "dovutoCentesimi": 2878824859,
+          "pagatoCentesimi": 2906553186
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": -10.5,
+          "pagamentoGiorni": 27.9,
+          "fatture": 3007,
+          "dovutoCentesimi": 3085289580,
+          "pagatoCentesimi": 3022330339
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -19.0,
+          "pagamentoGiorni": 10.9,
+          "fatture": 2951,
+          "dovutoCentesimi": 3383113594,
+          "pagatoCentesimi": 3386152192
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -17.4,
+          "pagamentoGiorni": 12.6,
+          "fatture": 1485,
+          "dovutoCentesimi": 1707083148,
+          "pagatoCentesimi": 1706348723
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 333729192,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 321606215,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 237529488,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 278579783,
+          "tipo": "comunicato dal Comune"
+        }
+      ]
+    },
+    {
+      "ipa": "c_e131",
+      "nome": "Gragnano",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": -14.5,
+          "pagamentoGiorni": 24.1,
+          "fatture": 2469,
+          "dovutoCentesimi": 1052600239,
+          "pagatoCentesimi": 1049098859
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": -13.7,
+          "pagamentoGiorni": 24.6,
+          "fatture": 2323,
+          "dovutoCentesimi": 1138229861,
+          "pagatoCentesimi": 1122340114
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -11.6,
+          "pagamentoGiorni": 19.2,
+          "fatture": 2363,
+          "dovutoCentesimi": 1504125761,
+          "pagatoCentesimi": 1504837558
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -8.5,
+          "pagamentoGiorni": 22.2,
+          "fatture": 1263,
+          "dovutoCentesimi": 698302714,
+          "pagatoCentesimi": 691734020
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 2730460,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 719321,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 2199553,
+          "tipo": "calcolato dalla piattaforma"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": -55077,
+          "tipo": "calcolato dalla piattaforma"
+        }
+      ]
+    },
+    {
+      "ipa": "c_g813",
+      "nome": "Pompei",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": -4.1,
+          "pagamentoGiorni": 28.7,
+          "fatture": 2268,
+          "dovutoCentesimi": 1641392029,
+          "pagatoCentesimi": 1633832860
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": -7.5,
+          "pagamentoGiorni": 25.3,
+          "fatture": 2269,
+          "dovutoCentesimi": 2075426011,
+          "pagatoCentesimi": 2006128170
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -2.8,
+          "pagamentoGiorni": 29.7,
+          "fatture": 1979,
+          "dovutoCentesimi": 2094768328,
+          "pagatoCentesimi": 2076037627
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -13.4,
+          "pagamentoGiorni": 16.7,
+          "fatture": 995,
+          "dovutoCentesimi": 1042114743,
+          "pagatoCentesimi": 993254911
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 31886293,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 101768872,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 131681937,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 107227714,
+          "tipo": "comunicato dal Comune"
+        }
+      ]
+    },
+    {
+      "ipa": "c_i862",
+      "nome": "Sorrento",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": 1.0,
+          "pagamentoGiorni": 35.3,
+          "fatture": 3842,
+          "dovutoCentesimi": 1788439880,
+          "pagatoCentesimi": 1724153642
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": -17.7,
+          "pagamentoGiorni": 16.7,
+          "fatture": 3975,
+          "dovutoCentesimi": 2390164852,
+          "pagatoCentesimi": 2367097723
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -19.2,
+          "pagamentoGiorni": 13.8,
+          "fatture": 3571,
+          "dovutoCentesimi": 2033931587,
+          "pagatoCentesimi": 1991864799
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -14.4,
+          "pagamentoGiorni": 16.4,
+          "fatture": 1625,
+          "dovutoCentesimi": 799185348,
+          "pagatoCentesimi": 804431084
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 174650065,
+          "tipo": "calcolato dalla piattaforma"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 129818796,
+          "tipo": "calcolato dalla piattaforma"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 172690387,
+          "tipo": "calcolato dalla piattaforma"
+        }
+      ]
+    },
+    {
+      "ipa": "c_l845",
+      "nome": "Vico Equense",
+      "tempi": [
+        {
+          "periodo": "2023",
+          "anno": 2023,
+          "completo": true,
+          "ritardoGiorni": 1.5,
+          "pagamentoGiorni": 29.6,
+          "fatture": 2579,
+          "dovutoCentesimi": 1461548157,
+          "pagatoCentesimi": 1435837843
+        },
+        {
+          "periodo": "2024",
+          "anno": 2024,
+          "completo": true,
+          "ritardoGiorni": -5.2,
+          "pagamentoGiorni": 29.5,
+          "fatture": 2216,
+          "dovutoCentesimi": 1270563281,
+          "pagatoCentesimi": 1495918595
+        },
+        {
+          "periodo": "2025",
+          "anno": 2025,
+          "completo": true,
+          "ritardoGiorni": -12.2,
+          "pagamentoGiorni": 19.9,
+          "fatture": 1983,
+          "dovutoCentesimi": 930510628,
+          "pagatoCentesimi": 948541630
+        },
+        {
+          "periodo": "1° semestre 2026",
+          "anno": 2026,
+          "completo": false,
+          "ritardoGiorni": -9.9,
+          "pagamentoGiorni": 18.1,
+          "fatture": 976,
+          "dovutoCentesimi": 511410817,
+          "pagatoCentesimi": 490085909
+        }
+      ],
+      "debito": [
+        {
+          "periodo": "31/12/2023",
+          "anno": 2023,
+          "completo": true,
+          "centesimi": 67076041,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2024",
+          "anno": 2024,
+          "completo": true,
+          "centesimi": 12650396,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "31/12/2025",
+          "anno": 2025,
+          "completo": true,
+          "centesimi": 11179525,
+          "tipo": "comunicato dal Comune"
+        },
+        {
+          "periodo": "30/06/2026",
+          "anno": 2026,
+          "completo": false,
+          "centesimi": 20876540,
+          "tipo": "calcolato dalla piattaforma"
+        }
+      ]
+    }
+  ]
+}

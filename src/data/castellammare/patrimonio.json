@@ -1,0 +1,540 @@
+{
+  "id": "patrimonio",
+  "titolo": "Immobili pubblici a Castellammare",
+  "fonte": {
+    "ente": "MEF · Dipartimento del Tesoro (censimento immobili pubblici)",
+    "url": "https://www.de.mef.gov.it/it/attivita_istituzionali/patrimonio_pubblico/censimento_immobili_pubblici/",
+    "licenza": "CC BY 4.0",
+    "periodo": "Censimento 2023"
+  },
+  "avvertenze": [
+    "Sono i beni dichiarati dagli enti al censimento del MEF: un bene non dichiarato non compare.",
+    "Comprende immobili di più enti (Comune, Comune di Napoli, Agenzia regionale per l'edilizia residenziale, ecc.), non solo del Comune di Castellammare.",
+    "“Non utilizzato” è lo stato dichiarato dall'ente proprietario alla data del censimento."
+  ],
+  "estratto": {
+    "repository": "https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi",
+    "commit": "1d02f4b31385bfec95b2ef9b90c5a8e1c6688929",
+    "file": [
+      {
+        "percorso": "src/data/generated/integrated/rows/mef-patrimonio-*-2023.part-*.jsonl.gz"
+      }
+    ]
+  },
+  "generato": "2026-11-06T17:42:56.427Z",
+  "beni": [
+    {
+      "ente": "AGENZIA CAMPANA PER L'EDILIZIA RESIDENZIALE",
+      "tipologiaEnte": "Aziende, Enti e Istituti Territoriali per l'Edilizia Residenziale",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "Non indicato",
+      "datoATerzi": "Interamente",
+      "titolo": "Proprietà",
+      "beni": 658,
+      "superficieMq": 50650.75
+    },
+    {
+      "ente": "AGENZIA CAMPANA PER L'EDILIZIA RESIDENZIALE",
+      "tipologiaEnte": "Aziende, Enti e Istituti Territoriali per l'Edilizia Residenziale",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 68,
+      "superficieMq": 4687.54
+    },
+    {
+      "ente": "COMUNE DI NAPOLI (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Fabbricato per attività produttiva (industriale, artigianale o agricola)",
+      "utilizzo": "Non indicato",
+      "datoATerzi": "Interamente",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 32
+    },
+    {
+      "ente": "COMUNE DI NAPOLI (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Terreno agricolo",
+      "utilizzo": "Non indicato",
+      "datoATerzi": "Interamente",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 32
+    },
+    {
+      "ente": "COMUNE DI NAPOLI (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 3,
+      "superficieMq": 210
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Impianto sportivo",
+      "utilizzo": "Non indicato",
+      "datoATerzi": "Non indicato",
+      "titolo": "Nuda proprietà",
+      "beni": 1,
+      "superficieMq": 2835
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "In ristrutturazione/manutenzione",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 75
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Locale commerciale, negozio",
+      "utilizzo": "In ristrutturazione/manutenzione",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 45
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Magazzino e locali di deposito",
+      "utilizzo": "In ristrutturazione/manutenzione",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 2,
+      "superficieMq": 113
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Parco/Villa Comunale/Giardino Pubblico",
+      "utilizzo": "In ristrutturazione/manutenzione",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 6260
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Terreno agricolo",
+      "utilizzo": "In ristrutturazione/manutenzione",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 4,
+      "superficieMq": 1686
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "Inutilizzabile",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 6,
+      "superficieMq": 3982.67
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Magazzino e locali di deposito",
+      "utilizzo": "Inutilizzabile",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 2,
+      "superficieMq": 24
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Struttura residenziale collettiva (es.: collegi e convitti, educandati, ricoveri, orfanotrofi, ospizi, conventi, seminari)",
+      "utilizzo": "Inutilizzabile",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 1079.2
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Terreno urbano",
+      "utilizzo": "Inutilizzabile",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 3,
+      "superficieMq": 328
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 20,
+      "superficieMq": 1820.25
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Area urbana",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 2,
+      "superficieMq": 99350
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Cantina, soffitta, rimessa, box, garage, posto auto aperto/scoperto,…",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 3,
+      "superficieMq": 26
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Fabbricato per attività produttiva (industriale, artigianale o agricola)",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 11,
+      "superficieMq": 3066
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Locale commerciale, negozio",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 2,
+      "superficieMq": 147
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Magazzino e locali di deposito",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 5,
+      "superficieMq": 2325
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Parco/Villa Comunale/Giardino Pubblico",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 9,
+      "superficieMq": 1249
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Terreno agricolo",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 102,
+      "superficieMq": 95415
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Terreno boscato o con vegetazione di vario tipo",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 36,
+      "superficieMq": 240716
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Terreno urbano",
+      "utilizzo": "Non utilizzato",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 8,
+      "superficieMq": 1224.4
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 92,
+      "superficieMq": 35296
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Area urbana",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 25
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Biblioteca, pinacoteca, museo, gallerie",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 810
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Cantina, soffitta, rimessa, box, garage, posto auto aperto/scoperto,…",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 3,
+      "superficieMq": 1106
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Carcere, prigione, penitenziario, riformatorio e assimilabili",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 1030
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Caserma",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 2,
+      "superficieMq": 8890
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Edificio di culto e assimilabili",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 6,
+      "superficieMq": 9550.33
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Edificio scolastico (es.: scuola di ogni ordine e grado, università, scuola di formazione)",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 27,
+      "superficieMq": 84023
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Fabbricato per attività produttiva (industriale, artigianale o agricola)",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 10,
+      "superficieMq": 2853
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Faro, torre per segnalazioni marittime",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 2,
+      "superficieMq": 400
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Impianto sportivo",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 2,
+      "superficieMq": 11417
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Locale commerciale, negozio",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 4,
+      "superficieMq": 203
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Magazzino e locali di deposito",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 3,
+      "superficieMq": 87
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Mercato coperto",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 2,
+      "superficieMq": 6000
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Ospedali, case di cura, cliniche e assimilabili",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 1,
+      "superficieMq": 4000
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Palazzo storico, castello",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 5,
+      "superficieMq": 16460
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaEnte": "Comuni",
+      "tipologiaBene": "Ufficio strutturato ed assimilabili",
+      "utilizzo": "Utilizzato direttamente",
+      "datoATerzi": "No",
+      "titolo": "Proprietà",
+      "beni": 7,
+      "superficieMq": 14184.15
+    }
+  ],
+  "fabbricatiFermi": [
+    {
+      "ente": "COMUNE DI NAPOLI (NA)",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "Non utilizzato",
+      "fabbricati": 3,
+      "superficieMq": 210
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "In ristrutturazione/manutenzione",
+      "fabbricati": 1,
+      "superficieMq": 75
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Locale commerciale, negozio",
+      "utilizzo": "In ristrutturazione/manutenzione",
+      "fabbricati": 1,
+      "superficieMq": 45
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Magazzino e locali di deposito",
+      "utilizzo": "In ristrutturazione/manutenzione",
+      "fabbricati": 2,
+      "superficieMq": 113
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "Inutilizzabile",
+      "fabbricati": 6,
+      "superficieMq": 3982.67
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Magazzino e locali di deposito",
+      "utilizzo": "Inutilizzabile",
+      "fabbricati": 2,
+      "superficieMq": 24
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Struttura residenziale collettiva (es.: collegi e convitti, educandati, ricoveri, orfanotrofi, ospizi, conventi, seminari)",
+      "utilizzo": "Inutilizzabile",
+      "fabbricati": 1,
+      "superficieMq": 1079.2
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Abitazione",
+      "utilizzo": "Non utilizzato",
+      "fabbricati": 20,
+      "superficieMq": 1820.25
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Area urbana",
+      "utilizzo": "Non utilizzato",
+      "fabbricati": 2,
+      "superficieMq": 99350
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Cantina, soffitta, rimessa, box, garage, posto auto aperto/scoperto,…",
+      "utilizzo": "Non utilizzato",
+      "fabbricati": 3,
+      "superficieMq": 26
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Fabbricato per attività produttiva (industriale, artigianale o agricola)",
+      "utilizzo": "Non utilizzato",
+      "fabbricati": 11,
+      "superficieMq": 3066
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Locale commerciale, negozio",
+      "utilizzo": "Non utilizzato",
+      "fabbricati": 2,
+      "superficieMq": 147
+    },
+    {
+      "ente": "COMUNE DI CASTELLAMMARE DI STABIA (NA)",
+      "tipologiaBene": "Magazzino e locali di deposito",
+      "utilizzo": "Non utilizzato",
+      "fabbricati": 5,
+      "superficieMq": 2325
+    }
+  ]
+}

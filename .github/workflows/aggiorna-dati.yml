@@ -1,0 +1,63 @@
+# Ogni lunedì riscarica i dati ufficiali (repository originale, Ragioneria dello
+# Stato, OpenCoesione), rifà l'estrazione e i controlli.
+# Se i dati sono cambiati e tutti i controlli passano, salva le modifiche:
+# Vercel vede il nuovo commit e ripubblica il sito da solo.
+# Se un controllo fallisce non pubblica nulla: GitHub manda un'email di errore.
+name: Aggiorna dati
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-dati
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Scarica gli snapshot del progetto originale
+        run: bash scripts/scarica-upstream.sh
+
+      - name: Estrai i dati di Castellammare
+        run: npm run dati:estrai
+
+      - name: Tempi di pagamento dalla Ragioneria dello Stato
+        run: npm run dati:pagamenti
+
+      - name: Progetti dei fondi di coesione da OpenCoesione
+        run: npm run dati:coesione
+
+      - name: Controlli
+        run: |
+          npm test
+          npm run typecheck
+          npm run build
+
+      - name: Salva se qualcosa è cambiato
+        run: |
+          if [ -z "$(git status --porcelain src/data)" ]; then
+            echo "Nessun dato nuovo."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898233+github-actions[bot]@users.noreply.github.com"
+          git add src/data
+          git commit -m "Aggiornamento dati ufficiali ($(date -u +%Y-%m-%d))"
+          git push

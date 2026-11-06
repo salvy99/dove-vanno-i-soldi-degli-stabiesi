@@ -1,0 +1,333 @@
+{
+  "id": "personale",
+  "titolo": "Chi lavora per il Comune",
+  "fonte": {
+    "ente": "Ragioneria Generale dello Stato · Conto annuale",
+    "url": "https://contoannuale.rgs.mef.gov.it/",
+    "licenza": "CC BY 3.0 (occupazione) · CC BY 4.0 (costo del lavoro)",
+    "periodo": "Dipendenti 2010-2024; costo del lavoro 2020"
+  },
+  "avvertenze": [
+    "Il personale a tempo indeterminato (anche part-time) è contato al 31 dicembre di ogni anno.",
+    "Il lavoro flessibile (tempo determinato, interinale, LSU) dal 2021 è espresso dalla fonte in unità annue, quindi può avere decimali.",
+    "Il costo del lavoro dettagliato è disponibile, per ora, solo per il 2020."
+  ],
+  "estratto": {
+    "repository": "https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi",
+    "commit": "1d02f4b31385bfec95b2ef9b90c5a8e1c6688929",
+    "file": [
+      {
+        "percorso": "src/data/generated/integrated/rows/rgs-conto-annuale-*.jsonl.gz"
+      }
+    ]
+  },
+  "generato": "2026-11-06T17:42:56.427Z",
+  "dipendenti": [
+    {
+      "anno": 2010,
+      "donne": 133,
+      "uomini": 335,
+      "tempoIndeterminato": 458,
+      "flessibili": 10
+    },
+    {
+      "anno": 2011,
+      "donne": 125,
+      "uomini": 323,
+      "tempoIndeterminato": 439,
+      "flessibili": 9
+    },
+    {
+      "anno": 2012,
+      "donne": 121,
+      "uomini": 323,
+      "tempoIndeterminato": 425,
+      "flessibili": 19
+    },
+    {
+      "anno": 2013,
+      "donne": 112,
+      "uomini": 302,
+      "tempoIndeterminato": 409,
+      "flessibili": 5
+    },
+    {
+      "anno": 2014,
+      "donne": 106,
+      "uomini": 292,
+      "tempoIndeterminato": 397,
+      "flessibili": 1
+    },
+    {
+      "anno": 2015,
+      "donne": 99,
+      "uomini": 282,
+      "tempoIndeterminato": 381,
+      "flessibili": 0
+    },
+    {
+      "anno": 2016,
+      "donne": 103,
+      "uomini": 268,
+      "tempoIndeterminato": 370,
+      "flessibili": 1
+    },
+    {
+      "anno": 2017,
+      "donne": 103,
+      "uomini": 249,
+      "tempoIndeterminato": 351,
+      "flessibili": 1
+    },
+    {
+      "anno": 2018,
+      "donne": 91,
+      "uomini": 214,
+      "tempoIndeterminato": 302,
+      "flessibili": 3
+    },
+    {
+      "anno": 2019,
+      "donne": 82,
+      "uomini": 154,
+      "tempoIndeterminato": 216,
+      "flessibili": 20
+    },
+    {
+      "anno": 2020,
+      "donne": 102,
+      "uomini": 157,
+      "tempoIndeterminato": 238,
+      "flessibili": 21
+    },
+    {
+      "anno": 2021,
+      "donne": 103.12,
+      "uomini": 148.12,
+      "tempoIndeterminato": 237,
+      "flessibili": 14.24
+    },
+    {
+      "anno": 2022,
+      "donne": 107.14,
+      "uomini": 144.3,
+      "tempoIndeterminato": 231,
+      "flessibili": 20.44
+    },
+    {
+      "anno": 2023,
+      "donne": 111.44,
+      "uomini": 136.79,
+      "tempoIndeterminato": 228,
+      "flessibili": 20.23
+    },
+    {
+      "anno": 2024,
+      "donne": 109.82,
+      "uomini": 140.16,
+      "tempoIndeterminato": 237,
+      "flessibili": 12.98
+    }
+  ],
+  "annoCosto": 2020,
+  "costo2020": [
+    {
+      "voce": "STIPENDIO",
+      "codice": "A015",
+      "contratto": "RALN",
+      "centesimi": 504595400
+    },
+    {
+      "voce": "CONTRIBUTI A CARICO DELL'AMM.NE SU COMP. FISSE E ACCESSORIE",
+      "codice": "P055",
+      "contratto": "RALN",
+      "centesimi": 224576900
+    },
+    {
+      "voce": "IRAP",
+      "codice": "P061",
+      "contratto": "RALN",
+      "centesimi": 64693300
+    },
+    {
+      "voce": "RETRIBUZIONI PERSONALE  A TEMPO DETERMINATO",
+      "codice": "P015",
+      "contratto": "RALN",
+      "centesimi": 46944700
+    },
+    {
+      "voce": "COMPENSI PRODUTTIVITA'",
+      "codice": "S630",
+      "contratto": "RALN",
+      "centesimi": 45518700
+    },
+    {
+      "voce": "TREDICESIMA MENSILITA'",
+      "codice": "A035",
+      "contratto": "RALN",
+      "centesimi": 44841600
+    },
+    {
+      "voce": "COMPENSI ONERI RISCHI E DISAGI",
+      "codice": "S604",
+      "contratto": "RALN",
+      "centesimi": 41518600
+    },
+    {
+      "voce": "RETRIBUZIONE DI POSIZIONE",
+      "codice": "I207",
+      "contratto": "RALN",
+      "centesimi": 26455800
+    },
+    {
+      "voce": "STRAORDINARIO",
+      "codice": "T101",
+      "contratto": "RALN",
+      "centesimi": 23958000
+    },
+    {
+      "voce": "INDENNITA DI COMPARTO",
+      "codice": "I222",
+      "contratto": "RALN",
+      "centesimi": 10980900
+    },
+    {
+      "voce": "IND. DI VIGILANZA",
+      "codice": "I125",
+      "contratto": "RALN",
+      "centesimi": 10514800
+    },
+    {
+      "voce": "INCARICHI LIBERO PROFESSIONALI/STUDIO/RICERCA/CONSULENZA",
+      "codice": "L109",
+      "contratto": "RALN",
+      "centesimi": 10373000
+    },
+    {
+      "voce": "ARRETRATI PER ANNI PRECEDENTI",
+      "codice": "A045",
+      "contratto": "RALN",
+      "centesimi": 9194000
+    },
+    {
+      "voce": "INDENNITA' PER SPECIFICHE RESPONSABILITA'",
+      "codice": "S615",
+      "contratto": "RALN",
+      "centesimi": 7299200
+    },
+    {
+      "voce": "SOMME RIMBORSATE PER PERSONALE COMAND./FUORI RUOLO/IN CONV.",
+      "codice": "P071",
+      "contratto": "RALN",
+      "centesimi": 7222600
+    },
+    {
+      "voce": "ASSEGNI PER IL NUCLEO FAMILIARE",
+      "codice": "L005",
+      "contratto": "RALN",
+      "centesimi": 6881900
+    },
+    {
+      "voce": "RETRIBUZIONE DI RISULTATO",
+      "codice": "I212",
+      "contratto": "RALN",
+      "centesimi": 6825000
+    },
+    {
+      "voce": "RECUPERI PER RITARDI ASSENZE ECC.",
+      "codice": "A070",
+      "contratto": "RALN",
+      "centesimi": 6603200
+    },
+    {
+      "voce": "EROGAZIONE BUONI PASTO",
+      "codice": "L011",
+      "contratto": "RALN",
+      "centesimi": 6538200
+    },
+    {
+      "voce": "RIMBORSI RICEVUTI PER PERS. COMAND./FUORI RUOLO/IN CONV. (-)",
+      "codice": "P090",
+      "contratto": "RALN",
+      "centesimi": 5975600
+    },
+    {
+      "voce": "R.I.A.",
+      "codice": "A031",
+      "contratto": "RALN",
+      "centesimi": 4367900
+    },
+    {
+      "voce": "IND. DI VACANZA CONTRATTUALE",
+      "codice": "I422",
+      "contratto": "RALN",
+      "centesimi": 3704500
+    },
+    {
+      "voce": "ONORARI AVVOCATI",
+      "codice": "S750",
+      "contratto": "RALN",
+      "centesimi": 3703600
+    },
+    {
+      "voce": "ALTRE SPESE",
+      "codice": "L110",
+      "contratto": "RALN",
+      "centesimi": 3137700
+    },
+    {
+      "voce": "ELEMENTO PEREQUATIVO",
+      "codice": "S770",
+      "contratto": "RALN",
+      "centesimi": 2798400
+    },
+    {
+      "voce": "PERSONALE SCOLASTICO",
+      "codice": "I143",
+      "contratto": "RALN",
+      "centesimi": 1474200
+    },
+    {
+      "voce": "INDENNIT� DI FUNZIONE",
+      "codice": "S771",
+      "contratto": "RALN",
+      "centesimi": 1100000
+    },
+    {
+      "voce": "ALTRE SPESE ACCESSORIE ED INDENNITA' VARIE",
+      "codice": "S999",
+      "contratto": "RALN",
+      "centesimi": 696900
+    },
+    {
+      "voce": "INDENNIT� ART. 42, COMMA 5-TER, D.LGS. 151/2001",
+      "codice": "I424",
+      "contratto": "RALN",
+      "centesimi": 393400
+    },
+    {
+      "voce": "ARRETRATI ANNI PRECEDENTI",
+      "codice": "S998",
+      "contratto": "RALN",
+      "centesimi": 301300
+    },
+    {
+      "voce": "INCENTIVI PER FUNZIONI TECNICHE",
+      "codice": "S720",
+      "contratto": "RALN",
+      "centesimi": 299200
+    },
+    {
+      "voce": "ASSEGNO AD PERSONAM",
+      "codice": "I418",
+      "contratto": "RALN",
+      "centesimi": 267100
+    },
+    {
+      "voce": "INDENNITA' DI MISSIONE E TRASFERIMENTO",
+      "codice": "P030",
+      "contratto": "RALN",
+      "centesimi": 37300
+    }
+  ]
+}

@@ -1,0 +1,3918 @@
+{
+  "id": "siope",
+  "titolo": "Incassi e pagamenti di cassa del Comune",
+  "fonte": {
+    "ente": "Banca d'Italia · Ragioneria Generale dello Stato (SIOPE)",
+    "url": "https://www.siope.it/Siope/",
+    "licenza": "IODL 2.0 / CC BY",
+    "periodo": "2024, 2025 e 2026 (fino all'ultimo mese disponibile)"
+  },
+  "avvertenze": [
+    "Sono movimenti di cassa: soldi effettivamente entrati o usciti nell'anno, anche se riferiti a impegni di anni precedenti.",
+    "Le partite di giro e i conti per terzi sono soldi che il Comune incassa e gira ad altri (ritenute, depositi): non sono spesa del Comune.",
+    "Il 2026 è parziale: arriva fino all'ultimo mese pubblicato."
+  ],
+  "estratto": {
+    "repository": "https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi",
+    "commit": "1d02f4b31385bfec95b2ef9b90c5a8e1c6688929",
+    "file": [
+      {
+        "percorso": "src/data/generated/siope-municipal-detail-2024.json",
+        "sha256": "8615ed50cf269f1eeb81ebc61b7f3c421a68accb7da06c1f11914c1ba9949b73"
+      },
+      {
+        "percorso": "src/data/generated/siope-municipal-detail-2025.json",
+        "sha256": "ab2c27c8d99083cbc23cf59dbd53f80f0e931a255812bea5b37700ad96d7f69e"
+      },
+      {
+        "percorso": "src/data/generated/siope-municipal-detail.json",
+        "sha256": "ce96472766c2fd974060f029417c784732028c0065f36c8d8d5d45a09991a955"
+      },
+      {
+        "percorso": "src/data/generated/siope-municipal-receipts-detail-2024.json",
+        "sha256": "da2cf783655b643bc6261d3c4c25264de6d477c94060933dc303e53182cc72e5"
+      },
+      {
+        "percorso": "src/data/generated/siope-municipal-receipts-detail-2025.json",
+        "sha256": "cf6c232975360adc655cdda0e08b5a473b29c59f8f980848d8f13a59ddedfec6"
+      },
+      {
+        "percorso": "src/data/generated/siope-municipal-receipts-detail-2026.json",
+        "sha256": "b89c087266e4f8ad12b28117a322651770efed20abefc0097513e92f37fcffea"
+      }
+    ]
+  },
+  "generato": "2026-11-06T17:42:56.427Z",
+  "anni": [
+    {
+      "anno": 2024,
+      "ultimoMese": 12,
+      "completo": true,
+      "tipo": "pagamenti",
+      "castellammare": {
+        "nome": "Castellammare di Stabia",
+        "codiceFiscale": "82000270635",
+        "ipa": "c_c129",
+        "popolazione": 62471,
+        "totaleCentesimi": 7902295052,
+        "perTitolo": [
+          {
+            "codice": "0",
+            "voce": "Pagamenti da regolarizzare",
+            "centesimi": 0
+          },
+          {
+            "codice": "1",
+            "voce": "Spese correnti",
+            "centesimi": 5376811520
+          },
+          {
+            "codice": "2",
+            "voce": "Spese in conto capitale",
+            "centesimi": 805096175
+          },
+          {
+            "codice": "3",
+            "voce": "Spese per incremento di attività finanziarie",
+            "centesimi": 0
+          },
+          {
+            "codice": "4",
+            "voce": "Rimborso prestiti",
+            "centesimi": 626508056
+          },
+          {
+            "codice": "5",
+            "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+            "centesimi": 0
+          },
+          {
+            "codice": "7",
+            "voce": "Uscite per conto terzi e partite di giro",
+            "centesimi": 1093879301
+          }
+        ]
+      },
+      "confronto": [
+        {
+          "nome": "Torre del Greco",
+          "codiceFiscale": "80047160637",
+          "ipa": "c_l259",
+          "popolazione": 80069,
+          "totaleCentesimi": 7298771766,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 5254146559
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1132737049
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 4339650
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 13743593
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 893804915
+            }
+          ]
+        },
+        {
+          "nome": "Torre Annunziata",
+          "codiceFiscale": "00581960630",
+          "ipa": "c_l245",
+          "popolazione": 40036,
+          "totaleCentesimi": 5810206744,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 3634825082
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 598826344
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 113163586
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 1463391732
+            }
+          ]
+        },
+        {
+          "nome": "Ercolano",
+          "codiceFiscale": "80017980634",
+          "ipa": "c_h243",
+          "popolazione": 49790,
+          "totaleCentesimi": 6112364054,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 3914533336
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 572550745
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 85526191
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 1539753782
+            }
+          ]
+        },
+        {
+          "nome": "Portici",
+          "codiceFiscale": "80015980636",
+          "ipa": "c_g902",
+          "popolazione": 51901,
+          "totaleCentesimi": 7244069306,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 5333156096
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 949262742
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 80891853
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 880758615
+            }
+          ]
+        },
+        {
+          "nome": "Pozzuoli",
+          "codiceFiscale": "00508900636",
+          "ipa": "c_g964",
+          "popolazione": 76255,
+          "totaleCentesimi": 15766652248,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 8810204828
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1945625398
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 2958792283
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 267756539
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 1784273200
+            }
+          ]
+        },
+        {
+          "nome": "Casoria",
+          "codiceFiscale": "80029310630",
+          "ipa": "c_b990",
+          "popolazione": 73814,
+          "totaleCentesimi": 8035155622,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 5203896153
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1030468148
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 11074298
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 1789717023
+            }
+          ]
+        },
+        {
+          "nome": "Afragola",
+          "codiceFiscale": "80047540630",
+          "ipa": "c_a064",
+          "popolazione": 61713,
+          "totaleCentesimi": 8176175415,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 4207634311
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1251255103
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 148789052
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 2568496949
+            }
+          ]
+        },
+        {
+          "nome": "Acerra",
+          "codiceFiscale": "80103960631",
+          "ipa": "c_a024",
+          "popolazione": 58507,
+          "totaleCentesimi": 7139571659,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 4254068239
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1322680438
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 753535205
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 223845732
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 585442045
+            }
+          ]
+        },
+        {
+          "nome": "Gragnano",
+          "codiceFiscale": "00646300632",
+          "ipa": "c_e131",
+          "popolazione": 27830,
+          "totaleCentesimi": 2331914559,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 1643403188
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 330394585
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 86137619
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 271979167
+            }
+          ]
+        },
+        {
+          "nome": "Pompei",
+          "codiceFiscale": "00495640633",
+          "ipa": "c_g813",
+          "popolazione": 23800,
+          "totaleCentesimi": 4050164753,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 2755558156
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 684842103
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 53992155
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 555772339
+            }
+          ]
+        },
+        {
+          "nome": "Sorrento",
+          "codiceFiscale": "82001030632",
+          "ipa": "c_i862",
+          "popolazione": 15302,
+          "totaleCentesimi": 4829701121,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 3166832190
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 950723071
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 164504597
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 547641263
+            }
+          ]
+        },
+        {
+          "nome": "Vico Equense",
+          "codiceFiscale": "82007510637",
+          "ipa": "c_l845",
+          "popolazione": 20263,
+          "totaleCentesimi": 2773660956,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 1713053937
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 741380368
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 55330515
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 263896136
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anno": 2025,
+      "ultimoMese": 12,
+      "completo": true,
+      "tipo": "pagamenti",
+      "castellammare": {
+        "nome": "Castellammare di Stabia",
+        "codiceFiscale": "82000270635",
+        "ipa": "c_c129",
+        "popolazione": 62471,
+        "totaleCentesimi": 9495441238,
+        "perTitolo": [
+          {
+            "codice": "0",
+            "voce": "Pagamenti da regolarizzare",
+            "centesimi": 0
+          },
+          {
+            "codice": "1",
+            "voce": "Spese correnti",
+            "centesimi": 5245327800
+          },
+          {
+            "codice": "2",
+            "voce": "Spese in conto capitale",
+            "centesimi": 1904920345
+          },
+          {
+            "codice": "3",
+            "voce": "Spese per incremento di attività finanziarie",
+            "centesimi": 0
+          },
+          {
+            "codice": "4",
+            "voce": "Rimborso prestiti",
+            "centesimi": 651018777
+          },
+          {
+            "codice": "5",
+            "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+            "centesimi": 0
+          },
+          {
+            "codice": "7",
+            "voce": "Uscite per conto terzi e partite di giro",
+            "centesimi": 1694174316
+          }
+        ]
+      },
+      "confronto": [
+        {
+          "nome": "Torre del Greco",
+          "codiceFiscale": "80047160637",
+          "ipa": "c_l259",
+          "popolazione": 80069,
+          "totaleCentesimi": 9449596503,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 6851823973
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1547775870
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 14306966
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 1035689694
+            }
+          ]
+        },
+        {
+          "nome": "Torre Annunziata",
+          "codiceFiscale": "00581960630",
+          "ipa": "c_l245",
+          "popolazione": 40036,
+          "totaleCentesimi": 4849550558,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 3673704437
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 491444213
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 136109681
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 548292227
+            }
+          ]
+        },
+        {
+          "nome": "Ercolano",
+          "codiceFiscale": "80017980634",
+          "ipa": "c_h243",
+          "popolazione": 49790,
+          "totaleCentesimi": 8323806484,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 3783093478
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 515000997
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 82898138
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 3942813871
+            }
+          ]
+        },
+        {
+          "nome": "Portici",
+          "codiceFiscale": "80015980636",
+          "ipa": "c_g902",
+          "popolazione": 51901,
+          "totaleCentesimi": 7401361117,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 5062796421
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1356881023
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 134465368
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 847218305
+            }
+          ]
+        },
+        {
+          "nome": "Pozzuoli",
+          "codiceFiscale": "00508900636",
+          "ipa": "c_g964",
+          "popolazione": 76255,
+          "totaleCentesimi": 15763652976,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 9128728395
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 2526959263
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 1882552717
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 580053386
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 1645359215
+            }
+          ]
+        },
+        {
+          "nome": "Casoria",
+          "codiceFiscale": "80029310630",
+          "ipa": "c_b990",
+          "popolazione": 73814,
+          "totaleCentesimi": 9639529105,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 6078157136
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1692810873
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 536116858
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 1332444238
+            }
+          ]
+        },
+        {
+          "nome": "Afragola",
+          "codiceFiscale": "80047540630",
+          "ipa": "c_a064",
+          "popolazione": 61713,
+          "totaleCentesimi": 8844440101,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 3812140252
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1938909597
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 129458390
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 110876719
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 2853055143
+            }
+          ]
+        },
+        {
+          "nome": "Acerra",
+          "codiceFiscale": "80103960631",
+          "ipa": "c_a024",
+          "popolazione": 58507,
+          "totaleCentesimi": 6830596810,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 4338721801
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1332567346
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 125266280
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 240065007
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 793976376
+            }
+          ]
+        },
+        {
+          "nome": "Gragnano",
+          "codiceFiscale": "00646300632",
+          "ipa": "c_e131",
+          "popolazione": 27830,
+          "totaleCentesimi": 3204416488,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 1860742304
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 599780039
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 81942996
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 661951149
+            }
+          ]
+        },
+        {
+          "nome": "Pompei",
+          "codiceFiscale": "00495640633",
+          "ipa": "c_g813",
+          "popolazione": 23800,
+          "totaleCentesimi": 3708545733,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 2627550117
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 595122975
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 53477340
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 432395301
+            }
+          ]
+        },
+        {
+          "nome": "Sorrento",
+          "codiceFiscale": "82001030632",
+          "ipa": "c_i862",
+          "popolazione": 15302,
+          "totaleCentesimi": 4139873075,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 2844462413
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 662568719
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 140210146
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 492631797
+            }
+          ]
+        },
+        {
+          "nome": "Vico Equense",
+          "codiceFiscale": "82007510637",
+          "ipa": "c_l845",
+          "popolazione": 20263,
+          "totaleCentesimi": 2093466898,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 1436515708
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 382932199
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 56622473
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 217396518
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anno": 2026,
+      "ultimoMese": 9,
+      "completo": false,
+      "tipo": "pagamenti",
+      "castellammare": {
+        "nome": "Castellammare di Stabia",
+        "codiceFiscale": "82000270635",
+        "ipa": "c_c129",
+        "popolazione": 62471,
+        "totaleCentesimi": 5469988241,
+        "perTitolo": [
+          {
+            "codice": "0",
+            "voce": "Pagamenti da regolarizzare",
+            "centesimi": 103333211
+          },
+          {
+            "codice": "1",
+            "voce": "Spese correnti",
+            "centesimi": 3112248450
+          },
+          {
+            "codice": "2",
+            "voce": "Spese in conto capitale",
+            "centesimi": 1183915733
+          },
+          {
+            "codice": "3",
+            "voce": "Spese per incremento di attività finanziarie",
+            "centesimi": 0
+          },
+          {
+            "codice": "4",
+            "voce": "Rimborso prestiti",
+            "centesimi": 189234562
+          },
+          {
+            "codice": "5",
+            "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+            "centesimi": 0
+          },
+          {
+            "codice": "7",
+            "voce": "Uscite per conto terzi e partite di giro",
+            "centesimi": 881256285
+          }
+        ]
+      },
+      "confronto": [
+        {
+          "nome": "Torre del Greco",
+          "codiceFiscale": "80047160637",
+          "ipa": "c_l259",
+          "popolazione": 80069,
+          "totaleCentesimi": 6417221633,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 23756307
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 4472696122
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 1187583278
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 7371928
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 725813998
+            }
+          ]
+        },
+        {
+          "nome": "Torre Annunziata",
+          "codiceFiscale": "00581960630",
+          "ipa": "c_l245",
+          "popolazione": 40036,
+          "totaleCentesimi": 3693669551,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 533001
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 2316127589
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 890659221
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 4563577
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 70495925
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 411290238
+            }
+          ]
+        },
+        {
+          "nome": "Ercolano",
+          "codiceFiscale": "80017980634",
+          "ipa": "c_h243",
+          "popolazione": 49790,
+          "totaleCentesimi": 5300557648,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 36527363
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 2778748715
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 296854179
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 32208385
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 2156219006
+            }
+          ]
+        },
+        {
+          "nome": "Portici",
+          "codiceFiscale": "80015980636",
+          "ipa": "c_g902",
+          "popolazione": 51901,
+          "totaleCentesimi": 4627837924,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 64815496
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 3488005607
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 488488287
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 85468202
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 501060332
+            }
+          ]
+        },
+        {
+          "nome": "Pozzuoli",
+          "codiceFiscale": "00508900636",
+          "ipa": "c_g964",
+          "popolazione": 76255,
+          "totaleCentesimi": 11531620903,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 343326
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 6498898475
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 2249314519
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 1240576582
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 343957853
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 1198530148
+            }
+          ]
+        },
+        {
+          "nome": "Casoria",
+          "codiceFiscale": "80029310630",
+          "ipa": "c_b990",
+          "popolazione": 73814,
+          "totaleCentesimi": 4971827966,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 128733
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 3851878126
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 302078826
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 4308680
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 813433601
+            }
+          ]
+        },
+        {
+          "nome": "Afragola",
+          "codiceFiscale": "80047540630",
+          "ipa": "c_a064",
+          "popolazione": 61713,
+          "totaleCentesimi": 6029065713,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 42798635
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 2628995589
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 807435500
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 43553364
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 2506282625
+            }
+          ]
+        },
+        {
+          "nome": "Acerra",
+          "codiceFiscale": "80103960631",
+          "ipa": "c_a024",
+          "popolazione": 58507,
+          "totaleCentesimi": 4924022990,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 2027395
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 3334134262
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 647218050
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 346000000
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 71278489
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 523364794
+            }
+          ]
+        },
+        {
+          "nome": "Gragnano",
+          "codiceFiscale": "00646300632",
+          "ipa": "c_e131",
+          "popolazione": 27830,
+          "totaleCentesimi": 2042407617,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 1140741051
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 512858942
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 43409360
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 345398264
+            }
+          ]
+        },
+        {
+          "nome": "Pompei",
+          "codiceFiscale": "00495640633",
+          "ipa": "c_g813",
+          "popolazione": 23800,
+          "totaleCentesimi": 2600072370,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 1619419
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 1906595025
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 344324202
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 34296517
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 313237207
+            }
+          ]
+        },
+        {
+          "nome": "Sorrento",
+          "codiceFiscale": "82001030632",
+          "ipa": "c_i862",
+          "popolazione": 15302,
+          "totaleCentesimi": 2309762587,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 6835287
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 1520623164
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 496936896
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 47694752
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 237672488
+            }
+          ]
+        },
+        {
+          "nome": "Vico Equense",
+          "codiceFiscale": "82007510637",
+          "ipa": "c_l845",
+          "popolazione": 20263,
+          "totaleCentesimi": 1637474991,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Pagamenti da regolarizzare",
+              "centesimi": 1702734
+            },
+            {
+              "codice": "1",
+              "voce": "Spese correnti",
+              "centesimi": 1054772337
+            },
+            {
+              "codice": "2",
+              "voce": "Spese in conto capitale",
+              "centesimi": 386172710
+            },
+            {
+              "codice": "3",
+              "voce": "Spese per incremento di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "4",
+              "voce": "Rimborso prestiti",
+              "centesimi": 37035463
+            },
+            {
+              "codice": "5",
+              "voce": "Chiusura anticipazioni da tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Uscite per conto terzi e partite di giro",
+              "centesimi": 157791747
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anno": 2024,
+      "ultimoMese": 12,
+      "completo": true,
+      "tipo": "incassi",
+      "castellammare": {
+        "nome": "Castellammare di Stabia",
+        "codiceFiscale": "82000270635",
+        "ipa": "c_c129",
+        "popolazione": 62471,
+        "totaleCentesimi": 7870192229,
+        "perTitolo": [
+          {
+            "codice": "0",
+            "voce": "Incassi da regolarizzare",
+            "centesimi": 0
+          },
+          {
+            "codice": "1",
+            "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+            "centesimi": 5120126820
+          },
+          {
+            "codice": "2",
+            "voce": "Trasferimenti correnti",
+            "centesimi": 626415497
+          },
+          {
+            "codice": "3",
+            "voce": "Entrate extratributarie",
+            "centesimi": 731991542
+          },
+          {
+            "codice": "4",
+            "voce": "Entrate in conto capitale",
+            "centesimi": 334468531
+          },
+          {
+            "codice": "5",
+            "voce": "Entrate da riduzione di attività finanziarie",
+            "centesimi": 0
+          },
+          {
+            "codice": "6",
+            "voce": "Accensione prestiti",
+            "centesimi": 41155643
+          },
+          {
+            "codice": "7",
+            "voce": "Anticipazioni da istituto tesoriere/cassiere",
+            "centesimi": 0
+          },
+          {
+            "codice": "9",
+            "voce": "Entrate per conto terzi e partite di giro",
+            "centesimi": 1016034196
+          }
+        ]
+      },
+      "confronto": [
+        {
+          "nome": "Torre del Greco",
+          "codiceFiscale": "80047160637",
+          "ipa": "c_l259",
+          "popolazione": 80069,
+          "totaleCentesimi": 8018283857,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 5018385398
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 380943049
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 592191074
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 1214615356
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 812148980
+            }
+          ]
+        },
+        {
+          "nome": "Torre Annunziata",
+          "codiceFiscale": "00581960630",
+          "ipa": "c_l245",
+          "popolazione": 40036,
+          "totaleCentesimi": 6130589851,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2847509663
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 803284618
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 324328262
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 308391869
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 328583261
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 1518492178
+            }
+          ]
+        },
+        {
+          "nome": "Ercolano",
+          "codiceFiscale": "80017980634",
+          "ipa": "c_h243",
+          "popolazione": 49790,
+          "totaleCentesimi": 5811161586,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2891415878
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 413548371
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 432773740
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 482899237
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 39727943
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 1550796417
+            }
+          ]
+        },
+        {
+          "nome": "Portici",
+          "codiceFiscale": "80015980636",
+          "ipa": "c_g902",
+          "popolazione": 51901,
+          "totaleCentesimi": 7005026431,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 3970273543
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 541762145
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 840289237
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 770455439
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 882246067
+            }
+          ]
+        },
+        {
+          "nome": "Pozzuoli",
+          "codiceFiscale": "00508900636",
+          "ipa": "c_g964",
+          "popolazione": 76255,
+          "totaleCentesimi": 17467223863,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 6892350939
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 1496269083
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 2094304485
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 1835064241
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 1984885109
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 1270768190
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 1893581816
+            }
+          ]
+        },
+        {
+          "nome": "Casoria",
+          "codiceFiscale": "80029310630",
+          "ipa": "c_b990",
+          "popolazione": 73814,
+          "totaleCentesimi": 8327765658,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 30000
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 3760601155
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 1074809114
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 482477024
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 694036514
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 527732573
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 1788079278
+            }
+          ]
+        },
+        {
+          "nome": "Afragola",
+          "codiceFiscale": "80047540630",
+          "ipa": "c_a064",
+          "popolazione": 61713,
+          "totaleCentesimi": 7108119944,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2920787179
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 187441404
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 821788545
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 754428767
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 2423674049
+            }
+          ]
+        },
+        {
+          "nome": "Acerra",
+          "codiceFiscale": "80103960631",
+          "ipa": "c_a024",
+          "popolazione": 58507,
+          "totaleCentesimi": 7865811545,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 3519362881
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 598692441
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 844878606
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 679222673
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 639983653
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 788454122
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 795217169
+            }
+          ]
+        },
+        {
+          "nome": "Gragnano",
+          "codiceFiscale": "00646300632",
+          "ipa": "c_e131",
+          "popolazione": 27830,
+          "totaleCentesimi": 2451366314,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1564242144
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 237009008
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 139516138
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 217115643
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 19913260
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 273570121
+            }
+          ]
+        },
+        {
+          "nome": "Pompei",
+          "codiceFiscale": "00495640633",
+          "ipa": "c_g813",
+          "popolazione": 23800,
+          "totaleCentesimi": 3775394060,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2028218057
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 141042571
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 614123298
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 401502341
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 15132376
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 575375417
+            }
+          ]
+        },
+        {
+          "nome": "Sorrento",
+          "codiceFiscale": "82001030632",
+          "ipa": "c_i862",
+          "popolazione": 15302,
+          "totaleCentesimi": 5563145144,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2857021505
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 183903808
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 933966100
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 214541158
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 776714406
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 596998167
+            }
+          ]
+        },
+        {
+          "nome": "Vico Equense",
+          "codiceFiscale": "82007510637",
+          "ipa": "c_l845",
+          "popolazione": 20263,
+          "totaleCentesimi": 2936560934,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1482142874
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 81611987
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 384212861
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 700359712
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 26907501
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 261325999
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anno": 2025,
+      "ultimoMese": 12,
+      "completo": true,
+      "tipo": "incassi",
+      "castellammare": {
+        "nome": "Castellammare di Stabia",
+        "codiceFiscale": "82000270635",
+        "ipa": "c_c129",
+        "popolazione": 62471,
+        "totaleCentesimi": 8545912576,
+        "perTitolo": [
+          {
+            "codice": "0",
+            "voce": "Incassi da regolarizzare",
+            "centesimi": 0
+          },
+          {
+            "codice": "1",
+            "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+            "centesimi": 4553996735
+          },
+          {
+            "codice": "2",
+            "voce": "Trasferimenti correnti",
+            "centesimi": 606349855
+          },
+          {
+            "codice": "3",
+            "voce": "Entrate extratributarie",
+            "centesimi": 712836920
+          },
+          {
+            "codice": "4",
+            "voce": "Entrate in conto capitale",
+            "centesimi": 786779470
+          },
+          {
+            "codice": "5",
+            "voce": "Entrate da riduzione di attività finanziarie",
+            "centesimi": 0
+          },
+          {
+            "codice": "6",
+            "voce": "Accensione prestiti",
+            "centesimi": 86730517
+          },
+          {
+            "codice": "7",
+            "voce": "Anticipazioni da istituto tesoriere/cassiere",
+            "centesimi": 0
+          },
+          {
+            "codice": "9",
+            "voce": "Entrate per conto terzi e partite di giro",
+            "centesimi": 1799219079
+          }
+        ]
+      },
+      "confronto": [
+        {
+          "nome": "Torre del Greco",
+          "codiceFiscale": "80047160637",
+          "ipa": "c_l259",
+          "popolazione": 80069,
+          "totaleCentesimi": 8657402856,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 5591993419
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 956718741
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 618777451
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 427282573
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 1062630672
+            }
+          ]
+        },
+        {
+          "nome": "Torre Annunziata",
+          "codiceFiscale": "00581960630",
+          "ipa": "c_l245",
+          "popolazione": 40036,
+          "totaleCentesimi": 4849642949,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2936603918
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 764689325
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 449466831
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 150230719
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 38788851
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 509863305
+            }
+          ]
+        },
+        {
+          "nome": "Ercolano",
+          "codiceFiscale": "80017980634",
+          "ipa": "c_h243",
+          "popolazione": 49790,
+          "totaleCentesimi": 8381433290,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 3057623905
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 395452702
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 498709087
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 445404689
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 34908751
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 3949334156
+            }
+          ]
+        },
+        {
+          "nome": "Portici",
+          "codiceFiscale": "80015980636",
+          "ipa": "c_g902",
+          "popolazione": 51901,
+          "totaleCentesimi": 6965893321,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 3933024588
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 653407158
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 812842716
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 630749313
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 91139973
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 844729573
+            }
+          ]
+        },
+        {
+          "nome": "Pozzuoli",
+          "codiceFiscale": "00508900636",
+          "ipa": "c_g964",
+          "popolazione": 76255,
+          "totaleCentesimi": 17020700985,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 6461108934
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 1633347074
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 2536368877
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 2401652664
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 2171146684
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 99718117
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 1717358635
+            }
+          ]
+        },
+        {
+          "nome": "Casoria",
+          "codiceFiscale": "80029310630",
+          "ipa": "c_b990",
+          "popolazione": 73814,
+          "totaleCentesimi": 9884996998,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 293904
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 4295970010
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 1020750712
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 629164294
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 1849246416
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 770159792
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 1319411870
+            }
+          ]
+        },
+        {
+          "nome": "Afragola",
+          "codiceFiscale": "80047540630",
+          "ipa": "c_a064",
+          "popolazione": 61713,
+          "totaleCentesimi": 8879408059,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2829515747
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 379598495
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 916996366
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 1800865763
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 9903562
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 29915956
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 110876719
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 2801735451
+            }
+          ]
+        },
+        {
+          "nome": "Acerra",
+          "codiceFiscale": "80103960631",
+          "ipa": "c_a024",
+          "popolazione": 58507,
+          "totaleCentesimi": 7069364797,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 3126974852
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 618105542
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 764120410
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 1283287035
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 481270656
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 125266280
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 670340022
+            }
+          ]
+        },
+        {
+          "nome": "Gragnano",
+          "codiceFiscale": "00646300632",
+          "ipa": "c_e131",
+          "popolazione": 27830,
+          "totaleCentesimi": 3214182339,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1542923944
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 268987463
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 203433411
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 532511730
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 666325791
+            }
+          ]
+        },
+        {
+          "nome": "Pompei",
+          "codiceFiscale": "00495640633",
+          "ipa": "c_g813",
+          "popolazione": 23800,
+          "totaleCentesimi": 3331298407,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1958732108
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 99767458
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 616056856
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 232833634
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 423908351
+            }
+          ]
+        },
+        {
+          "nome": "Sorrento",
+          "codiceFiscale": "82001030632",
+          "ipa": "c_i862",
+          "popolazione": 15302,
+          "totaleCentesimi": 4509602545,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2748671711
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 99482473
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 940200569
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 285842493
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 2065265
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 433340034
+            }
+          ]
+        },
+        {
+          "nome": "Vico Equense",
+          "codiceFiscale": "82007510637",
+          "ipa": "c_l845",
+          "popolazione": 20263,
+          "totaleCentesimi": 2775143676,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 0
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1506015018
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 88772440
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 324490501
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 600062048
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 15809823
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 239993846
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anno": 2026,
+      "ultimoMese": 9,
+      "completo": false,
+      "tipo": "incassi",
+      "castellammare": {
+        "nome": "Castellammare di Stabia",
+        "codiceFiscale": "82000270635",
+        "ipa": "c_c129",
+        "popolazione": 62471,
+        "totaleCentesimi": 5459638462,
+        "perTitolo": [
+          {
+            "codice": "0",
+            "voce": "Incassi da regolarizzare",
+            "centesimi": 265352602
+          },
+          {
+            "codice": "1",
+            "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+            "centesimi": 2627925615
+          },
+          {
+            "codice": "2",
+            "voce": "Trasferimenti correnti",
+            "centesimi": 661695119
+          },
+          {
+            "codice": "3",
+            "voce": "Entrate extratributarie",
+            "centesimi": 356847584
+          },
+          {
+            "codice": "4",
+            "voce": "Entrate in conto capitale",
+            "centesimi": 778193423
+          },
+          {
+            "codice": "5",
+            "voce": "Entrate da riduzione di attività finanziarie",
+            "centesimi": 0
+          },
+          {
+            "codice": "6",
+            "voce": "Accensione prestiti",
+            "centesimi": 47069941
+          },
+          {
+            "codice": "7",
+            "voce": "Anticipazioni da istituto tesoriere/cassiere",
+            "centesimi": 0
+          },
+          {
+            "codice": "9",
+            "voce": "Entrate per conto terzi e partite di giro",
+            "centesimi": 722554178
+          }
+        ]
+      },
+      "confronto": [
+        {
+          "nome": "Torre del Greco",
+          "codiceFiscale": "80047160637",
+          "ipa": "c_l259",
+          "popolazione": 80069,
+          "totaleCentesimi": 5881430943,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 354046861
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2855106431
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 641322650
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 367431445
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 883480866
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 780042690
+            }
+          ]
+        },
+        {
+          "nome": "Torre Annunziata",
+          "codiceFiscale": "00581960630",
+          "ipa": "c_l245",
+          "popolazione": 40036,
+          "totaleCentesimi": 3786183722,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 113060806
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1782588410
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 687214298
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 265871861
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 458765426
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 32319090
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 446363831
+            }
+          ]
+        },
+        {
+          "nome": "Ercolano",
+          "codiceFiscale": "80017980634",
+          "ipa": "c_h243",
+          "popolazione": 49790,
+          "totaleCentesimi": 5159294378,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 394552829
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1743430726
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 431231052
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 312528804
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 134017505
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 2143533462
+            }
+          ]
+        },
+        {
+          "nome": "Portici",
+          "codiceFiscale": "80015980636",
+          "ipa": "c_g902",
+          "popolazione": 51901,
+          "totaleCentesimi": 4483920809,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 267184881
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2392834031
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 426856544
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 489440000
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 336500353
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 14988331
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 556116669
+            }
+          ]
+        },
+        {
+          "nome": "Pozzuoli",
+          "codiceFiscale": "00508900636",
+          "ipa": "c_g964",
+          "popolazione": 76255,
+          "totaleCentesimi": 10469377544,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 91423732
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 4004170949
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 1557750322
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 1582903856
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 354870216
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 1648604515
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 24901090
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 1204752864
+            }
+          ]
+        },
+        {
+          "nome": "Casoria",
+          "codiceFiscale": "80029310630",
+          "ipa": "c_b990",
+          "popolazione": 73814,
+          "totaleCentesimi": 5240960894,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 1260570572
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1486481452
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 1008242140
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 338888861
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 427965179
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 718812690
+            }
+          ]
+        },
+        {
+          "nome": "Afragola",
+          "codiceFiscale": "80047540630",
+          "ipa": "c_a064",
+          "popolazione": 61713,
+          "totaleCentesimi": 5234953452,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 290586248
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1668317880
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 336000250
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 355727930
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 268991077
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 2315330067
+            }
+          ]
+        },
+        {
+          "nome": "Acerra",
+          "codiceFiscale": "80103960631",
+          "ipa": "c_a024",
+          "popolazione": 58507,
+          "totaleCentesimi": 5129563233,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 20800803
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 2103977140
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 594745979
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 780652794
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 561849380
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 170590231
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 346000000
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 550946906
+            }
+          ]
+        },
+        {
+          "nome": "Gragnano",
+          "codiceFiscale": "00646300632",
+          "ipa": "c_e131",
+          "popolazione": 27830,
+          "totaleCentesimi": 1793981055,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 4929929
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1022871756
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 115976413
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 91905740
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 228561897
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 329735320
+            }
+          ]
+        },
+        {
+          "nome": "Pompei",
+          "codiceFiscale": "00495640633",
+          "ipa": "c_g813",
+          "popolazione": 23800,
+          "totaleCentesimi": 2333961984,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 70599271
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1377891080
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 62553758
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 272230004
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 167798218
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 382889653
+            }
+          ]
+        },
+        {
+          "nome": "Sorrento",
+          "codiceFiscale": "82001030632",
+          "ipa": "c_i862",
+          "popolazione": 15302,
+          "totaleCentesimi": 2721297698,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 531554785
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1234994428
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 48845166
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 526047971
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 152652775
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 0
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 227202573
+            }
+          ]
+        },
+        {
+          "nome": "Vico Equense",
+          "codiceFiscale": "82007510637",
+          "ipa": "c_l845",
+          "popolazione": 20263,
+          "totaleCentesimi": 1633848517,
+          "perTitolo": [
+            {
+              "codice": "0",
+              "voce": "Incassi da regolarizzare",
+              "centesimi": 9106257
+            },
+            {
+              "codice": "1",
+              "voce": "Entrate correnti di natura tributaria, contributiva e perequativa",
+              "centesimi": 1008961732
+            },
+            {
+              "codice": "2",
+              "voce": "Trasferimenti correnti",
+              "centesimi": 80281300
+            },
+            {
+              "codice": "3",
+              "voce": "Entrate extratributarie",
+              "centesimi": 226670361
+            },
+            {
+              "codice": "4",
+              "voce": "Entrate in conto capitale",
+              "centesimi": 163372379
+            },
+            {
+              "codice": "5",
+              "voce": "Entrate da riduzione di attività finanziarie",
+              "centesimi": 0
+            },
+            {
+              "codice": "6",
+              "voce": "Accensione prestiti",
+              "centesimi": 2115899
+            },
+            {
+              "codice": "7",
+              "voce": "Anticipazioni da istituto tesoriere/cassiere",
+              "centesimi": 0
+            },
+            {
+              "codice": "9",
+              "voce": "Entrate per conto terzi e partite di giro",
+              "centesimi": 143340589
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

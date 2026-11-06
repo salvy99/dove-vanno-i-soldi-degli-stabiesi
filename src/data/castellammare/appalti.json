@@ -1,0 +1,2745 @@
+{
+  "id": "appalti",
+  "titolo": "Appalti aggiudicati dal Comune",
+  "fonte": {
+    "ente": "ANAC · Autorità Nazionale Anticorruzione (Banca dati contratti pubblici)",
+    "url": "https://dati.anticorruzione.it/opendata/dataset/aggiudicazioni",
+    "licenza": "CC BY 4.0",
+    "periodo": "Aggiudicazioni dal 2024-07-11 al 2025-12-29"
+  },
+  "avvertenze": [
+    "L'importo è quello di aggiudicazione dichiarato, non quanto è stato effettivamente pagato.",
+    "Quando un appalto è diviso fra più imprese l'importo resta nel totale del Comune ma non viene attribuito alle singole imprese.",
+    "Classifiche e totali descrivono i dati: non indicano irregolarità.",
+    "CIG, aggiudicazioni, aggiudicatari, stazioni e IPA sono snapshot cross-temporali",
+    "la copertura nazionale corrente non e dichiarata"
+  ],
+  "estratto": {
+    "repository": "https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi",
+    "commit": "1d02f4b31385bfec95b2ef9b90c5a8e1c6688929",
+    "file": [
+      {
+        "percorso": "src/data/generated/anac-entity-procurement-page/entities/5a.jsonl.gz",
+        "sha256": "dcf730fafe5f52c405125dadbc6c86246550ee71457ae12da59d637c666cfb90"
+      },
+      {
+        "percorso": "src/data/generated/anac-entity-procurement-page/meta.json",
+        "sha256": "9e81be0fd8734c7927cbe38af6a3a6e5ba537f6c7d63d83c9442337fe2770f87"
+      }
+    ]
+  },
+  "generato": "2026-11-06T17:42:56.427Z",
+  "riepilogo": {
+    "attributedAwardValue": "13299072.33",
+    "awardCount": 188,
+    "awardValue": "23716454.86",
+    "awardeeCount": 165,
+    "awardsWithStableAwardees": 185,
+    "awardsWithoutStableAwardees": 3,
+    "multipartOrAmbiguousAwards": 14,
+    "positiveAwardCount": 186,
+    "procedureCount": 211,
+    "singleOperatorAwards": 173,
+    "unattributedAwardValue": "10417382.53"
+  },
+  "fornitori": [
+    {
+      "nome": "Q8 QUASER S.R.L.",
+      "aggiudicazioni": 4,
+      "importoAttribuitoCentesimi": 8100000,
+      "posizionePerImporto": 35
+    },
+    {
+      "nome": "INCICO S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "KUWAIT PETROLEUM ITALIA S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 700,
+      "posizionePerImporto": 138
+    },
+    {
+      "nome": "TIM S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1603134,
+      "posizionePerImporto": 100
+    },
+    {
+      "nome": "EDIL TEST - LABORATORIO PROVE MATERIALI - S.R.L. (EDIL TEST - S.R.L.).",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 13377823,
+      "posizionePerImporto": 18
+    },
+    {
+      "nome": "EUREKA SISTEMI ED AUTOMAZIONE S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 7692000,
+      "posizionePerImporto": 37
+    },
+    {
+      "nome": "UNIVERSITA' DEGLI STUDI DI NAPOLI FEDERICO II",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3777150,
+      "posizionePerImporto": 58
+    },
+    {
+      "nome": "N & C S.P.A.",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 13299090,
+      "posizionePerImporto": 19
+    },
+    {
+      "nome": "ANGELINO S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 140126801,
+      "posizionePerImporto": 3
+    },
+    {
+      "nome": "V.E.G.A. S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 698362,
+      "posizionePerImporto": 129
+    },
+    {
+      "nome": "MASTIO RESTAURI S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 884064,
+      "posizionePerImporto": 123
+    },
+    {
+      "nome": "NASCE UN SORRISO SOCIETA' COOPERATIVA SOCIALE",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "TECH-TRON S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2623000,
+      "posizionePerImporto": 82
+    },
+    {
+      "nome": "CE.DIS. MULTISERVICE S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "I.R.T.E.T. S.R.L. IMPIANTI - RETI TELEFONICHE ELETTRICHE - TELEM ATICA.",
+      "aggiudicazioni": 3,
+      "importoAttribuitoCentesimi": 65260878,
+      "posizionePerImporto": 4
+    },
+    {
+      "nome": "INTERPRO ENGINEERING CONSULTANTS SOCIETA' A RESPONSABILITA' LIMI",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "I.C.C.S INFORMATICA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1312000,
+      "posizionePerImporto": 108
+    },
+    {
+      "nome": "BELLO LEOPOLDO MARIA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3822000,
+      "posizionePerImporto": 57
+    },
+    {
+      "nome": "STUDIO AMICA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 4317000,
+      "posizionePerImporto": 50
+    },
+    {
+      "nome": "NO GAP CONTROLS SRL",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "NAMIRIAL S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2610800,
+      "posizionePerImporto": 83
+    },
+    {
+      "nome": "G M P S.R.L.S.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2440000,
+      "posizionePerImporto": 86
+    },
+    {
+      "nome": "QCG ENGINEERING S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 930000,
+      "posizionePerImporto": 118
+    },
+    {
+      "nome": "G. & M. EDIL S.R.L.",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 21000000,
+      "posizionePerImporto": 11
+    },
+    {
+      "nome": "HERA COMM S.P.A.",
+      "aggiudicazioni": 5,
+      "importoAttribuitoCentesimi": 165900000,
+      "posizionePerImporto": 1
+    },
+    {
+      "nome": "OLIVETTI S.P.A. SOCIETA' BENEFIT",
+      "aggiudicazioni": 4,
+      "importoAttribuitoCentesimi": 2046560,
+      "posizionePerImporto": 94
+    },
+    {
+      "nome": "SISTERS S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 969000,
+      "posizionePerImporto": 115
+    },
+    {
+      "nome": "GEPINFORMATICA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 700000,
+      "posizionePerImporto": 126
+    },
+    {
+      "nome": "A.I. TECH SRL",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 3200000,
+      "posizionePerImporto": 68
+    },
+    {
+      "nome": "S.T.S. DI SAVARESE CARMINE",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3104107,
+      "posizionePerImporto": 73
+    },
+    {
+      "nome": "CNS CONSORZIO NAZIONALE SERVIZI SOCIETA' COOPERATIVA",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "KYOCERA DOCUMENT SOLUTIONS ITALIA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 225760,
+      "posizionePerImporto": 136
+    },
+    {
+      "nome": "Denominazione non disponibile nei dati ANAC",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 4690000,
+      "posizionePerImporto": 48
+    },
+    {
+      "nome": "CORVINO COSTRUZIONI S.A.S. DI CORVINO EMILIO E C.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 5238550,
+      "posizionePerImporto": 47
+    },
+    {
+      "nome": "DEDA NEXT S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 700000,
+      "posizionePerImporto": 126
+    },
+    {
+      "nome": "S.E.R.I.M.- SOCIETA'-EDILE-RESTAURO-IMPIANTISTICA MERIDIONALE DI PACIELLO GIOVANNI & C. S.A.S.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "MORRETTA FRANCESCO & C. RISCALDAMENTO E CONDIZIONAMENTO - S.R.L. O BREVEMENTE MORRETTA FRANCESCO & C. SRL",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1166000,
+      "posizionePerImporto": 112
+    },
+    {
+      "nome": "MYO SPA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2069000,
+      "posizionePerImporto": 92
+    },
+    {
+      "nome": "SGV 24 S.R.L.S. SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 8162957,
+      "posizionePerImporto": 34
+    },
+    {
+      "nome": "DRONE SHOW ITALY SRL",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2702974,
+      "posizionePerImporto": 79
+    },
+    {
+      "nome": "COSTRUZIONI GENERALI NICCHIO S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 8573040,
+      "posizionePerImporto": 31
+    },
+    {
+      "nome": "BUILDING & DESIGN 2008 S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "INARCHECK S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "SOS RIFIUTI S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 13852880,
+      "posizionePerImporto": 17
+    },
+    {
+      "nome": "ECOLOGIA ESPOSITO S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 5545073,
+      "posizionePerImporto": 45
+    },
+    {
+      "nome": "ISOGEA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 884945,
+      "posizionePerImporto": 122
+    },
+    {
+      "nome": "CREATIVE ARTISTS LIVE MUSIC AND ARTS MANAGEMENT SOCIETA' A RESPON SABILITA' LIMITATA SEMPLIFICATA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 610000,
+      "posizionePerImporto": 133
+    },
+    {
+      "nome": "SEBACH - SERVIZIO BAGNI CHIMICI - S.P.A. IN FORMA ABBREVIATA SEBACH - S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 497334,
+      "posizionePerImporto": 134
+    },
+    {
+      "nome": "INGEGNERE SALVATORE STARACE",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 886079,
+      "posizionePerImporto": 121
+    },
+    {
+      "nome": "EDILSOMMA DI CATELLO SOMMA E C. SNC",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1999639,
+      "posizionePerImporto": 95
+    },
+    {
+      "nome": "ELECTA PROGETTAZIONI INTEGRATE S.R.L. CON SIGLA ELECTA SRL",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1377755,
+      "posizionePerImporto": 105
+    },
+    {
+      "nome": "GIO' MARE DI ANTONIO MACERA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 13160000,
+      "posizionePerImporto": 21
+    },
+    {
+      "nome": "MORGAN ITALIA - S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 888000,
+      "posizionePerImporto": 120
+    },
+    {
+      "nome": "ELEFANTE TURISMO E VIAGGI S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2586400,
+      "posizionePerImporto": 84
+    },
+    {
+      "nome": "AZZURRASPETTACOLI S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 5295000,
+      "posizionePerImporto": 46
+    },
+    {
+      "nome": "EDIL CAR. S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 27016848,
+      "posizionePerImporto": 10
+    },
+    {
+      "nome": "DE CUBELLIS INGEGNERIA S.R.L.S.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "ENGCO S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "CONVERGE S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3452258,
+      "posizionePerImporto": 65
+    },
+    {
+      "nome": "INGEGNERIA IDRAULICA GEOTECNICA E STRUTTURE S.R.L.S.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1432357,
+      "posizionePerImporto": 104
+    },
+    {
+      "nome": "CONSORZIO STABILE INFRASTRUTTURE TERRESTRI E MARITTIME",
+      "aggiudicazioni": 3,
+      "importoAttribuitoCentesimi": 61084197,
+      "posizionePerImporto": 5
+    },
+    {
+      "nome": "A. MANZONI & C. S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 700000,
+      "posizionePerImporto": 126
+    },
+    {
+      "nome": "LE NUVOLE SOCIETA' COOPERATIVA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2660000,
+      "posizionePerImporto": 81
+    },
+    {
+      "nome": "STUDIO KR E ASSOCIATI S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "ARCHE'-SOCIETA' COOPERATIVA A R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "PHOEBUS COSTRUZIONI S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2116572,
+      "posizionePerImporto": 91
+    },
+    {
+      "nome": "F.LLI AMITA S.R.L.",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 16000000,
+      "posizionePerImporto": 14
+    },
+    {
+      "nome": "VELIA AMBIENTE S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 6155000,
+      "posizionePerImporto": 43
+    },
+    {
+      "nome": "AMIRA SOCIETA' COOPERATIVA SOCIALE",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 8261036,
+      "posizionePerImporto": 32
+    },
+    {
+      "nome": "TAVOLE DA PALCOSCENICO ACADEMY",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 4673853,
+      "posizionePerImporto": 49
+    },
+    {
+      "nome": "D'AVANZO GAETANO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3330752,
+      "posizionePerImporto": 67
+    },
+    {
+      "nome": "KOME' S.R.L.",
+      "aggiudicazioni": 3,
+      "importoAttribuitoCentesimi": 7000676,
+      "posizionePerImporto": 40
+    },
+    {
+      "nome": "TMP S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1320000,
+      "posizionePerImporto": 107
+    },
+    {
+      "nome": "SCALA ENTERPRISE S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2210310,
+      "posizionePerImporto": 90
+    },
+    {
+      "nome": "ALLESTIMENTI DI PAOLO SAS DI DI PAOLO PASQUALE & C.",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 2423769,
+      "posizionePerImporto": 87
+    },
+    {
+      "nome": "RE.AM. S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 7900000,
+      "posizionePerImporto": 36
+    },
+    {
+      "nome": "EVERLIVE ITALIA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 11448790,
+      "posizionePerImporto": 24
+    },
+    {
+      "nome": "Denominazione non disponibile nei dati ANAC",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3106549,
+      "posizionePerImporto": 72
+    },
+    {
+      "nome": "ASTRO-TEL S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3943826,
+      "posizionePerImporto": 53
+    },
+    {
+      "nome": "DI MAIO PAOLO ARCHITETTO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "DI PALMA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "RUOTOLO SERVICE SRL",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3914000,
+      "posizionePerImporto": 54
+    },
+    {
+      "nome": "S E L C O M S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1538664,
+      "posizionePerImporto": 102
+    },
+    {
+      "nome": "SOCOM NUOVA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 15509250,
+      "posizionePerImporto": 15
+    },
+    {
+      "nome": "GEOINGEGNERIA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "PLAY ANIMATION S.N.C. DI ANTONIO SODANO E LORENZO MEO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2227795,
+      "posizionePerImporto": 89
+    },
+    {
+      "nome": "STABIA EDILIMPIANTI S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 145000000,
+      "posizionePerImporto": 2
+    },
+    {
+      "nome": "PRO.R.EDIL. S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 17472954,
+      "posizionePerImporto": 13
+    },
+    {
+      "nome": "PIROTECNICA SORRENTINA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3750000,
+      "posizionePerImporto": 59
+    },
+    {
+      "nome": "CICAS S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 34914047,
+      "posizionePerImporto": 8
+    },
+    {
+      "nome": "OVER THE TOP S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2050000,
+      "posizionePerImporto": 93
+    },
+    {
+      "nome": "MOSTRAD S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 12510124,
+      "posizionePerImporto": 22
+    },
+    {
+      "nome": "GAMI ENGINEERING S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "CONSORTIUM MANAGEMENT CONSTRUCTION SOCIETA' COOPERATIVA",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "P.M. SYSTEM S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 10166518,
+      "posizionePerImporto": 29
+    },
+    {
+      "nome": "TERRACCIANO S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3000000,
+      "posizionePerImporto": 75
+    },
+    {
+      "nome": "RESTART S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 11536794,
+      "posizionePerImporto": 23
+    },
+    {
+      "nome": "GROMA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "RUOCCO & BERTRANS S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3149998,
+      "posizionePerImporto": 71
+    },
+    {
+      "nome": "Denominazione non disponibile nei dati ANAC",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1290000,
+      "posizionePerImporto": 109
+    },
+    {
+      "nome": "ING, SPERANZA VINCENZO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2277000,
+      "posizionePerImporto": 88
+    },
+    {
+      "nome": "LEASYS ITALIA S.P.A. O BREVEMENTE LEASYS S.P.A.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1354360,
+      "posizionePerImporto": 106
+    },
+    {
+      "nome": "ZUROLO ALESSANDRA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "FRAEMM SOCIETA' COOPERATIVA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3601202,
+      "posizionePerImporto": 60
+    },
+    {
+      "nome": "ALLESTILUX S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3960919,
+      "posizionePerImporto": 51
+    },
+    {
+      "nome": "AZ UFFICIO S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3070000,
+      "posizionePerImporto": 74
+    },
+    {
+      "nome": "STUDIO TECNICO ROSATO INGEGNERI ASSOCIATI",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "ECOSERVIZI - SERVIZI PER L'AMBIENTE - S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1100000,
+      "posizionePerImporto": 114
+    },
+    {
+      "nome": "COGESA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3950586,
+      "posizionePerImporto": 52
+    },
+    {
+      "nome": "APKAPPA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 650000,
+      "posizionePerImporto": 131
+    },
+    {
+      "nome": "KAMA GROUP S.R.L.",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "THE DOG PARK S.A.S. DI PERNA DOMENICO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 8176000,
+      "posizionePerImporto": 33
+    },
+    {
+      "nome": "BGC COSTRUZIONI S.R.L.",
+      "aggiudicazioni": 3,
+      "importoAttribuitoCentesimi": 27900979,
+      "posizionePerImporto": 9
+    },
+    {
+      "nome": "GENERAL COSTRUZIONI S.R.L.",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "COSTRUZIONI IANNICELLI S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 965844,
+      "posizionePerImporto": 116
+    },
+    {
+      "nome": "SIRIO SOCIETA' COOPERATIVA SOCIALE",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 40477948,
+      "posizionePerImporto": 6
+    },
+    {
+      "nome": "REVOLUTION SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3876000,
+      "posizionePerImporto": 56
+    },
+    {
+      "nome": "REM CONSULTING SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3431220,
+      "posizionePerImporto": 66
+    },
+    {
+      "nome": "LA FERRAMENTA.COM",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 165000,
+      "posizionePerImporto": 137
+    },
+    {
+      "nome": "ELLE. I. PROJECT SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 13231174,
+      "posizionePerImporto": 20
+    },
+    {
+      "nome": "DISCETTI PAOLO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 896722,
+      "posizionePerImporto": 119
+    },
+    {
+      "nome": "IACONE S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 5990400,
+      "posizionePerImporto": 44
+    },
+    {
+      "nome": "ASSOCIAZIONE CULTURALE CIRCUITO ARTE",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 6981048,
+      "posizionePerImporto": 41
+    },
+    {
+      "nome": "INTEGRATED SOLUTIONS SRL",
+      "aggiudicazioni": 2,
+      "importoAttribuitoCentesimi": 6198092,
+      "posizionePerImporto": 42
+    },
+    {
+      "nome": "GEONEX S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3879038,
+      "posizionePerImporto": 55
+    },
+    {
+      "nome": "CONSORZIO STABILE ENERGOS",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 39609856,
+      "posizionePerImporto": 7
+    },
+    {
+      "nome": "SLAB ITALIA S.R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 11411900,
+      "posizionePerImporto": 25
+    },
+    {
+      "nome": "HUB ENGINEERING CONSORZIO STABILE SOCIETA' CONSORTILE A R.L.",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "UNYON CONSORZIO STABILE SCARL",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 7359409,
+      "posizionePerImporto": 38
+    },
+    {
+      "nome": "UNIVERSITA' DEGLI STUDI DI SALERNO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 10810080,
+      "posizionePerImporto": 27
+    },
+    {
+      "nome": "TIRO A SEGNO NAZIONALE SEZIONE DI CASTELLAMMARE DI STABIA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 958873,
+      "posizionePerImporto": 117
+    },
+    {
+      "nome": "ASSOCIAZIONE CIMA EVENTI",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2500000,
+      "posizionePerImporto": 85
+    },
+    {
+      "nome": "FONDAZIONE PADOMANI ETS",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1600000,
+      "posizionePerImporto": 101
+    },
+    {
+      "nome": "GENIO & MAGIA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 815000,
+      "posizionePerImporto": 125
+    },
+    {
+      "nome": "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1662442,
+      "posizionePerImporto": 99
+    },
+    {
+      "nome": "IACCARINO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2694402,
+      "posizionePerImporto": 80
+    },
+    {
+      "nome": "CLEMENTE ANTONINO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2983709,
+      "posizionePerImporto": 76
+    },
+    {
+      "nome": "ARCHEOLOGO DOMENICO CAMARDO",
+      "aggiudicazioni": 3,
+      "importoAttribuitoCentesimi": 3489277,
+      "posizionePerImporto": 63
+    },
+    {
+      "nome": "STUDIO P. ACANFORA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3579967,
+      "posizionePerImporto": 61
+    },
+    {
+      "nome": "ARCHITETTO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3458830,
+      "posizionePerImporto": 64
+    },
+    {
+      "nome": "DITTA INDIVIDUALE GIULIA CONTE JUKÀ EVENTI",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1460000,
+      "posizionePerImporto": 103
+    },
+    {
+      "nome": "CASCONE LUIGI",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1950000,
+      "posizionePerImporto": 96
+    },
+    {
+      "nome": "DE FEO MASSIMILIANO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3150000,
+      "posizionePerImporto": 70
+    },
+    {
+      "nome": "D'ANIELLO CHIARA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "DOTT. ING. D'AURIA LEOPOLDO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 850000,
+      "posizionePerImporto": 124
+    },
+    {
+      "nome": "D'ESPOSITO NUNZIA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3175426,
+      "posizionePerImporto": 69
+    },
+    {
+      "nome": "NEW TEK DI FALCO RAFFAELE",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2810854,
+      "posizionePerImporto": 78
+    },
+    {
+      "nome": "SICILSERVIZI IN VERDE DI FINOCCHIARO GIUSEPPE",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 18412299,
+      "posizionePerImporto": 12
+    },
+    {
+      "nome": "NICOLA FURCOLO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 11110958,
+      "posizionePerImporto": 26
+    },
+    {
+      "nome": "GARGIULO SEBASTIANO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 7041092,
+      "posizionePerImporto": 39
+    },
+    {
+      "nome": "GRAVINA MANUELA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 3531115,
+      "posizionePerImporto": 62
+    },
+    {
+      "nome": "LENSI ANTONINO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "MOSCA FABIO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 0,
+      "posizionePerImporto": null
+    },
+    {
+      "nome": "POMA TRASLOCHI SERVICE DI ASSUNTA MASTRACCHIO",
+      "aggiudicazioni": 3,
+      "importoAttribuitoCentesimi": 283500,
+      "posizionePerImporto": 135
+    },
+    {
+      "nome": "NOTOMISTA MARIO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1274000,
+      "posizionePerImporto": 110
+    },
+    {
+      "nome": "GIUSEPPE PALOMBA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1115914,
+      "posizionePerImporto": 113
+    },
+    {
+      "nome": "ANDROID DI PALUMMO ROBERTA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 13969687,
+      "posizionePerImporto": 16
+    },
+    {
+      "nome": "SALVATORE PETRICCIONE",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 696825,
+      "posizionePerImporto": 130
+    },
+    {
+      "nome": "IDS INGEGNERIA DELLE STRUTTURE DELL'ING. PETTI LUIGI",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 9805135,
+      "posizionePerImporto": 30
+    },
+    {
+      "nome": "IARROBINO FAUSTO",
+      "aggiudicazioni": 5,
+      "importoAttribuitoCentesimi": 10709544,
+      "posizionePerImporto": 28
+    },
+    {
+      "nome": "MARIA ESPOSITO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1236392,
+      "posizionePerImporto": 111
+    },
+    {
+      "nome": "ARCH. ESPOSITO ROBERTO MASSIMILIANO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1789101,
+      "posizionePerImporto": 97
+    },
+    {
+      "nome": "SPIEZIA FILIPPO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 1706502,
+      "posizionePerImporto": 98
+    },
+    {
+      "nome": "GIANLUCA TERRANOVA",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 643273,
+      "posizionePerImporto": 132
+    },
+    {
+      "nome": "ARCHITETTO JR IOVINE FABIO",
+      "aggiudicazioni": 1,
+      "importoAttribuitoCentesimi": 2945547,
+      "posizionePerImporto": 77
+    }
+  ],
+  "aggiudicazioni": [
+    {
+      "cig": "B9D1A7EB29",
+      "data": "2025-12-29",
+      "importoCentesimi": 965844,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "COSTRUZIONI IANNICELLI S.R.L."
+      ]
+    },
+    {
+      "cig": "B9D205E44F",
+      "data": "2025-12-29",
+      "importoCentesimi": 4690000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "Denominazione non disponibile nei dati ANAC"
+      ]
+    },
+    {
+      "cig": "B9D27A233B",
+      "data": "2025-12-29",
+      "importoCentesimi": 1290000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "Denominazione non disponibile nei dati ANAC"
+      ]
+    },
+    {
+      "cig": "B9C5547BF8",
+      "data": "2025-12-23",
+      "importoCentesimi": 3106549,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "Denominazione non disponibile nei dati ANAC"
+      ]
+    },
+    {
+      "cig": "B9BDA664D7",
+      "data": "2025-12-22",
+      "importoCentesimi": 2227795,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "PLAY ANIMATION S.N.C. DI ANTONIO SODANO E LORENZO MEO"
+      ]
+    },
+    {
+      "cig": "B997AC0252",
+      "data": "2025-12-18",
+      "importoCentesimi": 2623000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "TECH-TRON S.R.L."
+      ]
+    },
+    {
+      "cig": "B999248D78",
+      "data": "2025-12-18",
+      "importoCentesimi": 2610800,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "NAMIRIAL S.P.A."
+      ]
+    },
+    {
+      "cig": "B9B1B22E75",
+      "data": "2025-12-18",
+      "importoCentesimi": 6749677,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "INCICO S.P.A.",
+        "INTERPRO ENGINEERING CONSULTANTS SOCIETA' A RESPONSABILITA' LIMI",
+        "DE CUBELLIS INGEGNERIA S.R.L.S.",
+        "ENGCO S.R.L.",
+        "GROMA S.R.L.",
+        "HUB ENGINEERING CONSORZIO STABILE SOCIETA' CONSORTILE A R.L."
+      ]
+    },
+    {
+      "cig": "B9B348F9DC",
+      "data": "2025-12-18",
+      "importoCentesimi": 1342949,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "GAMI ENGINEERING S.R.L.",
+        "STUDIO TECNICO ROSATO INGEGNERI ASSOCIATI",
+        "LENSI ANTONINO"
+      ]
+    },
+    {
+      "cig": "B9B36FDB26",
+      "data": "2025-12-18",
+      "importoCentesimi": 3149998,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "RUOCCO & BERTRANS S.R.L."
+      ]
+    },
+    {
+      "cig": "B9A8F2E046",
+      "data": "2025-12-17",
+      "importoCentesimi": 10810080,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "UNIVERSITA' DEGLI STUDI DI SALERNO"
+      ]
+    },
+    {
+      "cig": "B9AA13F8EF",
+      "data": "2025-12-17",
+      "importoCentesimi": 13377823,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "EDIL TEST - LABORATORIO PROVE MATERIALI - S.R.L. (EDIL TEST - S.R.L.)."
+      ]
+    },
+    {
+      "cig": "B9A1C0147A",
+      "data": "2025-12-16",
+      "importoCentesimi": 11536794,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "RESTART S.R.L."
+      ]
+    },
+    {
+      "cig": "B9A32E79F2",
+      "data": "2025-12-16",
+      "importoCentesimi": 6000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "Q8 QUASER S.R.L."
+      ]
+    },
+    {
+      "cig": "B9A532448B",
+      "data": "2025-12-16",
+      "importoCentesimi": 1210670,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "NO GAP CONTROLS SRL",
+        "INARCHECK S.P.A."
+      ]
+    },
+    {
+      "cig": "B99C5B4CBF",
+      "data": "2025-12-15",
+      "importoCentesimi": 8100979,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "BGC COSTRUZIONI S.R.L."
+      ]
+    },
+    {
+      "cig": "B98CC6D6F3",
+      "data": "2025-12-11",
+      "importoCentesimi": 39609856,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CONSORZIO STABILE ENERGOS"
+      ]
+    },
+    {
+      "cig": "B981F29B37",
+      "data": "2025-12-10",
+      "importoCentesimi": 12510124,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "MOSTRAD S.R.L."
+      ]
+    },
+    {
+      "cig": "B985D645E6",
+      "data": "2025-12-10",
+      "importoCentesimi": 37661290,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "CNS CONSORZIO NAZIONALE SERVIZI SOCIETA' COOPERATIVA",
+        "CONSORTIUM MANAGEMENT CONSTRUCTION SOCIETA' COOPERATIVA"
+      ]
+    },
+    {
+      "cig": "B98710F0EB",
+      "data": "2025-12-10",
+      "importoCentesimi": 165000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "LA FERRAMENTA.COM"
+      ]
+    },
+    {
+      "cig": "B97337CED8",
+      "data": "2025-12-05",
+      "importoCentesimi": 11110958,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "NICOLA FURCOLO"
+      ]
+    },
+    {
+      "cig": "B9758FE2AE",
+      "data": "2025-12-05",
+      "importoCentesimi": 2702974,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "DRONE SHOW ITALY SRL"
+      ]
+    },
+    {
+      "cig": "B976A4EC12",
+      "data": "2025-12-05",
+      "importoCentesimi": 1600000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "FONDAZIONE PADOMANI ETS"
+      ]
+    },
+    {
+      "cig": "B95BCFD39B",
+      "data": "2025-12-02",
+      "importoCentesimi": 4529094,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "INTEGRATED SOLUTIONS SRL"
+      ]
+    },
+    {
+      "cig": "B95D7129A2",
+      "data": "2025-12-02",
+      "importoCentesimi": 3845249,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SGV 24 S.R.L.S. SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA"
+      ]
+    },
+    {
+      "cig": "B956359A4F",
+      "data": "2025-12-01",
+      "importoCentesimi": 815000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "GENIO & MAGIA"
+      ]
+    },
+    {
+      "cig": "B9575AFBEB",
+      "data": "2025-12-01",
+      "importoCentesimi": 13969687,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ANDROID DI PALUMMO ROBERTA"
+      ]
+    },
+    {
+      "cig": "B93FCCA5FC",
+      "data": "2025-11-26",
+      "importoCentesimi": 3000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "TERRACCIANO S.R.L."
+      ]
+    },
+    {
+      "cig": "B944A5DA25",
+      "data": "2025-11-26",
+      "importoCentesimi": 8573040,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "COSTRUZIONI GENERALI NICCHIO S.R.L."
+      ]
+    },
+    {
+      "cig": "B939BF3BCC",
+      "data": "2025-11-25",
+      "importoCentesimi": 3431220,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "REM CONSULTING SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA"
+      ]
+    },
+    {
+      "cig": "B93C27D97B",
+      "data": "2025-11-25",
+      "importoCentesimi": 2038060,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "KOME' S.R.L."
+      ]
+    },
+    {
+      "cig": "B938DE0E81",
+      "data": "2025-11-24",
+      "importoCentesimi": 5545073,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ECOLOGIA ESPOSITO S.R.L."
+      ]
+    },
+    {
+      "cig": "B93675A423",
+      "data": "2025-11-20",
+      "importoCentesimi": 3070000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "AZ UFFICIO S.R.L."
+      ]
+    },
+    {
+      "cig": "B8AC5D166A",
+      "data": "2025-11-17",
+      "importoCentesimi": 8261036,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "AMIRA SOCIETA' COOPERATIVA SOCIALE"
+      ]
+    },
+    {
+      "cig": "B92218B680",
+      "data": "2025-11-17",
+      "importoCentesimi": 11448790,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "EVERLIVE ITALIA S.R.L."
+      ]
+    },
+    {
+      "cig": "B9172F8652",
+      "data": "2025-11-13",
+      "importoCentesimi": 700000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "GEPINFORMATICA S.R.L."
+      ]
+    },
+    {
+      "cig": "B91781E5F8",
+      "data": "2025-11-13",
+      "importoCentesimi": 1799100,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "N & C S.P.A."
+      ]
+    },
+    {
+      "cig": "B917C46403",
+      "data": "2025-11-13",
+      "importoCentesimi": 900000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "A.I. TECH SRL"
+      ]
+    },
+    {
+      "cig": "B90A261413",
+      "data": "2025-11-11",
+      "importoCentesimi": 2050000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "OVER THE TOP S.R.L."
+      ]
+    },
+    {
+      "cig": "B904F1DD8B",
+      "data": "2025-11-10",
+      "importoCentesimi": 7041092,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "GARGIULO SEBASTIANO"
+      ]
+    },
+    {
+      "cig": "B8FC76B2DA",
+      "data": "2025-11-06",
+      "importoCentesimi": 5481048,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ASSOCIAZIONE CULTURALE CIRCUITO ARTE"
+      ]
+    },
+    {
+      "cig": "B8F848F647",
+      "data": "2025-11-05",
+      "importoCentesimi": 13231174,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ELLE. I. PROJECT SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA"
+      ]
+    },
+    {
+      "cig": "B8F9A72605",
+      "data": "2025-11-05",
+      "importoCentesimi": 300000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "HERA COMM S.P.A."
+      ]
+    },
+    {
+      "cig": "B8F18FD135",
+      "data": "2025-11-04",
+      "importoCentesimi": 300000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "HERA COMM S.P.A."
+      ]
+    },
+    {
+      "cig": "B8F1E0F05A",
+      "data": "2025-11-04",
+      "importoCentesimi": 25000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "HERA COMM S.P.A."
+      ]
+    },
+    {
+      "cig": "B8EAB94771",
+      "data": "2025-11-03",
+      "importoCentesimi": 800000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "Q8 QUASER S.R.L."
+      ]
+    },
+    {
+      "cig": "B8E69CACFA",
+      "data": "2025-10-31",
+      "importoCentesimi": 696825,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SALVATORE PETRICCIONE"
+      ]
+    },
+    {
+      "cig": "B8E0306EED",
+      "data": "2025-10-30",
+      "importoCentesimi": 800000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "Q8 QUASER S.R.L."
+      ]
+    },
+    {
+      "cig": "B8E0C30EE8",
+      "data": "2025-10-30",
+      "importoCentesimi": 13852880,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SOS RIFIUTI S.R.L."
+      ]
+    },
+    {
+      "cig": "B7FC0E6143",
+      "data": "2025-10-21",
+      "importoCentesimi": 34914047,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CICAS S.R.L."
+      ]
+    },
+    {
+      "cig": "B8B5206A40",
+      "data": "2025-10-20",
+      "importoCentesimi": 3027132,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "KOME' S.R.L."
+      ]
+    },
+    {
+      "cig": "B8B64B0131",
+      "data": "2025-10-20",
+      "importoCentesimi": 3960919,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ALLESTILUX S.R.L."
+      ]
+    },
+    {
+      "cig": "B8ADF0C88C",
+      "data": "2025-10-16",
+      "importoCentesimi": 9900000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "BGC COSTRUZIONI S.R.L."
+      ]
+    },
+    {
+      "cig": "B8A00ECAE3",
+      "data": "2025-10-14",
+      "importoCentesimi": 7000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "G. & M. EDIL S.R.L."
+      ]
+    },
+    {
+      "cig": "B89462ACD3",
+      "data": "2025-10-06",
+      "importoCentesimi": 888000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "MORGAN ITALIA - S.R.L."
+      ]
+    },
+    {
+      "cig": "B901349E61",
+      "data": "2025-10-06",
+      "importoCentesimi": 300000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "HERA COMM S.P.A."
+      ]
+    },
+    {
+      "cig": "B87E7EB496",
+      "data": "2025-10-03",
+      "importoCentesimi": 2300000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "A.I. TECH SRL"
+      ]
+    },
+    {
+      "cig": "B87F19B326",
+      "data": "2025-10-03",
+      "importoCentesimi": 1668998,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "INTEGRATED SOLUTIONS SRL"
+      ]
+    },
+    {
+      "cig": "B87F51519A",
+      "data": "2025-10-03",
+      "importoCentesimi": 26754196,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CONSORZIO STABILE INFRASTRUTTURE TERRESTRI E MARITTIME"
+      ]
+    },
+    {
+      "cig": "B86B8FE91F",
+      "data": "2025-10-01",
+      "importoCentesimi": 2586400,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ELEFANTE TURISMO E VIAGGI S.R.L."
+      ]
+    },
+    {
+      "cig": "B873ABFCA7",
+      "data": "2025-10-01",
+      "importoCentesimi": 145000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "STABIA EDILIMPIANTI S.R.L."
+      ]
+    },
+    {
+      "cig": "B7F2468D0A",
+      "data": "2025-09-30",
+      "importoCentesimi": 15509250,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SOCOM NUOVA S.R.L."
+      ]
+    },
+    {
+      "cig": "B86438EF84",
+      "data": "2025-09-25",
+      "importoCentesimi": 157500,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "POMA TRASLOCHI SERVICE DI ASSUNTA MASTRACCHIO"
+      ]
+    },
+    {
+      "cig": "B8550272DE",
+      "data": "2025-09-22",
+      "importoCentesimi": 8176000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "THE DOG PARK S.A.S. DI PERNA DOMENICO"
+      ]
+    },
+    {
+      "cig": "B8411DC8F6",
+      "data": "2025-09-16",
+      "importoCentesimi": 884064,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "MASTIO RESTAURI S.R.L."
+      ]
+    },
+    {
+      "cig": "B841CDDD9E",
+      "data": "2025-09-16",
+      "importoCentesimi": 3914000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "RUOTOLO SERVICE SRL"
+      ]
+    },
+    {
+      "cig": "B7DFE74921",
+      "data": "2025-09-11",
+      "importoCentesimi": 1538664,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "S E L C O M S.P.A."
+      ]
+    },
+    {
+      "cig": "B834AE9B5E",
+      "data": "2025-09-11",
+      "importoCentesimi": 2277000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "IARROBINO FAUSTO"
+      ]
+    },
+    {
+      "cig": "B82B08B816",
+      "data": "2025-09-08",
+      "importoCentesimi": 5295000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "AZZURRASPETTACOLI S.R.L."
+      ]
+    },
+    {
+      "cig": "B81E499B07",
+      "data": "2025-09-03",
+      "importoCentesimi": 1312000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "I.C.C.S INFORMATICA S.R.L."
+      ]
+    },
+    {
+      "cig": "B7F0583E53",
+      "data": "2025-09-02",
+      "importoCentesimi": 18412299,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SICILSERVIZI IN VERDE DI FINOCCHIARO GIUSEPPE"
+      ]
+    },
+    {
+      "cig": "B81916E924",
+      "data": "2025-09-02",
+      "importoCentesimi": 20687500,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "KAMA GROUP S.R.L.",
+        "GENERAL COSTRUZIONI S.R.L."
+      ]
+    },
+    {
+      "cig": "B79FF31D05",
+      "data": "2025-08-22",
+      "importoCentesimi": 27016848,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "EDIL CAR. S.R.L."
+      ]
+    },
+    {
+      "cig": "B800C070D6",
+      "data": "2025-08-21",
+      "importoCentesimi": 698362,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "V.E.G.A. S.R.L."
+      ]
+    },
+    {
+      "cig": "B7F191658B",
+      "data": "2025-08-08",
+      "importoCentesimi": 328414,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "IARROBINO FAUSTO"
+      ]
+    },
+    {
+      "cig": "B7F1FE2171",
+      "data": "2025-08-08",
+      "importoCentesimi": 14000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "G. & M. EDIL S.R.L."
+      ]
+    },
+    {
+      "cig": "B7EF3BA116",
+      "data": "2025-08-07",
+      "importoCentesimi": 3777150,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "UNIVERSITA' DEGLI STUDI DI NAPOLI FEDERICO II"
+      ]
+    },
+    {
+      "cig": "B7E95658B1",
+      "data": "2025-08-06",
+      "importoCentesimi": 0,
+      "attribuzione": "ambiguous",
+      "fornitori": []
+    },
+    {
+      "cig": "B7E95E95A0",
+      "data": "2025-08-06",
+      "importoCentesimi": 2440000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "G M P S.R.L.S."
+      ]
+    },
+    {
+      "cig": "B72EFEB445",
+      "data": "2025-08-01",
+      "importoCentesimi": 100000000,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "CNS CONSORZIO NAZIONALE SERVIZI SOCIETA' COOPERATIVA",
+        "ARCHE'-SOCIETA' COOPERATIVA A R.L.",
+        "CONSORTIUM MANAGEMENT CONSTRUCTION SOCIETA' COOPERATIVA"
+      ]
+    },
+    {
+      "cig": "B7DD12BA48",
+      "data": "2025-08-01",
+      "importoCentesimi": 1706502,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SPIEZIA FILIPPO"
+      ]
+    },
+    {
+      "cig": "B7DDEC53BA",
+      "data": "2025-08-01",
+      "importoCentesimi": 1460000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "DITTA INDIVIDUALE GIULIA CONTE JUKÀ EVENTI"
+      ]
+    },
+    {
+      "cig": "B7DE14EB4A",
+      "data": "2025-08-01",
+      "importoCentesimi": 2069000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "MYO SPA"
+      ]
+    },
+    {
+      "cig": "B88AA4353C",
+      "data": "2025-08-01",
+      "importoCentesimi": 40477948,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SIRIO SOCIETA' COOPERATIVA SOCIALE"
+      ]
+    },
+    {
+      "cig": "B7D7921358",
+      "data": "2025-07-31",
+      "importoCentesimi": 893851,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ARCHEOLOGO DOMENICO CAMARDO"
+      ]
+    },
+    {
+      "cig": "B7D11AA195",
+      "data": "2025-07-29",
+      "importoCentesimi": 180560,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "OLIVETTI S.P.A. SOCIETA' BENEFIT"
+      ]
+    },
+    {
+      "cig": "B7CC102250",
+      "data": "2025-07-28",
+      "importoCentesimi": 2605414,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "IARROBINO FAUSTO"
+      ]
+    },
+    {
+      "cig": "B7C4293C35",
+      "data": "2025-07-24",
+      "importoCentesimi": 9900000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "BGC COSTRUZIONI S.R.L."
+      ]
+    },
+    {
+      "cig": "B793826BA0",
+      "data": "2025-07-21",
+      "importoCentesimi": 650000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "APKAPPA S.R.L."
+      ]
+    },
+    {
+      "cig": "B7B716C323",
+      "data": "2025-07-21",
+      "importoCentesimi": 4000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "F.LLI AMITA S.R.L."
+      ]
+    },
+    {
+      "cig": "B7B157A2F7",
+      "data": "2025-07-18",
+      "importoCentesimi": 2277000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ING, SPERANZA VINCENZO"
+      ]
+    },
+    {
+      "cig": "B7B39B58EE",
+      "data": "2025-07-18",
+      "importoCentesimi": 3458830,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ARCHITETTO"
+      ]
+    },
+    {
+      "cig": "B7B0299EA2",
+      "data": "2025-07-17",
+      "importoCentesimi": 1999639,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "EDILSOMMA DI CATELLO SOMMA E C. SNC"
+      ]
+    },
+    {
+      "cig": "B799D40A21",
+      "data": "2025-07-10",
+      "importoCentesimi": 7900000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "RE.AM. S.R.L."
+      ]
+    },
+    {
+      "cig": "B78BED4DC0",
+      "data": "2025-07-07",
+      "importoCentesimi": 595426,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ARCHEOLOGO DOMENICO CAMARDO"
+      ]
+    },
+    {
+      "cig": "B78DB8D1A7",
+      "data": "2025-07-07",
+      "importoCentesimi": 0,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "POMA TRASLOCHI SERVICE DI ASSUNTA MASTRACCHIO"
+      ]
+    },
+    {
+      "cig": "B7887E9BE6",
+      "data": "2025-07-04",
+      "importoCentesimi": 1115914,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "GIUSEPPE PALOMBA"
+      ]
+    },
+    {
+      "cig": "B677137F06",
+      "data": "2025-07-03",
+      "importoCentesimi": 129761820,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "CE.DIS. MULTISERVICE S.R.L.",
+        "BUILDING & DESIGN 2008 S.R.L."
+      ]
+    },
+    {
+      "cig": "B7803D5D5A",
+      "data": "2025-07-02",
+      "importoCentesimi": 11411900,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SLAB ITALIA S.R.L."
+      ]
+    },
+    {
+      "cig": "B7804686AB",
+      "data": "2025-07-02",
+      "importoCentesimi": 366000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "OLIVETTI S.P.A. SOCIETA' BENEFIT"
+      ]
+    },
+    {
+      "cig": "B781064A75",
+      "data": "2025-07-02",
+      "importoCentesimi": 1432357,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "INGEGNERIA IDRAULICA GEOTECNICA E STRUTTURE S.R.L.S."
+      ]
+    },
+    {
+      "cig": "B7779AA849",
+      "data": "2025-06-30",
+      "importoCentesimi": 2500000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ASSOCIAZIONE CIMA EVENTI"
+      ]
+    },
+    {
+      "cig": "B76D1E774D",
+      "data": "2025-06-26",
+      "importoCentesimi": 20492404,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "S.E.R.I.M.- SOCIETA'-EDILE-RESTAURO-IMPIANTISTICA MERIDIONALE DI PACIELLO GIOVANNI & C. S.A.S.",
+        "DI PALMA S.R.L."
+      ]
+    },
+    {
+      "cig": "B76E818769",
+      "data": "2025-06-26",
+      "importoCentesimi": 3531115,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "GRAVINA MANUELA"
+      ]
+    },
+    {
+      "cig": "B765FF4E9F",
+      "data": "2025-06-24",
+      "importoCentesimi": 12000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "F.LLI AMITA S.R.L."
+      ]
+    },
+    {
+      "cig": "B75EA801BD",
+      "data": "2025-06-23",
+      "importoCentesimi": 2000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ARCHEOLOGO DOMENICO CAMARDO"
+      ]
+    },
+    {
+      "cig": "B7601EB4F7",
+      "data": "2025-06-23",
+      "importoCentesimi": 1775416,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "IARROBINO FAUSTO"
+      ]
+    },
+    {
+      "cig": "B76038467B",
+      "data": "2025-06-23",
+      "importoCentesimi": 15160553,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "I.R.T.E.T. S.R.L. IMPIANTI - RETI TELEFONICHE ELETTRICHE - TELEM ATICA."
+      ]
+    },
+    {
+      "cig": "B76068A535",
+      "data": "2025-06-23",
+      "importoCentesimi": 7359409,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "UNYON CONSORZIO STABILE SCARL"
+      ]
+    },
+    {
+      "cig": "B751A5ACBA",
+      "data": "2025-06-18",
+      "importoCentesimi": 1274000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "NOTOMISTA MARIO"
+      ]
+    },
+    {
+      "cig": "B748C65731",
+      "data": "2025-06-17",
+      "importoCentesimi": 1603134,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "TIM S.P.A."
+      ]
+    },
+    {
+      "cig": "B746EB684C",
+      "data": "2025-06-16",
+      "importoCentesimi": 700000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "DEDA NEXT S.R.L."
+      ]
+    },
+    {
+      "cig": "B7479518C9",
+      "data": "2025-06-16",
+      "importoCentesimi": 810000,
+      "attribuzione": "ambiguous",
+      "fornitori": []
+    },
+    {
+      "cig": "B7447089A6",
+      "data": "2025-06-13",
+      "importoCentesimi": 1950000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CASCONE LUIGI"
+      ]
+    },
+    {
+      "cig": "B7227222D3",
+      "data": "2025-06-04",
+      "importoCentesimi": 3822000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "BELLO LEOPOLDO MARIA"
+      ]
+    },
+    {
+      "cig": "B7129F22F8",
+      "data": "2025-05-29",
+      "importoCentesimi": 800819,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ALLESTIMENTI DI PAOLO SAS DI DI PAOLO PASQUALE & C."
+      ]
+    },
+    {
+      "cig": "B9D3BB64E4",
+      "data": "2025-05-28",
+      "importoCentesimi": 3452258,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CONVERGE S.R.L."
+      ]
+    },
+    {
+      "cig": "B70889ADD1",
+      "data": "2025-05-27",
+      "importoCentesimi": 884945,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ISOGEA S.R.L."
+      ]
+    },
+    {
+      "cig": "B7094799AF",
+      "data": "2025-05-27",
+      "importoCentesimi": 45187270,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "I.R.T.E.T. S.R.L. IMPIANTI - RETI TELEFONICHE ELETTRICHE - TELEM ATICA."
+      ]
+    },
+    {
+      "cig": "B70A83D954",
+      "data": "2025-05-27",
+      "importoCentesimi": 27000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CONSORZIO STABILE INFRASTRUTTURE TERRESTRI E MARITTIME"
+      ]
+    },
+    {
+      "cig": "B70B59D2E9",
+      "data": "2025-05-27",
+      "importoCentesimi": 850000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "DOTT. ING. D'AURIA LEOPOLDO"
+      ]
+    },
+    {
+      "cig": "B703B1ECA2",
+      "data": "2025-05-26",
+      "importoCentesimi": 3879038,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "GEONEX S.R.L."
+      ]
+    },
+    {
+      "cig": "B70005CF94",
+      "data": "2025-05-23",
+      "importoCentesimi": 1622950,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ALLESTIMENTI DI PAOLO SAS DI DI PAOLO PASQUALE & C."
+      ]
+    },
+    {
+      "cig": "B6FA04B8CD",
+      "data": "2025-05-22",
+      "importoCentesimi": 3950586,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "COGESA S.R.L."
+      ]
+    },
+    {
+      "cig": "B6F434A8FE",
+      "data": "2025-05-21",
+      "importoCentesimi": 2210310,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SCALA ENTERPRISE S.R.L."
+      ]
+    },
+    {
+      "cig": "B6E9577742",
+      "data": "2025-05-19",
+      "importoCentesimi": 1166000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "MORRETTA FRANCESCO & C. RISCALDAMENTO E CONDIZIONAMENTO - S.R.L. O BREVEMENTE MORRETTA FRANCESCO & C. SRL"
+      ]
+    },
+    {
+      "cig": "B6EA5365BF",
+      "data": "2025-05-19",
+      "importoCentesimi": 2983709,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CLEMENTE ANTONINO"
+      ]
+    },
+    {
+      "cig": "B6EB6A9C06",
+      "data": "2025-05-19",
+      "importoCentesimi": 3601202,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "FRAEMM SOCIETA' COOPERATIVA"
+      ]
+    },
+    {
+      "cig": "B6D6B27A63",
+      "data": "2025-05-13",
+      "importoCentesimi": 13160000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "GIO' MARE DI ANTONIO MACERA"
+      ]
+    },
+    {
+      "cig": "B6CE5048F3",
+      "data": "2025-05-12",
+      "importoCentesimi": 5238550,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CORVINO COSTRUZIONI S.A.S. DI CORVINO EMILIO E C."
+      ]
+    },
+    {
+      "cig": "B57E6D5E4B",
+      "data": "2025-05-07",
+      "importoCentesimi": 79141964,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "KAMA GROUP S.R.L.",
+        "GENERAL COSTRUZIONI S.R.L."
+      ]
+    },
+    {
+      "cig": "B6C1A426C4",
+      "data": "2025-05-07",
+      "importoCentesimi": 643273,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "GIANLUCA TERRANOVA"
+      ]
+    },
+    {
+      "cig": "B6BB297A16",
+      "data": "2025-05-06",
+      "importoCentesimi": 886079,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "INGEGNERE SALVATORE STARACE"
+      ]
+    },
+    {
+      "cig": "B6B4259A0A",
+      "data": "2025-05-05",
+      "importoCentesimi": 5990400,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "IACONE S.R.L."
+      ]
+    },
+    {
+      "cig": "B6B1D461D4",
+      "data": "2025-05-02",
+      "importoCentesimi": 10166518,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "P.M. SYSTEM S.R.L."
+      ]
+    },
+    {
+      "cig": "B6B217FDE2",
+      "data": "2025-05-02",
+      "importoCentesimi": 3876000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "REVOLUTION SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA"
+      ]
+    },
+    {
+      "cig": "B6ADF12CEA",
+      "data": "2025-04-30",
+      "importoCentesimi": 3750000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "PIROTECNICA SORRENTINA S.R.L."
+      ]
+    },
+    {
+      "cig": "B6A74BDD6F",
+      "data": "2025-04-29",
+      "importoCentesimi": 126000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "POMA TRASLOCHI SERVICE DI ASSUNTA MASTRACCHIO"
+      ]
+    },
+    {
+      "cig": "B6AA208DEE",
+      "data": "2025-04-29",
+      "importoCentesimi": 930000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "QCG ENGINEERING S.R.L."
+      ]
+    },
+    {
+      "cig": "B68F938CF1",
+      "data": "2025-04-17",
+      "importoCentesimi": 5514566,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "DI MAIO PAOLO ARCHITETTO",
+        "ZUROLO ALESSANDRA",
+        "D'ANIELLO CHIARA",
+        "MOSCA FABIO"
+      ]
+    },
+    {
+      "cig": "B678BBC180",
+      "data": "2025-04-11",
+      "importoCentesimi": 1500000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ASSOCIAZIONE CULTURALE CIRCUITO ARTE"
+      ]
+    },
+    {
+      "cig": "B65F9834CA",
+      "data": "2025-04-07",
+      "importoCentesimi": 1100000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ECOSERVIZI - SERVIZI PER L'AMBIENTE - S.R.L."
+      ]
+    },
+    {
+      "cig": "B66464C243",
+      "data": "2025-04-07",
+      "importoCentesimi": 4913055,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "I.R.T.E.T. S.R.L. IMPIANTI - RETI TELEFONICHE ELETTRICHE - TELEM ATICA."
+      ]
+    },
+    {
+      "cig": "B66A894CF0",
+      "data": "2025-04-07",
+      "importoCentesimi": 2660000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "LE NUVOLE SOCIETA' COOPERATIVA"
+      ]
+    },
+    {
+      "cig": "B659045B8A",
+      "data": "2025-04-03",
+      "importoCentesimi": 497334,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SEBACH - SERVIZIO BAGNI CHIMICI - S.P.A. IN FORMA ABBREVIATA SEBACH - S.P.A."
+      ]
+    },
+    {
+      "cig": "B63064FE2A",
+      "data": "2025-03-25",
+      "importoCentesimi": 2810854,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "NEW TEK DI FALCO RAFFAELE"
+      ]
+    },
+    {
+      "cig": "B62DEF118D",
+      "data": "2025-03-24",
+      "importoCentesimi": 6155000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "VELIA AMBIENTE S.R.L."
+      ]
+    },
+    {
+      "cig": "B630127CDE",
+      "data": "2025-03-24",
+      "importoCentesimi": 3104107,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "S.T.S. DI SAVARESE CARMINE"
+      ]
+    },
+    {
+      "cig": "B626F416AE",
+      "data": "2025-03-21",
+      "importoCentesimi": 4317000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "STUDIO AMICA S.R.L."
+      ]
+    },
+    {
+      "cig": "B62942474A",
+      "data": "2025-03-21",
+      "importoCentesimi": 3723300,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "IARROBINO FAUSTO"
+      ]
+    },
+    {
+      "cig": "B62A4ADC77",
+      "data": "2025-03-21",
+      "importoCentesimi": 9805135,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "IDS INGEGNERIA DELLE STRUTTURE DELL'ING. PETTI LUIGI"
+      ]
+    },
+    {
+      "cig": "B6225D4EE5",
+      "data": "2025-03-20",
+      "importoCentesimi": 700000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "A. MANZONI & C. S.P.A."
+      ]
+    },
+    {
+      "cig": "B62335A7D6",
+      "data": "2025-03-20",
+      "importoCentesimi": 7330001,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CONSORZIO STABILE INFRASTRUTTURE TERRESTRI E MARITTIME"
+      ]
+    },
+    {
+      "cig": "B624F7DFEE",
+      "data": "2025-03-20",
+      "importoCentesimi": 2280000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "TAVOLE DA PALCOSCENICO ACADEMY"
+      ]
+    },
+    {
+      "cig": "B625D43DAE",
+      "data": "2025-03-20",
+      "importoCentesimi": 2393853,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "TAVOLE DA PALCOSCENICO ACADEMY"
+      ]
+    },
+    {
+      "cig": "B61D42EE05",
+      "data": "2025-03-19",
+      "importoCentesimi": 1200000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "OLIVETTI S.P.A. SOCIETA' BENEFIT"
+      ]
+    },
+    {
+      "cig": "B61F0FF5B9",
+      "data": "2025-03-19",
+      "importoCentesimi": 225760,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "KYOCERA DOCUMENT SOLUTIONS ITALIA"
+      ]
+    },
+    {
+      "cig": "B618D3C247",
+      "data": "2025-03-18",
+      "importoCentesimi": 10012325,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "STUDIO KR E ASSOCIATI S.R.L.",
+        "GEOINGEGNERIA S.R.L."
+      ]
+    },
+    {
+      "cig": "B60C2AFBD1",
+      "data": "2025-03-14",
+      "importoCentesimi": 969000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SISTERS S.R.L."
+      ]
+    },
+    {
+      "cig": "B5FCA31BE2",
+      "data": "2025-03-11",
+      "importoCentesimi": 1935484,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "KOME' S.R.L."
+      ]
+    },
+    {
+      "cig": "B5ECB70120",
+      "data": "2025-03-06",
+      "importoCentesimi": 7692000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "EUREKA SISTEMI ED AUTOMAZIONE S.R.L."
+      ]
+    },
+    {
+      "cig": "B5E8741CCA",
+      "data": "2025-03-05",
+      "importoCentesimi": 11499990,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "N & C S.P.A."
+      ]
+    },
+    {
+      "cig": "B5D9012152",
+      "data": "2025-02-28",
+      "importoCentesimi": 896722,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "DISCETTI PAOLO"
+      ]
+    },
+    {
+      "cig": "B5D750C467",
+      "data": "2025-02-27",
+      "importoCentesimi": 3330752,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "D'AVANZO GAETANO"
+      ]
+    },
+    {
+      "cig": "B5D204C44C",
+      "data": "2025-02-26",
+      "importoCentesimi": 2945547,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ARCHITETTO JR IOVINE FABIO"
+      ]
+    },
+    {
+      "cig": "B5B1098AD8",
+      "data": "2025-02-18",
+      "importoCentesimi": 3943826,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ASTRO-TEL S.R.L."
+      ]
+    },
+    {
+      "cig": "B5B98148FD",
+      "data": "2025-02-18",
+      "importoCentesimi": 1789101,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ARCH. ESPOSITO ROBERTO MASSIMILIANO"
+      ]
+    },
+    {
+      "cig": "B586E4C851",
+      "data": "2025-02-06",
+      "importoCentesimi": 700,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "KUWAIT PETROLEUM ITALIA S.P.A."
+      ]
+    },
+    {
+      "cig": "B57EFE58D3",
+      "data": "2025-02-04",
+      "importoCentesimi": 3150000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "DE FEO MASSIMILIANO"
+      ]
+    },
+    {
+      "cig": "B58632CA12",
+      "data": "2025-02-04",
+      "importoCentesimi": 958873,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "TIRO A SEGNO NAZIONALE SEZIONE DI CASTELLAMMARE DI STABIA"
+      ]
+    },
+    {
+      "cig": "B5822F7DD3",
+      "data": "2025-02-03",
+      "importoCentesimi": 1662442,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI"
+      ]
+    },
+    {
+      "cig": "B571B9FC62",
+      "data": "2025-01-31",
+      "importoCentesimi": 500000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "Q8 QUASER S.R.L."
+      ]
+    },
+    {
+      "cig": "B56F1DF85F",
+      "data": "2025-01-30",
+      "importoCentesimi": 3579967,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "STUDIO P. ACANFORA"
+      ]
+    },
+    {
+      "cig": "B565656E56",
+      "data": "2025-01-29",
+      "importoCentesimi": 1377755,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ELECTA PROGETTAZIONI INTEGRATE S.R.L. CON SIGLA ELECTA SRL"
+      ]
+    },
+    {
+      "cig": "B569F3401F",
+      "data": "2025-01-29",
+      "importoCentesimi": 2694402,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "IACCARINO"
+      ]
+    },
+    {
+      "cig": "B5541C6457",
+      "data": "2025-01-23",
+      "importoCentesimi": 1236392,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "MARIA ESPOSITO"
+      ]
+    },
+    {
+      "cig": "B5551C46D0",
+      "data": "2025-01-23",
+      "importoCentesimi": 17472954,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "PRO.R.EDIL. S.R.L."
+      ]
+    },
+    {
+      "cig": "B52AE81873",
+      "data": "2025-01-13",
+      "importoCentesimi": 3175426,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "D'ESPOSITO NUNZIA"
+      ]
+    },
+    {
+      "cig": "B52AE88E38",
+      "data": "2025-01-13",
+      "importoCentesimi": 1354360,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "LEASYS ITALIA S.P.A. O BREVEMENTE LEASYS S.P.A."
+      ]
+    },
+    {
+      "cig": "B5248B78B5",
+      "data": "2025-01-10",
+      "importoCentesimi": 300000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "OLIVETTI S.P.A. SOCIETA' BENEFIT"
+      ]
+    },
+    {
+      "cig": "B515048528",
+      "data": "2025-01-02",
+      "importoCentesimi": 140000000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "HERA COMM S.P.A."
+      ]
+    },
+    {
+      "cig": "B512A97A8B",
+      "data": "2024-12-31",
+      "importoCentesimi": 4317708,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "SGV 24 S.R.L.S. SOCIETA' A RESPONSABILITA' LIMITATA SEMPLIFICATA"
+      ]
+    },
+    {
+      "cig": "B4F27C41E1",
+      "data": "2024-12-20",
+      "importoCentesimi": 610000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "CREATIVE ARTISTS LIVE MUSIC AND ARTS MANAGEMENT SOCIETA' A RESPON SABILITA' LIMITATA SEMPLIFICATA"
+      ]
+    },
+    {
+      "cig": "B76B8EFC73",
+      "data": "2024-12-18",
+      "importoCentesimi": 1320000,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "TMP S.R.L."
+      ]
+    },
+    {
+      "cig": "B6DA0789E6",
+      "data": "2024-07-11",
+      "importoCentesimi": 2116572,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "PHOEBUS COSTRUZIONI S.R.L."
+      ]
+    },
+    {
+      "cig": "B5DBB57658",
+      "data": null,
+      "importoCentesimi": 350439571,
+      "attribuzione": "no-awardee",
+      "fornitori": []
+    },
+    {
+      "cig": "B64C4AB71C",
+      "data": null,
+      "importoCentesimi": 277913517,
+      "attribuzione": "multipart",
+      "fornitori": [
+        "NASCE UN SORRISO SOCIETA' COOPERATIVA SOCIALE",
+        "SIRIO SOCIETA' COOPERATIVA SOCIALE"
+      ]
+    },
+    {
+      "cig": "B6BA582E66",
+      "data": null,
+      "importoCentesimi": 140126801,
+      "attribuzione": "single-operator",
+      "fornitori": [
+        "ANGELINO S.P.A."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "scuole",
+  "titolo": "Scuole statali in città",
+  "fonte": {
+    "ente": "Ministero dell'Istruzione e del Merito",
+    "url": "https://dati.istruzione.it/opendata/",
+    "licenza": "IODL 2.0",
+    "periodo": "2026/27"
+  },
+  "avvertenze": [
+    "Conta le sedi (plessi) delle scuole statali, non gli istituti né le scuole paritarie."
+  ],
+  "estratto": {
+    "repository": "https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi",
+    "commit": "1d02f4b31385bfec95b2ef9b90c5a8e1c6688929",
+    "file": [
+      {
+        "percorso": "src/data/generated/integrated/rows/mim-scuole-statali-comuni.part-*.jsonl.gz"
+      }
+    ]
+  },
+  "generato": "2026-11-06T17:42:56.427Z",
+  "annoScolastico": "2026/27",
+  "sedi": 41
+}

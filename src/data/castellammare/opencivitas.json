@@ -1,0 +1,3041 @@
+{
+  "id": "opencivitas",
+  "titolo": "Spesa del Comune per le funzioni fondamentali, confrontata con il fabbisogno standard",
+  "fonte": {
+    "ente": "OpenCivitas · Sogei",
+    "url": "https://www.opencivitas.it/portale/open-data",
+    "licenza": "CC BY 4.0",
+    "periodo": "2015-2022 (manca il 2020)"
+  },
+  "avvertenze": [
+    "La spesa standard è quanto lo Stato stima che servirebbe a un Comune con le stesse caratteristiche: non è un tetto né un obiettivo di legge.",
+    "Spendere più dello standard non dimostra uno spreco; spendere meno non dimostra un risparmio: può significare anche meno servizi.",
+    "Riguarda solo le funzioni fondamentali (amministrazione, polizia locale, istruzione, strade, rifiuti, sociale), non tutto il bilancio.",
+    "Il livello dei servizi confronta i servizi offerti con la media dei Comuni della stessa fascia di popolazione."
+  ],
+  "metodologia": {
+    "differenceMeaning": "Differenza tra spesa storica e spesa standard. Non è una misura di spreco.",
+    "serviceMeaning": "Il confronto sui servizi usa la media dei Comuni della stessa fascia di popolazione.",
+    "coverageWarning": "La fonte non copre i Comuni delle Regioni a statuto speciale e delle Province autonome.",
+    "rankingWarning": "Per confrontare Comuni di dimensioni diverse usare anche il valore per abitante e il livello dei servizi."
+  },
+  "estratto": {
+    "repository": "https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi",
+    "commit": "1d02f4b31385bfec95b2ef9b90c5a8e1c6688929",
+    "file": [
+      {
+        "percorso": "src/data/generated/opencivitas-2015.json",
+        "sha256": "d8bd2cea312da5518ec58411053bf3e4baafad38c1e4b7170b25d7249018650f"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2016.json",
+        "sha256": "a3b685099c8e0ce7f15e951a4b959e3b18b09115317288c5d71ea0d45f0cd6bf"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2017.json",
+        "sha256": "6f292e81ad113abf50443ddb310871b6dc9a745c17019db214596a0f7ba5308c"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2018.json",
+        "sha256": "7aad1838d26cc97f404f01e2d342ce4535d39c225bba4b10c38b7c7a10495c24"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2019.json",
+        "sha256": "d20890601ef3641b2b4d5970f36fa3ef267f4a64f53c6650ce6ad239a7d492fb"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2021.json",
+        "sha256": "3e1395e81d67a7eab85e7d1c51001b972e2a71e949c81dcd4285d7b1a659995d"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2022.json",
+        "sha256": "57bda32137d1649b518b606b0a26da30b94590a1447f4f53382f43ffb7f9f598"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2019-rifiuti.json",
+        "sha256": "5424ae5d384e633310a401ea9c3c257dc2c279744efb3ea93e25afd50f095bcd"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2019-amministrazione.json",
+        "sha256": "c015f2baf79e598b7bfa0052e080ccf3faab312e6f87ae235802848c16805958"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2019-sociale-asili.json",
+        "sha256": "91e5533c5c7c3f6728a21128945329f0f9849a4199b6c69671e353c96cfb5232"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2019-polizia.json",
+        "sha256": "fab91d3f6b7f5513a479f49b7102e422c546f6f281a8064d67eb03d4400fe718"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2019-istruzione.json",
+        "sha256": "423938eb62ae4de2d622be60ac59a612943c51ab852936a87afe401a3368a206"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2019-viabilita.json",
+        "sha256": "5ed996facae2f320ba5e20affa06cc9177b2674d4f84eaa5da953a6df094220d"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2021-rifiuti.json",
+        "sha256": "be4d260e43ba395347a03bfc64af633f5c7234278fe0d52d7ff7967646732758"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2021-amministrazione.json",
+        "sha256": "99372582c4c2bdbee1bc9b9c7f1b72b8443e796e0c6de33b206897511c4adca8"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2021-sociale-asili.json",
+        "sha256": "3ce987a61de91a4563fedb6a1271cac11af46ec9357279faa3886c0fcad7a94e"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2021-polizia.json",
+        "sha256": "3da61aafd66dcf6c958ad2c994be51f0de3549a88273fae2789c6d21c57055e2"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2021-istruzione.json",
+        "sha256": "69c08b5b9f14fd77a6eaa4bf35336b6c72637a18fdcedf60d971df863d455beb"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2021-viabilita.json",
+        "sha256": "f83839de3e844af17745bf212fdd5493b97d1cc657299543667b9af393f28fde"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2022-rifiuti.json",
+        "sha256": "a9690f0fc7b584e611013b6d5134fa06df2fa923466f174709e8778fa95b64d8"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2022-amministrazione.json",
+        "sha256": "495229245ed90fc33f3baf8753f86c99e0781a909d6e34cab22c4abc397981d5"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2022-sociale-asili.json",
+        "sha256": "66a0a17c462b8b8952645448c611694beb56e4bf377813c786e1e42d2c9199e3"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2022-polizia.json",
+        "sha256": "1b2d43b002e6e1178aa6fcddef92597a56050ddec103f97b746e84923fb97103"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2022-istruzione.json",
+        "sha256": "83eab3d2d0f9faeca3e47016a8c5fbc8a8d7e92859b6fd8e7bf3327d09573516"
+      },
+      {
+        "percorso": "src/data/generated/opencivitas-2022-viabilita.json",
+        "sha256": "db206ba22ca6834d2f322561cf4ac06262ae41b57b23303cce62a224bdde48d6"
+      }
+    ]
+  },
+  "generato": "2026-11-06T17:42:56.427Z",
+  "serie": [
+    {
+      "anno": 2015,
+      "castellammare": {
+        "spesaStoricaCentesimi": 4110362654,
+        "spesaStandardCentesimi": 3729739465,
+        "storicaPerAbitanteCentesimi": 61842,
+        "standardPerAbitanteCentesimi": 56115,
+        "differenzaPuntiBase": 1021,
+        "serviziDifferenzaPuntiBase": -4316,
+        "livelloSpesa": 8,
+        "livelloServizi": 1
+      }
+    },
+    {
+      "anno": 2016,
+      "castellammare": {
+        "spesaStoricaCentesimi": 3872358007,
+        "spesaStandardCentesimi": 3883623328,
+        "storicaPerAbitanteCentesimi": 58527,
+        "standardPerAbitanteCentesimi": 58697,
+        "differenzaPuntiBase": -29,
+        "serviziDifferenzaPuntiBase": -1455,
+        "livelloSpesa": 5,
+        "livelloServizi": 4
+      }
+    },
+    {
+      "anno": 2017,
+      "castellammare": {
+        "spesaStoricaCentesimi": 3663647010,
+        "spesaStandardCentesimi": 3946261958,
+        "storicaPerAbitanteCentesimi": 55575,
+        "standardPerAbitanteCentesimi": 59863,
+        "differenzaPuntiBase": -716,
+        "serviziDifferenzaPuntiBase": 1219,
+        "livelloSpesa": 4,
+        "livelloServizi": 7
+      }
+    },
+    {
+      "anno": 2018,
+      "castellammare": {
+        "spesaStoricaCentesimi": 3700724850,
+        "spesaStandardCentesimi": 4091524270,
+        "storicaPerAbitanteCentesimi": 57019,
+        "standardPerAbitanteCentesimi": 63041,
+        "differenzaPuntiBase": -955,
+        "serviziDifferenzaPuntiBase": 1576,
+        "livelloSpesa": 4,
+        "livelloServizi": 8
+      }
+    },
+    {
+      "anno": 2019,
+      "castellammare": {
+        "spesaStoricaCentesimi": 3692866390,
+        "spesaStandardCentesimi": 4488992279,
+        "storicaPerAbitanteCentesimi": 57284,
+        "standardPerAbitanteCentesimi": 69633,
+        "differenzaPuntiBase": -1774,
+        "serviziDifferenzaPuntiBase": -4213,
+        "livelloSpesa": 3,
+        "livelloServizi": 1
+      }
+    },
+    {
+      "anno": 2021,
+      "castellammare": {
+        "spesaStoricaCentesimi": 4114582060,
+        "spesaStandardCentesimi": 4714762408,
+        "storicaPerAbitanteCentesimi": 64971,
+        "standardPerAbitanteCentesimi": 74448,
+        "differenzaPuntiBase": -1273,
+        "serviziDifferenzaPuntiBase": -4940,
+        "livelloSpesa": 4,
+        "livelloServizi": 1
+      }
+    },
+    {
+      "anno": 2022,
+      "castellammare": {
+        "spesaStoricaCentesimi": 4417623404,
+        "spesaStandardCentesimi": 4632668746,
+        "storicaPerAbitanteCentesimi": 70214,
+        "standardPerAbitanteCentesimi": 73631,
+        "differenzaPuntiBase": -464,
+        "serviziDifferenzaPuntiBase": -4915,
+        "livelloSpesa": 5,
+        "livelloServizi": 1
+      }
+    }
+  ],
+  "funzioni": [
+    {
+      "anno": 2019,
+      "funzioni": [
+        {
+          "id": "rifiuti",
+          "voce": "Rifiuti",
+          "castellammare": {
+            "spesaStoricaCentesimi": 1456819742,
+            "spesaStandardCentesimi": 1317361736,
+            "storicaPerAbitanteCentesimi": 22598,
+            "standardPerAbitanteCentesimi": 20435,
+            "differenzaPuntiBase": 1059,
+            "serviziDifferenzaPuntiBase": -771,
+            "livelloSpesa": 7,
+            "livelloServizi": 4
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 1540056769,
+              "spesaStandardCentesimi": 1356304939,
+              "storicaPerAbitanteCentesimi": 18545,
+              "standardPerAbitanteCentesimi": 16332,
+              "differenzaPuntiBase": 1355,
+              "serviziDifferenzaPuntiBase": -6436,
+              "livelloSpesa": 7,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 814993456,
+              "spesaStandardCentesimi": 736347885,
+              "storicaPerAbitanteCentesimi": 19707,
+              "standardPerAbitanteCentesimi": 17806,
+              "differenzaPuntiBase": 1068,
+              "serviziDifferenzaPuntiBase": -1141,
+              "livelloSpesa": 7,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 1103149720,
+              "spesaStandardCentesimi": 836509949,
+              "storicaPerAbitanteCentesimi": 21384,
+              "standardPerAbitanteCentesimi": 16215,
+              "differenzaPuntiBase": 3188,
+              "serviziDifferenzaPuntiBase": -2605,
+              "livelloSpesa": 9,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 1365674475,
+              "spesaStandardCentesimi": 1066657476,
+              "storicaPerAbitanteCentesimi": 25534,
+              "standardPerAbitanteCentesimi": 19943,
+              "differenzaPuntiBase": 2803,
+              "serviziDifferenzaPuntiBase": -1276,
+              "livelloSpesa": 9,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 1840405389,
+              "spesaStandardCentesimi": 1469947345,
+              "storicaPerAbitanteCentesimi": 23177,
+              "standardPerAbitanteCentesimi": 18512,
+              "differenzaPuntiBase": 2520,
+              "serviziDifferenzaPuntiBase": 2337,
+              "livelloSpesa": 8,
+              "livelloServizi": 9
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 1789715310,
+              "spesaStandardCentesimi": 1234710262,
+              "storicaPerAbitanteCentesimi": 23879,
+              "standardPerAbitanteCentesimi": 16474,
+              "differenzaPuntiBase": 4495,
+              "serviziDifferenzaPuntiBase": -2068,
+              "livelloSpesa": 9,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 1365766503,
+              "spesaStandardCentesimi": 913408463,
+              "storicaPerAbitanteCentesimi": 21745,
+              "standardPerAbitanteCentesimi": 14543,
+              "differenzaPuntiBase": 4952,
+              "serviziDifferenzaPuntiBase": -4896,
+              "livelloSpesa": 10,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 1106417300,
+              "spesaStandardCentesimi": 893079142,
+              "storicaPerAbitanteCentesimi": 18752,
+              "standardPerAbitanteCentesimi": 15136,
+              "differenzaPuntiBase": 2389,
+              "serviziDifferenzaPuntiBase": 137,
+              "livelloSpesa": 8,
+              "livelloServizi": 6
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 460003119,
+              "spesaStandardCentesimi": 415693564,
+              "storicaPerAbitanteCentesimi": 16117,
+              "standardPerAbitanteCentesimi": 14564,
+              "differenzaPuntiBase": 1066,
+              "serviziDifferenzaPuntiBase": -230,
+              "livelloSpesa": 7,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 706443883,
+              "spesaStandardCentesimi": 610229272,
+              "storicaPerAbitanteCentesimi": 28128,
+              "standardPerAbitanteCentesimi": 24297,
+              "differenzaPuntiBase": 1577,
+              "serviziDifferenzaPuntiBase": -2465,
+              "livelloSpesa": 8,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 661466963,
+              "spesaStandardCentesimi": 614995956,
+              "storicaPerAbitanteCentesimi": 41149,
+              "standardPerAbitanteCentesimi": 38258,
+              "differenzaPuntiBase": 756,
+              "serviziDifferenzaPuntiBase": -92,
+              "livelloSpesa": 7,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 465166951,
+              "spesaStandardCentesimi": 367920566,
+              "storicaPerAbitanteCentesimi": 22712,
+              "standardPerAbitanteCentesimi": 17964,
+              "differenzaPuntiBase": 2643,
+              "serviziDifferenzaPuntiBase": 2423,
+              "livelloSpesa": 9,
+              "livelloServizi": 9
+            }
+          ]
+        },
+        {
+          "id": "amministrazione",
+          "voce": "Uffici e amministrazione",
+          "castellammare": {
+            "spesaStoricaCentesimi": 732186180,
+            "spesaStandardCentesimi": 793700429,
+            "storicaPerAbitanteCentesimi": 11358,
+            "standardPerAbitanteCentesimi": 12312,
+            "differenzaPuntiBase": -775,
+            "serviziDifferenzaPuntiBase": -4213,
+            "livelloSpesa": 4,
+            "livelloServizi": 1
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 1102074087,
+              "spesaStandardCentesimi": 974404880,
+              "storicaPerAbitanteCentesimi": 13271,
+              "standardPerAbitanteCentesimi": 11734,
+              "differenzaPuntiBase": 1310,
+              "serviziDifferenzaPuntiBase": -5700,
+              "livelloSpesa": 7,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 725326034,
+              "spesaStandardCentesimi": 457635276,
+              "storicaPerAbitanteCentesimi": 17539,
+              "standardPerAbitanteCentesimi": 11066,
+              "differenzaPuntiBase": 5849,
+              "serviziDifferenzaPuntiBase": -3970,
+              "livelloSpesa": 10,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 744741859,
+              "spesaStandardCentesimi": 557554191,
+              "storicaPerAbitanteCentesimi": 14436,
+              "standardPerAbitanteCentesimi": 10808,
+              "differenzaPuntiBase": 3357,
+              "serviziDifferenzaPuntiBase": -5596,
+              "livelloSpesa": 9,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 983416276,
+              "spesaStandardCentesimi": 614468327,
+              "storicaPerAbitanteCentesimi": 18387,
+              "standardPerAbitanteCentesimi": 11489,
+              "differenzaPuntiBase": 6004,
+              "serviziDifferenzaPuntiBase": -707,
+              "livelloSpesa": 10,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 1518090043,
+              "spesaStandardCentesimi": 971760604,
+              "storicaPerAbitanteCentesimi": 19118,
+              "standardPerAbitanteCentesimi": 12238,
+              "differenzaPuntiBase": 5622,
+              "serviziDifferenzaPuntiBase": -3660,
+              "livelloSpesa": 10,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Casoria"
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 753008569,
+              "spesaStandardCentesimi": 655633318,
+              "storicaPerAbitanteCentesimi": 11989,
+              "standardPerAbitanteCentesimi": 10439,
+              "differenzaPuntiBase": 1485,
+              "serviziDifferenzaPuntiBase": -3678,
+              "livelloSpesa": 7,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 533815273,
+              "spesaStandardCentesimi": 580866590,
+              "storicaPerAbitanteCentesimi": 9047,
+              "standardPerAbitanteCentesimi": 9845,
+              "differenzaPuntiBase": -810,
+              "serviziDifferenzaPuntiBase": -2861,
+              "livelloSpesa": 4,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 361991910,
+              "spesaStandardCentesimi": 319298960,
+              "storicaPerAbitanteCentesimi": 12683,
+              "standardPerAbitanteCentesimi": 11187,
+              "differenzaPuntiBase": 1337,
+              "serviziDifferenzaPuntiBase": -4165,
+              "livelloSpesa": 7,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 481342609,
+              "spesaStandardCentesimi": 345509250,
+              "storicaPerAbitanteCentesimi": 19166,
+              "standardPerAbitanteCentesimi": 13757,
+              "differenzaPuntiBase": 3931,
+              "serviziDifferenzaPuntiBase": 7104,
+              "livelloSpesa": 9,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 429134210,
+              "spesaStandardCentesimi": 454547604,
+              "storicaPerAbitanteCentesimi": 26696,
+              "standardPerAbitanteCentesimi": 28277,
+              "differenzaPuntiBase": -559,
+              "serviziDifferenzaPuntiBase": 11903,
+              "livelloSpesa": 5,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 383437850,
+              "spesaStandardCentesimi": 271881879,
+              "storicaPerAbitanteCentesimi": 18722,
+              "standardPerAbitanteCentesimi": 13275,
+              "differenzaPuntiBase": 4103,
+              "serviziDifferenzaPuntiBase": -1925,
+              "livelloSpesa": 9,
+              "livelloServizi": 3
+            }
+          ]
+        },
+        {
+          "id": "sociale-asili",
+          "voce": "Sociale e asili nido",
+          "castellammare": {
+            "spesaStoricaCentesimi": 479244480,
+            "spesaStandardCentesimi": 1006098617,
+            "storicaPerAbitanteCentesimi": 7434,
+            "standardPerAbitanteCentesimi": 15607,
+            "differenzaPuntiBase": -5237,
+            "serviziDifferenzaPuntiBase": -4580,
+            "livelloSpesa": 3,
+            "livelloServizi": 3
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 608617278,
+              "spesaStandardCentesimi": 1197709359,
+              "storicaPerAbitanteCentesimi": 7329,
+              "standardPerAbitanteCentesimi": 14423,
+              "differenzaPuntiBase": -4918,
+              "serviziDifferenzaPuntiBase": -7812,
+              "livelloSpesa": 3,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 497426564,
+              "spesaStandardCentesimi": 533686836,
+              "storicaPerAbitanteCentesimi": 12028,
+              "standardPerAbitanteCentesimi": 12905,
+              "differenzaPuntiBase": -679,
+              "serviziDifferenzaPuntiBase": -7286,
+              "livelloSpesa": 5,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 447072163,
+              "spesaStandardCentesimi": 644273302,
+              "storicaPerAbitanteCentesimi": 8666,
+              "standardPerAbitanteCentesimi": 12489,
+              "differenzaPuntiBase": -3061,
+              "serviziDifferenzaPuntiBase": -9134,
+              "livelloSpesa": 4,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 553693218,
+              "spesaStandardCentesimi": 770162225,
+              "storicaPerAbitanteCentesimi": 10352,
+              "standardPerAbitanteCentesimi": 14400,
+              "differenzaPuntiBase": -2811,
+              "serviziDifferenzaPuntiBase": -5046,
+              "livelloSpesa": 4,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 700492781,
+              "spesaStandardCentesimi": 1108238968,
+              "storicaPerAbitanteCentesimi": 8822,
+              "standardPerAbitanteCentesimi": 13956,
+              "differenzaPuntiBase": -3679,
+              "serviziDifferenzaPuntiBase": -8099,
+              "livelloSpesa": 4,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 701215622,
+              "spesaStandardCentesimi": 1065310362,
+              "storicaPerAbitanteCentesimi": 9356,
+              "standardPerAbitanteCentesimi": 14214,
+              "differenzaPuntiBase": -3418,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 4,
+              "livelloServizi": null
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 519153391,
+              "spesaStandardCentesimi": 758207900,
+              "storicaPerAbitanteCentesimi": 8266,
+              "standardPerAbitanteCentesimi": 12072,
+              "differenzaPuntiBase": -3153,
+              "serviziDifferenzaPuntiBase": 2720,
+              "livelloSpesa": 4,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 452211100,
+              "spesaStandardCentesimi": 621802048,
+              "storicaPerAbitanteCentesimi": 7664,
+              "standardPerAbitanteCentesimi": 10538,
+              "differenzaPuntiBase": -2727,
+              "serviziDifferenzaPuntiBase": -5113,
+              "livelloSpesa": 4,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 75030912,
+              "spesaStandardCentesimi": 307479537,
+              "storicaPerAbitanteCentesimi": 2629,
+              "standardPerAbitanteCentesimi": 10773,
+              "differenzaPuntiBase": -7560,
+              "serviziDifferenzaPuntiBase": -7115,
+              "livelloSpesa": 1,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 106728737,
+              "spesaStandardCentesimi": 313566041,
+              "storicaPerAbitanteCentesimi": 4250,
+              "standardPerAbitanteCentesimi": 12485,
+              "differenzaPuntiBase": -6596,
+              "serviziDifferenzaPuntiBase": -8638,
+              "livelloSpesa": 2,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 221920883,
+              "spesaStandardCentesimi": 236601906,
+              "storicaPerAbitanteCentesimi": 13805,
+              "standardPerAbitanteCentesimi": 14719,
+              "differenzaPuntiBase": -620,
+              "serviziDifferenzaPuntiBase": 1502,
+              "livelloSpesa": 5,
+              "livelloServizi": 6
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 61831569,
+              "spesaStandardCentesimi": 239152556,
+              "storicaPerAbitanteCentesimi": 3019,
+              "standardPerAbitanteCentesimi": 11677,
+              "differenzaPuntiBase": -7415,
+              "serviziDifferenzaPuntiBase": -6106,
+              "livelloSpesa": 1,
+              "livelloServizi": 3
+            }
+          ]
+        },
+        {
+          "id": "polizia",
+          "voce": "Polizia locale",
+          "castellammare": {
+            "spesaStoricaCentesimi": 503988825,
+            "spesaStandardCentesimi": 339372851,
+            "storicaPerAbitanteCentesimi": 7818,
+            "standardPerAbitanteCentesimi": 5264,
+            "differenzaPuntiBase": 4851,
+            "serviziDifferenzaPuntiBase": -5494,
+            "livelloSpesa": 9,
+            "livelloServizi": 3
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 374751463,
+              "spesaStandardCentesimi": 389831309,
+              "storicaPerAbitanteCentesimi": 4513,
+              "standardPerAbitanteCentesimi": 4694,
+              "differenzaPuntiBase": -387,
+              "serviziDifferenzaPuntiBase": -2592,
+              "livelloSpesa": 5,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 253996911,
+              "spesaStandardCentesimi": 202843407,
+              "storicaPerAbitanteCentesimi": 6142,
+              "standardPerAbitanteCentesimi": 4905,
+              "differenzaPuntiBase": 2522,
+              "serviziDifferenzaPuntiBase": -5280,
+              "livelloSpesa": 7,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 240117409,
+              "spesaStandardCentesimi": 226129029,
+              "storicaPerAbitanteCentesimi": 4655,
+              "standardPerAbitanteCentesimi": 4383,
+              "differenzaPuntiBase": 619,
+              "serviziDifferenzaPuntiBase": -2416,
+              "livelloSpesa": 6,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 353826742,
+              "spesaStandardCentesimi": 348778225,
+              "storicaPerAbitanteCentesimi": 6615,
+              "standardPerAbitanteCentesimi": 6521,
+              "differenzaPuntiBase": 145,
+              "serviziDifferenzaPuntiBase": 22665,
+              "livelloSpesa": 6,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 596768728,
+              "spesaStandardCentesimi": 438721245,
+              "storicaPerAbitanteCentesimi": 7515,
+              "standardPerAbitanteCentesimi": 5525,
+              "differenzaPuntiBase": 3602,
+              "serviziDifferenzaPuntiBase": -3026,
+              "livelloSpesa": 8,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 271633248,
+              "spesaStandardCentesimi": 333995244,
+              "storicaPerAbitanteCentesimi": 3624,
+              "standardPerAbitanteCentesimi": 4456,
+              "differenzaPuntiBase": -1867,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 4,
+              "livelloServizi": null
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 213922264,
+              "spesaStandardCentesimi": 232280451,
+              "storicaPerAbitanteCentesimi": 3406,
+              "standardPerAbitanteCentesimi": 3698,
+              "differenzaPuntiBase": -790,
+              "serviziDifferenzaPuntiBase": -5299,
+              "livelloSpesa": 5,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 215782900,
+              "spesaStandardCentesimi": 179196114,
+              "storicaPerAbitanteCentesimi": 3657,
+              "standardPerAbitanteCentesimi": 3037,
+              "differenzaPuntiBase": 2042,
+              "serviziDifferenzaPuntiBase": 2090,
+              "livelloSpesa": 7,
+              "livelloServizi": 6
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 134100800,
+              "spesaStandardCentesimi": 101790098,
+              "storicaPerAbitanteCentesimi": 4698,
+              "standardPerAbitanteCentesimi": 3566,
+              "differenzaPuntiBase": 3174,
+              "serviziDifferenzaPuntiBase": -7696,
+              "livelloSpesa": 8,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 198144992,
+              "spesaStandardCentesimi": 198315807,
+              "storicaPerAbitanteCentesimi": 7890,
+              "standardPerAbitanteCentesimi": 7896,
+              "differenzaPuntiBase": -9,
+              "serviziDifferenzaPuntiBase": 6499,
+              "livelloSpesa": 5,
+              "livelloServizi": 8
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 201154315,
+              "spesaStandardCentesimi": 172973490,
+              "storicaPerAbitanteCentesimi": 12513,
+              "standardPerAbitanteCentesimi": 10760,
+              "differenzaPuntiBase": 1629,
+              "serviziDifferenzaPuntiBase": 13207,
+              "livelloSpesa": 7,
+              "livelloServizi": 9
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 139192719,
+              "spesaStandardCentesimi": 92456712,
+              "storicaPerAbitanteCentesimi": 6796,
+              "standardPerAbitanteCentesimi": 4514,
+              "differenzaPuntiBase": 5055,
+              "serviziDifferenzaPuntiBase": -2271,
+              "livelloSpesa": 9,
+              "livelloServizi": 5
+            }
+          ]
+        },
+        {
+          "id": "istruzione",
+          "voce": "Scuole (servizi comunali)",
+          "castellammare": {
+            "spesaStoricaCentesimi": 323973129,
+            "spesaStandardCentesimi": 611426198,
+            "storicaPerAbitanteCentesimi": 5025,
+            "standardPerAbitanteCentesimi": 9484,
+            "differenzaPuntiBase": -4701,
+            "serviziDifferenzaPuntiBase": -7501,
+            "livelloSpesa": 2,
+            "livelloServizi": 1
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 314703630,
+              "spesaStandardCentesimi": 839191915,
+              "storicaPerAbitanteCentesimi": 3790,
+              "standardPerAbitanteCentesimi": 10105,
+              "differenzaPuntiBase": -6250,
+              "serviziDifferenzaPuntiBase": -3628,
+              "livelloSpesa": 1,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 147916632,
+              "spesaStandardCentesimi": 403066403,
+              "storicaPerAbitanteCentesimi": 3577,
+              "standardPerAbitanteCentesimi": 9746,
+              "differenzaPuntiBase": -6330,
+              "serviziDifferenzaPuntiBase": -6619,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 165115037,
+              "spesaStandardCentesimi": 482948944,
+              "storicaPerAbitanteCentesimi": 3201,
+              "standardPerAbitanteCentesimi": 9362,
+              "differenzaPuntiBase": -6581,
+              "serviziDifferenzaPuntiBase": -8274,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 91248732,
+              "spesaStandardCentesimi": 469808749,
+              "storicaPerAbitanteCentesimi": 1706,
+              "standardPerAbitanteCentesimi": 8784,
+              "differenzaPuntiBase": -8058,
+              "serviziDifferenzaPuntiBase": -7123,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 391803765,
+              "spesaStandardCentesimi": 577256882,
+              "storicaPerAbitanteCentesimi": 4934,
+              "standardPerAbitanteCentesimi": 7270,
+              "differenzaPuntiBase": -3213,
+              "serviziDifferenzaPuntiBase": -7224,
+              "livelloSpesa": 3,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 335342096,
+              "spesaStandardCentesimi": 482237266,
+              "storicaPerAbitanteCentesimi": 4474,
+              "standardPerAbitanteCentesimi": 6434,
+              "differenzaPuntiBase": -3046,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 3,
+              "livelloServizi": null
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 133504180,
+              "spesaStandardCentesimi": 434869688,
+              "storicaPerAbitanteCentesimi": 2126,
+              "standardPerAbitanteCentesimi": 6924,
+              "differenzaPuntiBase": -6930,
+              "serviziDifferenzaPuntiBase": -7379,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 99701300,
+              "spesaStandardCentesimi": 401942841,
+              "storicaPerAbitanteCentesimi": 1690,
+              "standardPerAbitanteCentesimi": 6812,
+              "differenzaPuntiBase": -7520,
+              "serviziDifferenzaPuntiBase": -7828,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 73844729,
+              "spesaStandardCentesimi": 195914396,
+              "storicaPerAbitanteCentesimi": 2587,
+              "standardPerAbitanteCentesimi": 6864,
+              "differenzaPuntiBase": -6231,
+              "serviziDifferenzaPuntiBase": -5162,
+              "livelloSpesa": 1,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 65344401,
+              "spesaStandardCentesimi": 246825010,
+              "storicaPerAbitanteCentesimi": 2602,
+              "standardPerAbitanteCentesimi": 9828,
+              "differenzaPuntiBase": -7353,
+              "serviziDifferenzaPuntiBase": -5748,
+              "livelloSpesa": 1,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 180999002,
+              "spesaStandardCentesimi": 170748550,
+              "storicaPerAbitanteCentesimi": 11260,
+              "standardPerAbitanteCentesimi": 10622,
+              "differenzaPuntiBase": 600,
+              "serviziDifferenzaPuntiBase": 3220,
+              "livelloSpesa": 6,
+              "livelloServizi": 8
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 98870918,
+              "spesaStandardCentesimi": 155378660,
+              "storicaPerAbitanteCentesimi": 4827,
+              "standardPerAbitanteCentesimi": 7586,
+              "differenzaPuntiBase": -3637,
+              "serviziDifferenzaPuntiBase": -2281,
+              "livelloSpesa": 3,
+              "livelloServizi": 4
+            }
+          ]
+        },
+        {
+          "id": "viabilita",
+          "voce": "Strade e territorio",
+          "castellammare": {
+            "spesaStoricaCentesimi": 196654034,
+            "spesaStandardCentesimi": 409538896,
+            "storicaPerAbitanteCentesimi": 3051,
+            "standardPerAbitanteCentesimi": 6353,
+            "differenzaPuntiBase": -5198,
+            "serviziDifferenzaPuntiBase": -6786,
+            "livelloSpesa": 1,
+            "livelloServizi": 1
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 567653120,
+              "spesaStandardCentesimi": 514673501,
+              "storicaPerAbitanteCentesimi": 6836,
+              "standardPerAbitanteCentesimi": 6198,
+              "differenzaPuntiBase": 1029,
+              "serviziDifferenzaPuntiBase": -4888,
+              "livelloSpesa": 7,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 241255805,
+              "spesaStandardCentesimi": 264325169,
+              "storicaPerAbitanteCentesimi": 5834,
+              "standardPerAbitanteCentesimi": 6392,
+              "differenzaPuntiBase": -873,
+              "serviziDifferenzaPuntiBase": -1286,
+              "livelloSpesa": 5,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 383240351,
+              "spesaStandardCentesimi": 329052583,
+              "storicaPerAbitanteCentesimi": 7429,
+              "standardPerAbitanteCentesimi": 6378,
+              "differenzaPuntiBase": 1647,
+              "serviziDifferenzaPuntiBase": -5496,
+              "livelloSpesa": 7,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 399150704,
+              "spesaStandardCentesimi": 340353658,
+              "storicaPerAbitanteCentesimi": 7463,
+              "standardPerAbitanteCentesimi": 6364,
+              "differenzaPuntiBase": 1728,
+              "serviziDifferenzaPuntiBase": 789,
+              "livelloSpesa": 7,
+              "livelloServizi": 6
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 841585610,
+              "spesaStandardCentesimi": 566999020,
+              "storicaPerAbitanteCentesimi": 10598,
+              "standardPerAbitanteCentesimi": 7140,
+              "differenzaPuntiBase": 4843,
+              "serviziDifferenzaPuntiBase": -6262,
+              "livelloSpesa": 9,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 315217728,
+              "spesaStandardCentesimi": 467508248,
+              "storicaPerAbitanteCentesimi": 4206,
+              "standardPerAbitanteCentesimi": 6238,
+              "differenzaPuntiBase": -3257,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 3,
+              "livelloServizi": null
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 262292264,
+              "spesaStandardCentesimi": 397389266,
+              "storicaPerAbitanteCentesimi": 4176,
+              "standardPerAbitanteCentesimi": 6327,
+              "differenzaPuntiBase": -3400,
+              "serviziDifferenzaPuntiBase": -5978,
+              "livelloSpesa": 3,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 242134300,
+              "spesaStandardCentesimi": 393747685,
+              "storicaPerAbitanteCentesimi": 4104,
+              "standardPerAbitanteCentesimi": 6673,
+              "differenzaPuntiBase": -3851,
+              "serviziDifferenzaPuntiBase": -3289,
+              "livelloSpesa": 2,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 142555782,
+              "spesaStandardCentesimi": 191559113,
+              "storicaPerAbitanteCentesimi": 4995,
+              "standardPerAbitanteCentesimi": 6711,
+              "differenzaPuntiBase": -2558,
+              "serviziDifferenzaPuntiBase": -5000,
+              "livelloSpesa": 4,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 81599700,
+              "spesaStandardCentesimi": 180283802,
+              "storicaPerAbitanteCentesimi": 3249,
+              "standardPerAbitanteCentesimi": 7178,
+              "differenzaPuntiBase": -5474,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 1,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 140609889,
+              "spesaStandardCentesimi": 256314513,
+              "storicaPerAbitanteCentesimi": 8747,
+              "standardPerAbitanteCentesimi": 15945,
+              "differenzaPuntiBase": -4514,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 2,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 203193086,
+              "spesaStandardCentesimi": 186296618,
+              "storicaPerAbitanteCentesimi": 9921,
+              "standardPerAbitanteCentesimi": 9096,
+              "differenzaPuntiBase": 907,
+              "serviziDifferenzaPuntiBase": -4299,
+              "livelloSpesa": 7,
+              "livelloServizi": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anno": 2021,
+      "funzioni": [
+        {
+          "id": "rifiuti",
+          "voce": "Rifiuti",
+          "castellammare": {
+            "spesaStoricaCentesimi": 1612025544,
+            "spesaStandardCentesimi": 1437356002,
+            "storicaPerAbitanteCentesimi": 25454,
+            "standardPerAbitanteCentesimi": 22696,
+            "differenzaPuntiBase": 1215,
+            "serviziDifferenzaPuntiBase": -1812,
+            "livelloSpesa": 7,
+            "livelloServizi": 3
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 1522404421,
+              "spesaStandardCentesimi": 1520264644,
+              "storicaPerAbitanteCentesimi": 18728,
+              "standardPerAbitanteCentesimi": 18702,
+              "differenzaPuntiBase": 14,
+              "serviziDifferenzaPuntiBase": -4690,
+              "livelloSpesa": 6,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 907564084,
+              "spesaStandardCentesimi": 789928687,
+              "storicaPerAbitanteCentesimi": 22396,
+              "standardPerAbitanteCentesimi": 19493,
+              "differenzaPuntiBase": 1489,
+              "serviziDifferenzaPuntiBase": -1682,
+              "livelloSpesa": 8,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 1110755646,
+              "spesaStandardCentesimi": 924208756,
+              "storicaPerAbitanteCentesimi": 21960,
+              "standardPerAbitanteCentesimi": 18272,
+              "differenzaPuntiBase": 2018,
+              "serviziDifferenzaPuntiBase": -2560,
+              "livelloSpesa": 8,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 1441858946,
+              "spesaStandardCentesimi": 1176345241,
+              "storicaPerAbitanteCentesimi": 27464,
+              "standardPerAbitanteCentesimi": 22407,
+              "differenzaPuntiBase": 2257,
+              "serviziDifferenzaPuntiBase": -1495,
+              "livelloSpesa": 8,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 1871989790,
+              "spesaStandardCentesimi": 1671244960,
+              "storicaPerAbitanteCentesimi": 24327,
+              "standardPerAbitanteCentesimi": 21718,
+              "differenzaPuntiBase": 1201,
+              "serviziDifferenzaPuntiBase": 1394,
+              "livelloSpesa": 7,
+              "livelloServizi": 8
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 1808419600,
+              "spesaStandardCentesimi": 1381941711,
+              "storicaPerAbitanteCentesimi": 24309,
+              "standardPerAbitanteCentesimi": 18576,
+              "differenzaPuntiBase": 3086,
+              "serviziDifferenzaPuntiBase": -1773,
+              "livelloSpesa": 9,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 1279917246,
+              "spesaStandardCentesimi": 1096039817,
+              "storicaPerAbitanteCentesimi": 20578,
+              "standardPerAbitanteCentesimi": 17622,
+              "differenzaPuntiBase": 1678,
+              "serviziDifferenzaPuntiBase": -5133,
+              "livelloSpesa": 8,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 1193045700,
+              "spesaStandardCentesimi": 954346462,
+              "storicaPerAbitanteCentesimi": 20396,
+              "standardPerAbitanteCentesimi": 16315,
+              "differenzaPuntiBase": 2501,
+              "serviziDifferenzaPuntiBase": -15,
+              "livelloSpesa": 9,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 84455316,
+              "spesaStandardCentesimi": 491543256,
+              "storicaPerAbitanteCentesimi": 2998,
+              "standardPerAbitanteCentesimi": 17451,
+              "differenzaPuntiBase": -8282,
+              "serviziDifferenzaPuntiBase": -839,
+              "livelloSpesa": 1,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 659532274,
+              "spesaStandardCentesimi": 756752765,
+              "storicaPerAbitanteCentesimi": 27369,
+              "standardPerAbitanteCentesimi": 31403,
+              "differenzaPuntiBase": -1285,
+              "serviziDifferenzaPuntiBase": -2041,
+              "livelloSpesa": 4,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 657205926,
+              "spesaStandardCentesimi": 522994196,
+              "storicaPerAbitanteCentesimi": 42129,
+              "standardPerAbitanteCentesimi": 33525,
+              "differenzaPuntiBase": 2566,
+              "serviziDifferenzaPuntiBase": -443,
+              "livelloSpesa": 9,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 563938048,
+              "spesaStandardCentesimi": 388512221,
+              "storicaPerAbitanteCentesimi": 27694,
+              "standardPerAbitanteCentesimi": 19079,
+              "differenzaPuntiBase": 4515,
+              "serviziDifferenzaPuntiBase": 1638,
+              "livelloSpesa": 10,
+              "livelloServizi": 8
+            }
+          ]
+        },
+        {
+          "id": "amministrazione",
+          "voce": "Uffici e amministrazione",
+          "castellammare": {
+            "spesaStoricaCentesimi": 830598501,
+            "spesaStandardCentesimi": 560727711,
+            "storicaPerAbitanteCentesimi": 13115,
+            "standardPerAbitanteCentesimi": 8854,
+            "differenzaPuntiBase": 4813,
+            "serviziDifferenzaPuntiBase": -4940,
+            "livelloSpesa": 9,
+            "livelloServizi": 1
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 1090104819,
+              "spesaStandardCentesimi": 637198622,
+              "storicaPerAbitanteCentesimi": 13410,
+              "standardPerAbitanteCentesimi": 7839,
+              "differenzaPuntiBase": 7108,
+              "serviziDifferenzaPuntiBase": -4164,
+              "livelloSpesa": 10,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 384906214,
+              "spesaStandardCentesimi": 290213355,
+              "storicaPerAbitanteCentesimi": 9498,
+              "standardPerAbitanteCentesimi": 7162,
+              "differenzaPuntiBase": 3263,
+              "serviziDifferenzaPuntiBase": -1941,
+              "livelloSpesa": 9,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 921777284,
+              "spesaStandardCentesimi": 350804681,
+              "storicaPerAbitanteCentesimi": 18224,
+              "standardPerAbitanteCentesimi": 6936,
+              "differenzaPuntiBase": 16276,
+              "serviziDifferenzaPuntiBase": -4620,
+              "livelloSpesa": 10,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 912175851,
+              "spesaStandardCentesimi": 384151986,
+              "storicaPerAbitanteCentesimi": 17375,
+              "standardPerAbitanteCentesimi": 7317,
+              "differenzaPuntiBase": 13745,
+              "serviziDifferenzaPuntiBase": -3188,
+              "livelloSpesa": 10,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 2034529831,
+              "spesaStandardCentesimi": 984524826,
+              "storicaPerAbitanteCentesimi": 26439,
+              "standardPerAbitanteCentesimi": 12794,
+              "differenzaPuntiBase": 10665,
+              "serviziDifferenzaPuntiBase": -1989,
+              "livelloSpesa": 10,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 893424940,
+              "spesaStandardCentesimi": 803783123,
+              "storicaPerAbitanteCentesimi": 12009,
+              "standardPerAbitanteCentesimi": 10804,
+              "differenzaPuntiBase": 1115,
+              "serviziDifferenzaPuntiBase": -2870,
+              "livelloSpesa": 7,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 802309867,
+              "spesaStandardCentesimi": 646984322,
+              "storicaPerAbitanteCentesimi": 12899,
+              "standardPerAbitanteCentesimi": 10402,
+              "differenzaPuntiBase": 2401,
+              "serviziDifferenzaPuntiBase": -6566,
+              "livelloSpesa": 8,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 634671064,
+              "spesaStandardCentesimi": 588341238,
+              "storicaPerAbitanteCentesimi": 10850,
+              "standardPerAbitanteCentesimi": 10058,
+              "differenzaPuntiBase": 787,
+              "serviziDifferenzaPuntiBase": -2400,
+              "livelloSpesa": 7,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 263448009,
+              "spesaStandardCentesimi": 321931193,
+              "storicaPerAbitanteCentesimi": 9353,
+              "standardPerAbitanteCentesimi": 11429,
+              "differenzaPuntiBase": -1817,
+              "serviziDifferenzaPuntiBase": -5037,
+              "livelloSpesa": 4,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 499445075,
+              "spesaStandardCentesimi": 302607324,
+              "storicaPerAbitanteCentesimi": 20726,
+              "standardPerAbitanteCentesimi": 12557,
+              "differenzaPuntiBase": 6505,
+              "serviziDifferenzaPuntiBase": 7153,
+              "livelloSpesa": 10,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 354088208,
+              "spesaStandardCentesimi": 510503009,
+              "storicaPerAbitanteCentesimi": 22698,
+              "standardPerAbitanteCentesimi": 32725,
+              "differenzaPuntiBase": -3064,
+              "serviziDifferenzaPuntiBase": 12745,
+              "livelloSpesa": 2,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 276853594,
+              "spesaStandardCentesimi": 350911315,
+              "storicaPerAbitanteCentesimi": 13596,
+              "standardPerAbitanteCentesimi": 17233,
+              "differenzaPuntiBase": -2110,
+              "serviziDifferenzaPuntiBase": -129,
+              "livelloSpesa": 3,
+              "livelloServizi": 5
+            }
+          ]
+        },
+        {
+          "id": "sociale-asili",
+          "voce": "Sociale e asili nido",
+          "castellammare": {
+            "spesaStoricaCentesimi": 764783862,
+            "spesaStandardCentesimi": 1021589730,
+            "storicaPerAbitanteCentesimi": 12076,
+            "standardPerAbitanteCentesimi": 16131,
+            "differenzaPuntiBase": -2514,
+            "serviziDifferenzaPuntiBase": -6961,
+            "livelloSpesa": 4,
+            "livelloServizi": 2
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 953492739,
+              "spesaStandardCentesimi": 1197310209,
+              "storicaPerAbitanteCentesimi": 11730,
+              "standardPerAbitanteCentesimi": 14729,
+              "differenzaPuntiBase": -2036,
+              "serviziDifferenzaPuntiBase": -5272,
+              "livelloSpesa": 4,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 568298129,
+              "spesaStandardCentesimi": 563844968,
+              "storicaPerAbitanteCentesimi": 14024,
+              "standardPerAbitanteCentesimi": 13914,
+              "differenzaPuntiBase": 79,
+              "serviziDifferenzaPuntiBase": 5511,
+              "livelloSpesa": 6,
+              "livelloServizi": 8
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 452757980,
+              "spesaStandardCentesimi": 644435870,
+              "storicaPerAbitanteCentesimi": 8951,
+              "standardPerAbitanteCentesimi": 12741,
+              "differenzaPuntiBase": -2974,
+              "serviziDifferenzaPuntiBase": -8701,
+              "livelloSpesa": 4,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 572898989,
+              "spesaStandardCentesimi": 703925582,
+              "storicaPerAbitanteCentesimi": 10912,
+              "standardPerAbitanteCentesimi": 13408,
+              "differenzaPuntiBase": -1861,
+              "serviziDifferenzaPuntiBase": -8640,
+              "livelloSpesa": 4,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 1016572301,
+              "spesaStandardCentesimi": 1110709627,
+              "storicaPerAbitanteCentesimi": 13210,
+              "standardPerAbitanteCentesimi": 14434,
+              "differenzaPuntiBase": -848,
+              "serviziDifferenzaPuntiBase": -8519,
+              "livelloSpesa": 5,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 1116808800,
+              "spesaStandardCentesimi": 1064686465,
+              "storicaPerAbitanteCentesimi": 15012,
+              "standardPerAbitanteCentesimi": 14311,
+              "differenzaPuntiBase": 490,
+              "serviziDifferenzaPuntiBase": 1893,
+              "livelloSpesa": 6,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 776886005,
+              "spesaStandardCentesimi": 763909798,
+              "storicaPerAbitanteCentesimi": 12491,
+              "standardPerAbitanteCentesimi": 12282,
+              "differenzaPuntiBase": 170,
+              "serviziDifferenzaPuntiBase": -8924,
+              "livelloSpesa": 6,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 721544600,
+              "spesaStandardCentesimi": 623615708,
+              "storicaPerAbitanteCentesimi": 12335,
+              "standardPerAbitanteCentesimi": 10661,
+              "differenzaPuntiBase": 1570,
+              "serviziDifferenzaPuntiBase": -3572,
+              "livelloSpesa": 7,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 96460959,
+              "spesaStandardCentesimi": 299561668,
+              "storicaPerAbitanteCentesimi": 3425,
+              "standardPerAbitanteCentesimi": 10635,
+              "differenzaPuntiBase": -6780,
+              "serviziDifferenzaPuntiBase": -9491,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 138457102,
+              "spesaStandardCentesimi": 312084404,
+              "storicaPerAbitanteCentesimi": 5746,
+              "standardPerAbitanteCentesimi": 12951,
+              "differenzaPuntiBase": -5563,
+              "serviziDifferenzaPuntiBase": -2644,
+              "livelloSpesa": 2,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 315679023,
+              "spesaStandardCentesimi": 227253899,
+              "storicaPerAbitanteCentesimi": 20236,
+              "standardPerAbitanteCentesimi": 14568,
+              "differenzaPuntiBase": 3891,
+              "serviziDifferenzaPuntiBase": 7931,
+              "livelloSpesa": 8,
+              "livelloServizi": 9
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 112067557,
+              "spesaStandardCentesimi": 260765745,
+              "storicaPerAbitanteCentesimi": 5503,
+              "standardPerAbitanteCentesimi": 12806,
+              "differenzaPuntiBase": -5702,
+              "serviziDifferenzaPuntiBase": -5885,
+              "livelloSpesa": 2,
+              "livelloServizi": 2
+            }
+          ]
+        },
+        {
+          "id": "polizia",
+          "voce": "Polizia locale",
+          "castellammare": {
+            "spesaStoricaCentesimi": 487620928,
+            "spesaStandardCentesimi": 475250211,
+            "storicaPerAbitanteCentesimi": 7700,
+            "standardPerAbitanteCentesimi": 7504,
+            "differenzaPuntiBase": 260,
+            "serviziDifferenzaPuntiBase": -2868,
+            "livelloSpesa": 8,
+            "livelloServizi": 4
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 379381504,
+              "spesaStandardCentesimi": 543765361,
+              "storicaPerAbitanteCentesimi": 4667,
+              "standardPerAbitanteCentesimi": 6689,
+              "differenzaPuntiBase": -3023,
+              "serviziDifferenzaPuntiBase": 2550,
+              "livelloSpesa": 5,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 138318557,
+              "spesaStandardCentesimi": 307070478,
+              "storicaPerAbitanteCentesimi": 3413,
+              "standardPerAbitanteCentesimi": 7578,
+              "differenzaPuntiBase": -5496,
+              "serviziDifferenzaPuntiBase": -8482,
+              "livelloSpesa": 3,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 201795321,
+              "spesaStandardCentesimi": 321954235,
+              "storicaPerAbitanteCentesimi": 3990,
+              "standardPerAbitanteCentesimi": 6365,
+              "differenzaPuntiBase": -3732,
+              "serviziDifferenzaPuntiBase": -5047,
+              "livelloSpesa": 5,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 244103383,
+              "spesaStandardCentesimi": 498483530,
+              "storicaPerAbitanteCentesimi": 4650,
+              "standardPerAbitanteCentesimi": 9495,
+              "differenzaPuntiBase": -5103,
+              "serviziDifferenzaPuntiBase": 8212,
+              "livelloSpesa": 4,
+              "livelloServizi": 8
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 514253676,
+              "spesaStandardCentesimi": 394325939,
+              "storicaPerAbitanteCentesimi": 6683,
+              "standardPerAbitanteCentesimi": 5124,
+              "differenzaPuntiBase": 3041,
+              "serviziDifferenzaPuntiBase": 5333,
+              "livelloSpesa": 6,
+              "livelloServizi": 8
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 334881900,
+              "spesaStandardCentesimi": 378042715,
+              "storicaPerAbitanteCentesimi": 4501,
+              "standardPerAbitanteCentesimi": 5082,
+              "differenzaPuntiBase": -1142,
+              "serviziDifferenzaPuntiBase": -5380,
+              "livelloSpesa": 5,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 139119514,
+              "spesaStandardCentesimi": 266747458,
+              "storicaPerAbitanteCentesimi": 2237,
+              "standardPerAbitanteCentesimi": 4289,
+              "differenzaPuntiBase": -4785,
+              "serviziDifferenzaPuntiBase": -4628,
+              "livelloSpesa": 2,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 339210000,
+              "spesaStandardCentesimi": 210471738,
+              "storicaPerAbitanteCentesimi": 5799,
+              "standardPerAbitanteCentesimi": 3598,
+              "differenzaPuntiBase": 6117,
+              "serviziDifferenzaPuntiBase": 2727,
+              "livelloSpesa": 9,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 137496323,
+              "spesaStandardCentesimi": 101732941,
+              "storicaPerAbitanteCentesimi": 4881,
+              "standardPerAbitanteCentesimi": 3612,
+              "differenzaPuntiBase": 3515,
+              "serviziDifferenzaPuntiBase": -7949,
+              "livelloSpesa": 8,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 188733255,
+              "spesaStandardCentesimi": 163281470,
+              "storicaPerAbitanteCentesimi": 7832,
+              "standardPerAbitanteCentesimi": 6776,
+              "differenzaPuntiBase": 1559,
+              "serviziDifferenzaPuntiBase": -5970,
+              "livelloSpesa": 8,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 242272237,
+              "spesaStandardCentesimi": 194688436,
+              "storicaPerAbitanteCentesimi": 15530,
+              "standardPerAbitanteCentesimi": 12480,
+              "differenzaPuntiBase": 2444,
+              "serviziDifferenzaPuntiBase": 12246,
+              "livelloSpesa": 9,
+              "livelloServizi": 9
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 145161125,
+              "spesaStandardCentesimi": 100154357,
+              "storicaPerAbitanteCentesimi": 7129,
+              "standardPerAbitanteCentesimi": 4918,
+              "differenzaPuntiBase": 4494,
+              "serviziDifferenzaPuntiBase": 19177,
+              "livelloSpesa": 9,
+              "livelloServizi": 9
+            }
+          ]
+        },
+        {
+          "id": "istruzione",
+          "voce": "Scuole (servizi comunali)",
+          "castellammare": {
+            "spesaStoricaCentesimi": 215551373,
+            "spesaStandardCentesimi": 621060558,
+            "storicaPerAbitanteCentesimi": 3404,
+            "standardPerAbitanteCentesimi": 9807,
+            "differenzaPuntiBase": -6529,
+            "serviziDifferenzaPuntiBase": -7557,
+            "livelloSpesa": 2,
+            "livelloServizi": 1
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 395245200,
+              "spesaStandardCentesimi": 858776602,
+              "storicaPerAbitanteCentesimi": 4862,
+              "standardPerAbitanteCentesimi": 10564,
+              "differenzaPuntiBase": -5398,
+              "serviziDifferenzaPuntiBase": -3518,
+              "livelloSpesa": 2,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 134561455,
+              "spesaStandardCentesimi": 408260867,
+              "storicaPerAbitanteCentesimi": 3321,
+              "standardPerAbitanteCentesimi": 10075,
+              "differenzaPuntiBase": -6704,
+              "serviziDifferenzaPuntiBase": -6858,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 147534629,
+              "spesaStandardCentesimi": 479629980,
+              "storicaPerAbitanteCentesimi": 2917,
+              "standardPerAbitanteCentesimi": 9483,
+              "differenzaPuntiBase": -6924,
+              "serviziDifferenzaPuntiBase": -8927,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 119382192,
+              "spesaStandardCentesimi": 469341956,
+              "storicaPerAbitanteCentesimi": 2274,
+              "standardPerAbitanteCentesimi": 8940,
+              "differenzaPuntiBase": -7456,
+              "serviziDifferenzaPuntiBase": -7611,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 302451951,
+              "spesaStandardCentesimi": 582451384,
+              "storicaPerAbitanteCentesimi": 3930,
+              "standardPerAbitanteCentesimi": 7569,
+              "differenzaPuntiBase": -4807,
+              "serviziDifferenzaPuntiBase": -7815,
+              "livelloSpesa": 2,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 259996200,
+              "spesaStandardCentesimi": 491638201,
+              "storicaPerAbitanteCentesimi": 3495,
+              "standardPerAbitanteCentesimi": 6609,
+              "differenzaPuntiBase": -4712,
+              "serviziDifferenzaPuntiBase": -7609,
+              "livelloSpesa": 3,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 114199548,
+              "spesaStandardCentesimi": 444595226,
+              "storicaPerAbitanteCentesimi": 1836,
+              "standardPerAbitanteCentesimi": 7148,
+              "differenzaPuntiBase": -7431,
+              "serviziDifferenzaPuntiBase": -7152,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 208674500,
+              "spesaStandardCentesimi": 413139434,
+              "storicaPerAbitanteCentesimi": 3567,
+              "standardPerAbitanteCentesimi": 7063,
+              "differenzaPuntiBase": -4949,
+              "serviziDifferenzaPuntiBase": -7467,
+              "livelloSpesa": 2,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 40103930,
+              "spesaStandardCentesimi": 196763799,
+              "storicaPerAbitanteCentesimi": 1424,
+              "standardPerAbitanteCentesimi": 6986,
+              "differenzaPuntiBase": -7962,
+              "serviziDifferenzaPuntiBase": -5419,
+              "livelloSpesa": 1,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 58454690,
+              "spesaStandardCentesimi": 247422320,
+              "storicaPerAbitanteCentesimi": 2426,
+              "standardPerAbitanteCentesimi": 10267,
+              "differenzaPuntiBase": -7637,
+              "serviziDifferenzaPuntiBase": -6136,
+              "livelloSpesa": 1,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 129644503,
+              "spesaStandardCentesimi": 170390585,
+              "storicaPerAbitanteCentesimi": 8311,
+              "standardPerAbitanteCentesimi": 10922,
+              "differenzaPuntiBase": -2391,
+              "serviziDifferenzaPuntiBase": 2367,
+              "livelloSpesa": 4,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 80259036,
+              "spesaStandardCentesimi": 154326225,
+              "storicaPerAbitanteCentesimi": 3941,
+              "standardPerAbitanteCentesimi": 7579,
+              "differenzaPuntiBase": -4799,
+              "serviziDifferenzaPuntiBase": -2889,
+              "livelloSpesa": 2,
+              "livelloServizi": 4
+            }
+          ]
+        },
+        {
+          "id": "viabilita",
+          "voce": "Strade e territorio",
+          "castellammare": {
+            "spesaStoricaCentesimi": 204001852,
+            "spesaStandardCentesimi": 437107651,
+            "storicaPerAbitanteCentesimi": 3221,
+            "standardPerAbitanteCentesimi": 6902,
+            "differenzaPuntiBase": -5333,
+            "serviziDifferenzaPuntiBase": -6806,
+            "livelloSpesa": 1,
+            "livelloServizi": 1
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 314422254,
+              "spesaStandardCentesimi": 548413996,
+              "storicaPerAbitanteCentesimi": 3868,
+              "standardPerAbitanteCentesimi": 6746,
+              "differenzaPuntiBase": -4267,
+              "serviziDifferenzaPuntiBase": -5804,
+              "livelloSpesa": 2,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 251586877,
+              "spesaStandardCentesimi": 265192476,
+              "storicaPerAbitanteCentesimi": 6208,
+              "standardPerAbitanteCentesimi": 6544,
+              "differenzaPuntiBase": -513,
+              "serviziDifferenzaPuntiBase": -5442,
+              "livelloSpesa": 5,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 204976666,
+              "spesaStandardCentesimi": 330768337,
+              "storicaPerAbitanteCentesimi": 4053,
+              "standardPerAbitanteCentesimi": 6540,
+              "differenzaPuntiBase": -3803,
+              "serviziDifferenzaPuntiBase": 2446,
+              "livelloSpesa": 2,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 234538763,
+              "spesaStandardCentesimi": 342690994,
+              "storicaPerAbitanteCentesimi": 4467,
+              "standardPerAbitanteCentesimi": 6527,
+              "differenzaPuntiBase": -3156,
+              "serviziDifferenzaPuntiBase": 203,
+              "livelloSpesa": 3,
+              "livelloServizi": 6
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 607168976,
+              "spesaStandardCentesimi": 594351945,
+              "storicaPerAbitanteCentesimi": 7890,
+              "standardPerAbitanteCentesimi": 7724,
+              "differenzaPuntiBase": 216,
+              "serviziDifferenzaPuntiBase": 3358,
+              "livelloSpesa": 6,
+              "livelloServizi": 8
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 342521400,
+              "spesaStandardCentesimi": 503279418,
+              "storicaPerAbitanteCentesimi": 4604,
+              "standardPerAbitanteCentesimi": 6765,
+              "differenzaPuntiBase": -3194,
+              "serviziDifferenzaPuntiBase": -6363,
+              "livelloSpesa": 3,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 390394775,
+              "spesaStandardCentesimi": 427508126,
+              "storicaPerAbitanteCentesimi": 6277,
+              "standardPerAbitanteCentesimi": 6873,
+              "differenzaPuntiBase": -868,
+              "serviziDifferenzaPuntiBase": -6337,
+              "livelloSpesa": 5,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 312044300,
+              "spesaStandardCentesimi": 399854534,
+              "storicaPerAbitanteCentesimi": 5335,
+              "standardPerAbitanteCentesimi": 6836,
+              "differenzaPuntiBase": -2196,
+              "serviziDifferenzaPuntiBase": -3127,
+              "livelloSpesa": 4,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 132218363,
+              "spesaStandardCentesimi": 193215076,
+              "storicaPerAbitanteCentesimi": 4694,
+              "standardPerAbitanteCentesimi": 6860,
+              "differenzaPuntiBase": -3157,
+              "serviziDifferenzaPuntiBase": -4846,
+              "livelloSpesa": 3,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 104722328,
+              "spesaStandardCentesimi": 176837305,
+              "storicaPerAbitanteCentesimi": 4346,
+              "standardPerAbitanteCentesimi": 7338,
+              "differenzaPuntiBase": -4078,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 2,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 208933391,
+              "spesaStandardCentesimi": 241033188,
+              "storicaPerAbitanteCentesimi": 13393,
+              "standardPerAbitanteCentesimi": 15451,
+              "differenzaPuntiBase": -1332,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 5,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 138149312,
+              "spesaStandardCentesimi": 187835155,
+              "storicaPerAbitanteCentesimi": 6784,
+              "standardPerAbitanteCentesimi": 9224,
+              "differenzaPuntiBase": -2645,
+              "serviziDifferenzaPuntiBase": -2780,
+              "livelloSpesa": 3,
+              "livelloServizi": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "anno": 2022,
+      "funzioni": [
+        {
+          "id": "rifiuti",
+          "voce": "Rifiuti",
+          "castellammare": {
+            "spesaStoricaCentesimi": 1634403910,
+            "spesaStandardCentesimi": 1396697145,
+            "storicaPerAbitanteCentesimi": 25977,
+            "standardPerAbitanteCentesimi": 22199,
+            "differenzaPuntiBase": 1702,
+            "serviziDifferenzaPuntiBase": -2339,
+            "livelloSpesa": 8,
+            "livelloServizi": 2
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 1619521668,
+              "spesaStandardCentesimi": 1447559101,
+              "storicaPerAbitanteCentesimi": 20065,
+              "standardPerAbitanteCentesimi": 17935,
+              "differenzaPuntiBase": 1188,
+              "serviziDifferenzaPuntiBase": -5738,
+              "livelloSpesa": 7,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 863522174,
+              "spesaStandardCentesimi": 760291008,
+              "storicaPerAbitanteCentesimi": 21418,
+              "standardPerAbitanteCentesimi": 18857,
+              "differenzaPuntiBase": 1358,
+              "serviziDifferenzaPuntiBase": -2044,
+              "livelloSpesa": 7,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 1115050000,
+              "spesaStandardCentesimi": 913639111,
+              "storicaPerAbitanteCentesimi": 22187,
+              "standardPerAbitanteCentesimi": 18179,
+              "differenzaPuntiBase": 2204,
+              "serviziDifferenzaPuntiBase": -3157,
+              "livelloSpesa": 8,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 1178964389,
+              "spesaStandardCentesimi": 1173257257,
+              "storicaPerAbitanteCentesimi": 22560,
+              "standardPerAbitanteCentesimi": 22450,
+              "differenzaPuntiBase": 49,
+              "serviziDifferenzaPuntiBase": -1567,
+              "livelloSpesa": 6,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 1960842800,
+              "spesaStandardCentesimi": 1676805675,
+              "storicaPerAbitanteCentesimi": 25592,
+              "standardPerAbitanteCentesimi": 21885,
+              "differenzaPuntiBase": 1694,
+              "serviziDifferenzaPuntiBase": 952,
+              "livelloSpesa": 8,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 1816051051,
+              "spesaStandardCentesimi": 1398686242,
+              "storicaPerAbitanteCentesimi": 24453,
+              "standardPerAbitanteCentesimi": 18833,
+              "differenzaPuntiBase": 2984,
+              "serviziDifferenzaPuntiBase": -2163,
+              "livelloSpesa": 9,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 1325226200,
+              "spesaStandardCentesimi": 920397591,
+              "storicaPerAbitanteCentesimi": 21399,
+              "standardPerAbitanteCentesimi": 14862,
+              "differenzaPuntiBase": 4398,
+              "serviziDifferenzaPuntiBase": -5633,
+              "livelloSpesa": 10,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 1154753664,
+              "spesaStandardCentesimi": 929752001,
+              "storicaPerAbitanteCentesimi": 19748,
+              "standardPerAbitanteCentesimi": 15901,
+              "differenzaPuntiBase": 2420,
+              "serviziDifferenzaPuntiBase": 305,
+              "livelloSpesa": 8,
+              "livelloServizi": 6
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 505282447,
+              "spesaStandardCentesimi": 496667696,
+              "storicaPerAbitanteCentesimi": 18053,
+              "standardPerAbitanteCentesimi": 17745,
+              "differenzaPuntiBase": 173,
+              "serviziDifferenzaPuntiBase": -870,
+              "livelloSpesa": 6,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 679765750,
+              "spesaStandardCentesimi": 778930142,
+              "storicaPerAbitanteCentesimi": 28395,
+              "standardPerAbitanteCentesimi": 32537,
+              "differenzaPuntiBase": -1273,
+              "serviziDifferenzaPuntiBase": -1516,
+              "livelloSpesa": 4,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 580612908,
+              "spesaStandardCentesimi": 607798375,
+              "storicaPerAbitanteCentesimi": 37563,
+              "standardPerAbitanteCentesimi": 39322,
+              "differenzaPuntiBase": -447,
+              "serviziDifferenzaPuntiBase": -493,
+              "livelloSpesa": 5,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 561921361,
+              "spesaStandardCentesimi": 372000912,
+              "storicaPerAbitanteCentesimi": 27658,
+              "standardPerAbitanteCentesimi": 18310,
+              "differenzaPuntiBase": 5105,
+              "serviziDifferenzaPuntiBase": 1286,
+              "livelloSpesa": 10,
+              "livelloServizi": 8
+            }
+          ]
+        },
+        {
+          "id": "amministrazione",
+          "voce": "Uffici e amministrazione",
+          "castellammare": {
+            "spesaStoricaCentesimi": 1276789579,
+            "spesaStandardCentesimi": 554649775,
+            "storicaPerAbitanteCentesimi": 20293,
+            "standardPerAbitanteCentesimi": 8816,
+            "differenzaPuntiBase": 13020,
+            "serviziDifferenzaPuntiBase": -4915,
+            "livelloSpesa": 10,
+            "livelloServizi": 1
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 1152706799,
+              "spesaStandardCentesimi": 624090844,
+              "storicaPerAbitanteCentesimi": 14282,
+              "standardPerAbitanteCentesimi": 7732,
+              "differenzaPuntiBase": 8470,
+              "serviziDifferenzaPuntiBase": -4583,
+              "livelloSpesa": 10,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 541260776,
+              "spesaStandardCentesimi": 324904530,
+              "storicaPerAbitanteCentesimi": 13425,
+              "standardPerAbitanteCentesimi": 8059,
+              "differenzaPuntiBase": 6659,
+              "serviziDifferenzaPuntiBase": -3137,
+              "livelloSpesa": 10,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 733077768,
+              "spesaStandardCentesimi": 390439020,
+              "storicaPerAbitanteCentesimi": 14586,
+              "standardPerAbitanteCentesimi": 7769,
+              "differenzaPuntiBase": 8776,
+              "serviziDifferenzaPuntiBase": -5703,
+              "livelloSpesa": 10,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 955914188,
+              "spesaStandardCentesimi": 429276244,
+              "storicaPerAbitanteCentesimi": 18292,
+              "standardPerAbitanteCentesimi": 8214,
+              "differenzaPuntiBase": 12268,
+              "serviziDifferenzaPuntiBase": -2474,
+              "livelloSpesa": 10,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 2053303060,
+              "spesaStandardCentesimi": 988816796,
+              "storicaPerAbitanteCentesimi": 26799,
+              "standardPerAbitanteCentesimi": 12906,
+              "differenzaPuntiBase": 10765,
+              "serviziDifferenzaPuntiBase": -1307,
+              "livelloSpesa": 10,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 764392858,
+              "spesaStandardCentesimi": 804280760,
+              "storicaPerAbitanteCentesimi": 10292,
+              "standardPerAbitanteCentesimi": 10829,
+              "differenzaPuntiBase": -496,
+              "serviziDifferenzaPuntiBase": -4297,
+              "livelloSpesa": 5,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 641468417,
+              "spesaStandardCentesimi": 643367870,
+              "storicaPerAbitanteCentesimi": 10358,
+              "standardPerAbitanteCentesimi": 10389,
+              "differenzaPuntiBase": -30,
+              "serviziDifferenzaPuntiBase": -7602,
+              "livelloSpesa": 5,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 1267814161,
+              "spesaStandardCentesimi": 646932592,
+              "storicaPerAbitanteCentesimi": 21682,
+              "standardPerAbitanteCentesimi": 11064,
+              "differenzaPuntiBase": 9597,
+              "serviziDifferenzaPuntiBase": -2088,
+              "livelloSpesa": 10,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 350711831,
+              "spesaStandardCentesimi": 350670245,
+              "storicaPerAbitanteCentesimi": 12530,
+              "standardPerAbitanteCentesimi": 12529,
+              "differenzaPuntiBase": 1,
+              "serviziDifferenzaPuntiBase": -5282,
+              "livelloSpesa": 6,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 624020101,
+              "spesaStandardCentesimi": 327361898,
+              "storicaPerAbitanteCentesimi": 26066,
+              "standardPerAbitanteCentesimi": 13674,
+              "differenzaPuntiBase": 9062,
+              "serviziDifferenzaPuntiBase": -2764,
+              "livelloSpesa": 10,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 432989124,
+              "spesaStandardCentesimi": 532677011,
+              "storicaPerAbitanteCentesimi": 28012,
+              "standardPerAbitanteCentesimi": 34462,
+              "differenzaPuntiBase": -1871,
+              "serviziDifferenzaPuntiBase": 8512,
+              "livelloSpesa": 3,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 302557371,
+              "spesaStandardCentesimi": 378706235,
+              "storicaPerAbitanteCentesimi": 14892,
+              "standardPerAbitanteCentesimi": 18640,
+              "differenzaPuntiBase": -2011,
+              "serviziDifferenzaPuntiBase": 439,
+              "livelloSpesa": 3,
+              "livelloServizi": 6
+            }
+          ]
+        },
+        {
+          "id": "sociale-asili",
+          "voce": "Sociale e asili nido",
+          "castellammare": {
+            "spesaStoricaCentesimi": 617666132,
+            "spesaStandardCentesimi": 979184520,
+            "storicaPerAbitanteCentesimi": 9817,
+            "standardPerAbitanteCentesimi": 15563,
+            "differenzaPuntiBase": -3692,
+            "serviziDifferenzaPuntiBase": -6631,
+            "livelloSpesa": 3,
+            "livelloServizi": 2
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 878835361,
+              "spesaStandardCentesimi": 1187100420,
+              "storicaPerAbitanteCentesimi": 10889,
+              "standardPerAbitanteCentesimi": 14708,
+              "differenzaPuntiBase": -2597,
+              "serviziDifferenzaPuntiBase": -4278,
+              "livelloSpesa": 4,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 440378245,
+              "spesaStandardCentesimi": 529812168,
+              "storicaPerAbitanteCentesimi": 10923,
+              "standardPerAbitanteCentesimi": 13141,
+              "differenzaPuntiBase": -1688,
+              "serviziDifferenzaPuntiBase": 441,
+              "livelloSpesa": 5,
+              "livelloServizi": 6
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 764787328,
+              "spesaStandardCentesimi": 629738365,
+              "storicaPerAbitanteCentesimi": 15217,
+              "standardPerAbitanteCentesimi": 12530,
+              "differenzaPuntiBase": 2145,
+              "serviziDifferenzaPuntiBase": -9894,
+              "livelloSpesa": 7,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 718555127,
+              "spesaStandardCentesimi": 705501057,
+              "storicaPerAbitanteCentesimi": 13750,
+              "standardPerAbitanteCentesimi": 13500,
+              "differenzaPuntiBase": 185,
+              "serviziDifferenzaPuntiBase": -8507,
+              "livelloSpesa": 6,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 732701464,
+              "spesaStandardCentesimi": 1113126104,
+              "storicaPerAbitanteCentesimi": 9563,
+              "standardPerAbitanteCentesimi": 14528,
+              "differenzaPuntiBase": -3418,
+              "serviziDifferenzaPuntiBase": -1053,
+              "livelloSpesa": 3,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 1002484807,
+              "spesaStandardCentesimi": 1019942897,
+              "storicaPerAbitanteCentesimi": 13498,
+              "standardPerAbitanteCentesimi": 13733,
+              "differenzaPuntiBase": -171,
+              "serviziDifferenzaPuntiBase": -2762,
+              "livelloSpesa": 5,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 526631669,
+              "spesaStandardCentesimi": 763268018,
+              "storicaPerAbitanteCentesimi": 8504,
+              "standardPerAbitanteCentesimi": 12325,
+              "differenzaPuntiBase": -3100,
+              "serviziDifferenzaPuntiBase": -8967,
+              "livelloSpesa": 4,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 1218634153,
+              "spesaStandardCentesimi": 632298085,
+              "storicaPerAbitanteCentesimi": 20841,
+              "standardPerAbitanteCentesimi": 10814,
+              "differenzaPuntiBase": 9273,
+              "serviziDifferenzaPuntiBase": -4002,
+              "livelloSpesa": 10,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 90830521,
+              "spesaStandardCentesimi": 305819749,
+              "storicaPerAbitanteCentesimi": 3245,
+              "standardPerAbitanteCentesimi": 10926,
+              "differenzaPuntiBase": -7030,
+              "serviziDifferenzaPuntiBase": -9713,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 141542725,
+              "spesaStandardCentesimi": 317593844,
+              "storicaPerAbitanteCentesimi": 5912,
+              "standardPerAbitanteCentesimi": 13266,
+              "differenzaPuntiBase": -5543,
+              "serviziDifferenzaPuntiBase": -1880,
+              "livelloSpesa": 2,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 297452398,
+              "spesaStandardCentesimi": 228080910,
+              "storicaPerAbitanteCentesimi": 19244,
+              "standardPerAbitanteCentesimi": 14756,
+              "differenzaPuntiBase": 3042,
+              "serviziDifferenzaPuntiBase": 2894,
+              "livelloSpesa": 8,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 163968835,
+              "spesaStandardCentesimi": 270571721,
+              "storicaPerAbitanteCentesimi": 8071,
+              "standardPerAbitanteCentesimi": 13318,
+              "differenzaPuntiBase": -3940,
+              "serviziDifferenzaPuntiBase": -1700,
+              "livelloSpesa": 3,
+              "livelloServizi": 5
+            }
+          ]
+        },
+        {
+          "id": "polizia",
+          "voce": "Polizia locale",
+          "castellammare": {
+            "spesaStoricaCentesimi": 384429786,
+            "spesaStandardCentesimi": 467742399,
+            "storicaPerAbitanteCentesimi": 6110,
+            "standardPerAbitanteCentesimi": 7434,
+            "differenzaPuntiBase": -1781,
+            "serviziDifferenzaPuntiBase": -3505,
+            "livelloSpesa": 5,
+            "livelloServizi": 4
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 348662193,
+              "spesaStandardCentesimi": 526458769,
+              "storicaPerAbitanteCentesimi": 4320,
+              "standardPerAbitanteCentesimi": 6523,
+              "differenzaPuntiBase": -3377,
+              "serviziDifferenzaPuntiBase": 812,
+              "livelloSpesa": 4,
+              "livelloServizi": 6
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 113644823,
+              "spesaStandardCentesimi": 309278193,
+              "storicaPerAbitanteCentesimi": 2819,
+              "standardPerAbitanteCentesimi": 7671,
+              "differenzaPuntiBase": -6325,
+              "serviziDifferenzaPuntiBase": -7520,
+              "livelloSpesa": 2,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 234992282,
+              "spesaStandardCentesimi": 325090937,
+              "storicaPerAbitanteCentesimi": 4676,
+              "standardPerAbitanteCentesimi": 6468,
+              "differenzaPuntiBase": -2771,
+              "serviziDifferenzaPuntiBase": -2865,
+              "livelloSpesa": 4,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 363668840,
+              "spesaStandardCentesimi": 508092245,
+              "storicaPerAbitanteCentesimi": 6959,
+              "standardPerAbitanteCentesimi": 9722,
+              "differenzaPuntiBase": -2842,
+              "serviziDifferenzaPuntiBase": 18311,
+              "livelloSpesa": 4,
+              "livelloServizi": 9
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 581113643,
+              "spesaStandardCentesimi": 386253227,
+              "storicaPerAbitanteCentesimi": 7585,
+              "standardPerAbitanteCentesimi": 5041,
+              "differenzaPuntiBase": 5045,
+              "serviziDifferenzaPuntiBase": 8178,
+              "livelloSpesa": 9,
+              "livelloServizi": 8
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 290600909,
+              "spesaStandardCentesimi": 372673758,
+              "storicaPerAbitanteCentesimi": 3913,
+              "standardPerAbitanteCentesimi": 5018,
+              "differenzaPuntiBase": -2202,
+              "serviziDifferenzaPuntiBase": -8122,
+              "livelloSpesa": 4,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 314220506,
+              "spesaStandardCentesimi": 257739643,
+              "storicaPerAbitanteCentesimi": 5074,
+              "standardPerAbitanteCentesimi": 4162,
+              "differenzaPuntiBase": 2191,
+              "serviziDifferenzaPuntiBase": -8984,
+              "livelloSpesa": 7,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 140790594,
+              "spesaStandardCentesimi": 210306547,
+              "storicaPerAbitanteCentesimi": 2408,
+              "standardPerAbitanteCentesimi": 3597,
+              "differenzaPuntiBase": -3305,
+              "serviziDifferenzaPuntiBase": 3769,
+              "livelloSpesa": 4,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 147994902,
+              "spesaStandardCentesimi": 103035381,
+              "storicaPerAbitanteCentesimi": 5288,
+              "standardPerAbitanteCentesimi": 3681,
+              "differenzaPuntiBase": 4364,
+              "serviziDifferenzaPuntiBase": -5340,
+              "livelloSpesa": 8,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 142218263,
+              "spesaStandardCentesimi": 155509784,
+              "storicaPerAbitanteCentesimi": 5941,
+              "standardPerAbitanteCentesimi": 6496,
+              "differenzaPuntiBase": -855,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 5,
+              "livelloServizi": null
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 212616318,
+              "spesaStandardCentesimi": 197169263,
+              "storicaPerAbitanteCentesimi": 13755,
+              "standardPerAbitanteCentesimi": 12756,
+              "differenzaPuntiBase": 783,
+              "serviziDifferenzaPuntiBase": 14059,
+              "livelloSpesa": 6,
+              "livelloServizi": 9
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 139838010,
+              "spesaStandardCentesimi": 100848188,
+              "storicaPerAbitanteCentesimi": 6883,
+              "standardPerAbitanteCentesimi": 4964,
+              "differenzaPuntiBase": 3866,
+              "serviziDifferenzaPuntiBase": -1747,
+              "livelloSpesa": 8,
+              "livelloServizi": 5
+            }
+          ]
+        },
+        {
+          "id": "istruzione",
+          "voce": "Scuole (servizi comunali)",
+          "castellammare": {
+            "spesaStoricaCentesimi": 286099486,
+            "spesaStandardCentesimi": 685378664,
+            "storicaPerAbitanteCentesimi": 4547,
+            "standardPerAbitanteCentesimi": 10893,
+            "differenzaPuntiBase": -5826,
+            "serviziDifferenzaPuntiBase": -7280,
+            "livelloSpesa": 2,
+            "livelloServizi": 1
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 482291231,
+              "spesaStandardCentesimi": 951712304,
+              "storicaPerAbitanteCentesimi": 5975,
+              "standardPerAbitanteCentesimi": 11791,
+              "differenzaPuntiBase": -4932,
+              "serviziDifferenzaPuntiBase": -3054,
+              "livelloSpesa": 2,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 74949153,
+              "spesaStandardCentesimi": 446786521,
+              "storicaPerAbitanteCentesimi": 1859,
+              "standardPerAbitanteCentesimi": 11082,
+              "differenzaPuntiBase": -8322,
+              "serviziDifferenzaPuntiBase": -7364,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 148577982,
+              "spesaStandardCentesimi": 534384513,
+              "storicaPerAbitanteCentesimi": 2956,
+              "standardPerAbitanteCentesimi": 10633,
+              "differenzaPuntiBase": -7220,
+              "serviziDifferenzaPuntiBase": -8502,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 165959933,
+              "spesaStandardCentesimi": 519542455,
+              "storicaPerAbitanteCentesimi": 3176,
+              "standardPerAbitanteCentesimi": 9941,
+              "differenzaPuntiBase": -6806,
+              "serviziDifferenzaPuntiBase": -7267,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 349353279,
+              "spesaStandardCentesimi": 637825577,
+              "storicaPerAbitanteCentesimi": 4560,
+              "standardPerAbitanteCentesimi": 8325,
+              "differenzaPuntiBase": -4523,
+              "serviziDifferenzaPuntiBase": -7412,
+              "livelloSpesa": 2,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 210703914,
+              "spesaStandardCentesimi": 529332986,
+              "storicaPerAbitanteCentesimi": 2837,
+              "standardPerAbitanteCentesimi": 7127,
+              "differenzaPuntiBase": -6019,
+              "serviziDifferenzaPuntiBase": -7954,
+              "livelloSpesa": 2,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 132845538,
+              "spesaStandardCentesimi": 472601397,
+              "storicaPerAbitanteCentesimi": 2145,
+              "standardPerAbitanteCentesimi": 7631,
+              "differenzaPuntiBase": -7189,
+              "serviziDifferenzaPuntiBase": -6880,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 117058352,
+              "spesaStandardCentesimi": 447512495,
+              "storicaPerAbitanteCentesimi": 2002,
+              "standardPerAbitanteCentesimi": 7653,
+              "differenzaPuntiBase": -7384,
+              "serviziDifferenzaPuntiBase": -7656,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 121182400,
+              "spesaStandardCentesimi": 212882132,
+              "storicaPerAbitanteCentesimi": 4330,
+              "standardPerAbitanteCentesimi": 7606,
+              "differenzaPuntiBase": -4308,
+              "serviziDifferenzaPuntiBase": -5654,
+              "livelloSpesa": 3,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 89903629,
+              "spesaStandardCentesimi": 272000736,
+              "storicaPerAbitanteCentesimi": 3755,
+              "standardPerAbitanteCentesimi": 11362,
+              "differenzaPuntiBase": -6695,
+              "serviziDifferenzaPuntiBase": -6597,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 199860949,
+              "spesaStandardCentesimi": 191602552,
+              "storicaPerAbitanteCentesimi": 12930,
+              "standardPerAbitanteCentesimi": 12396,
+              "differenzaPuntiBase": 431,
+              "serviziDifferenzaPuntiBase": 2833,
+              "livelloSpesa": 6,
+              "livelloServizi": 7
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 88885844,
+              "spesaStandardCentesimi": 168979258,
+              "storicaPerAbitanteCentesimi": 4375,
+              "standardPerAbitanteCentesimi": 8317,
+              "differenzaPuntiBase": -4740,
+              "serviziDifferenzaPuntiBase": -3064,
+              "livelloSpesa": 2,
+              "livelloServizi": 3
+            }
+          ]
+        },
+        {
+          "id": "viabilita",
+          "voce": "Strade e territorio",
+          "castellammare": {
+            "spesaStoricaCentesimi": 218234511,
+            "spesaStandardCentesimi": 444420643,
+            "storicaPerAbitanteCentesimi": 3469,
+            "standardPerAbitanteCentesimi": 7064,
+            "differenzaPuntiBase": -5089,
+            "serviziDifferenzaPuntiBase": -5950,
+            "livelloSpesa": 2,
+            "livelloServizi": 1
+          },
+          "confronto": [
+            {
+              "nome": "Torre del Greco",
+              "spesaStoricaCentesimi": 382479065,
+              "spesaStandardCentesimi": 557627856,
+              "storicaPerAbitanteCentesimi": 4739,
+              "standardPerAbitanteCentesimi": 6909,
+              "differenzaPuntiBase": -3141,
+              "serviziDifferenzaPuntiBase": -7406,
+              "livelloSpesa": 3,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Torre Annunziata",
+              "spesaStoricaCentesimi": 208677624,
+              "spesaStandardCentesimi": 271502864,
+              "storicaPerAbitanteCentesimi": 5176,
+              "standardPerAbitanteCentesimi": 6734,
+              "differenzaPuntiBase": -2314,
+              "serviziDifferenzaPuntiBase": -4301,
+              "livelloSpesa": 4,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Ercolano",
+              "spesaStoricaCentesimi": 353741443,
+              "spesaStandardCentesimi": 338574938,
+              "storicaPerAbitanteCentesimi": 7039,
+              "standardPerAbitanteCentesimi": 6737,
+              "differenzaPuntiBase": 448,
+              "serviziDifferenzaPuntiBase": -2875,
+              "livelloSpesa": 6,
+              "livelloServizi": 3
+            },
+            {
+              "nome": "Portici",
+              "spesaStoricaCentesimi": 367298881,
+              "spesaStandardCentesimi": 350255953,
+              "storicaPerAbitanteCentesimi": 7028,
+              "standardPerAbitanteCentesimi": 6702,
+              "differenzaPuntiBase": 487,
+              "serviziDifferenzaPuntiBase": -1273,
+              "livelloSpesa": 6,
+              "livelloServizi": 5
+            },
+            {
+              "nome": "Pozzuoli",
+              "spesaStoricaCentesimi": 1026970495,
+              "spesaStandardCentesimi": 608274637,
+              "storicaPerAbitanteCentesimi": 13404,
+              "standardPerAbitanteCentesimi": 7939,
+              "differenzaPuntiBase": 6883,
+              "serviziDifferenzaPuntiBase": -5554,
+              "livelloSpesa": 10,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Casoria",
+              "spesaStoricaCentesimi": 350116409,
+              "spesaStandardCentesimi": 514435724,
+              "storicaPerAbitanteCentesimi": 4714,
+              "standardPerAbitanteCentesimi": 6927,
+              "differenzaPuntiBase": -3194,
+              "serviziDifferenzaPuntiBase": -5298,
+              "livelloSpesa": 3,
+              "livelloServizi": 2
+            },
+            {
+              "nome": "Afragola",
+              "spesaStoricaCentesimi": 157094061,
+              "spesaStandardCentesimi": 436477236,
+              "storicaPerAbitanteCentesimi": 2537,
+              "standardPerAbitanteCentesimi": 7048,
+              "differenzaPuntiBase": -6401,
+              "serviziDifferenzaPuntiBase": -9659,
+              "livelloSpesa": 1,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Acerra",
+              "spesaStoricaCentesimi": 141125420,
+              "spesaStandardCentesimi": 410450049,
+              "storicaPerAbitanteCentesimi": 2414,
+              "standardPerAbitanteCentesimi": 7019,
+              "differenzaPuntiBase": -6562,
+              "serviziDifferenzaPuntiBase": -1455,
+              "livelloSpesa": 1,
+              "livelloServizi": 4
+            },
+            {
+              "nome": "Gragnano",
+              "spesaStoricaCentesimi": 99730317,
+              "spesaStandardCentesimi": 197526649,
+              "storicaPerAbitanteCentesimi": 3563,
+              "standardPerAbitanteCentesimi": 7057,
+              "differenzaPuntiBase": -4951,
+              "serviziDifferenzaPuntiBase": -7174,
+              "livelloSpesa": 2,
+              "livelloServizi": 1
+            },
+            {
+              "nome": "Pompei",
+              "spesaStoricaCentesimi": 210883614,
+              "spesaStandardCentesimi": 180160367,
+              "storicaPerAbitanteCentesimi": 8809,
+              "standardPerAbitanteCentesimi": 7525,
+              "differenzaPuntiBase": 1705,
+              "serviziDifferenzaPuntiBase": null,
+              "livelloSpesa": 8,
+              "livelloServizi": null
+            },
+            {
+              "nome": "Sorrento",
+              "spesaStoricaCentesimi": 306245455,
+              "spesaStandardCentesimi": 252551187,
+              "storicaPerAbitanteCentesimi": 19813,
+              "standardPerAbitanteCentesimi": 16339,
+              "differenzaPuntiBase": 2126,
+              "serviziDifferenzaPuntiBase": 40926,
+              "livelloSpesa": 8,
+              "livelloServizi": 10
+            },
+            {
+              "nome": "Vico Equense",
+              "spesaStoricaCentesimi": 171559020,
+              "spesaStandardCentesimi": 193583637,
+              "storicaPerAbitanteCentesimi": 8444,
+              "standardPerAbitanteCentesimi": 9528,
+              "differenzaPuntiBase": -1138,
+              "serviziDifferenzaPuntiBase": 7316,
+              "livelloSpesa": 5,
+              "livelloServizi": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "confronto2022": [
+    {
+      "nome": "Torre del Greco",
+      "istat": "063084",
+      "spesaStoricaCentesimi": 4864496317,
+      "spesaStandardCentesimi": 5416133025,
+      "storicaPerAbitanteCentesimi": 60270,
+      "standardPerAbitanteCentesimi": 67104,
+      "differenzaPuntiBase": -1019,
+      "serviziDifferenzaPuntiBase": -4583,
+      "livelloSpesa": 4,
+      "livelloServizi": 1
+    },
+    {
+      "nome": "Torre Annunziata",
+      "istat": "063083",
+      "spesaStoricaCentesimi": 2242432795,
+      "spesaStandardCentesimi": 2699913468,
+      "storicaPerAbitanteCentesimi": 55619,
+      "standardPerAbitanteCentesimi": 66965,
+      "differenzaPuntiBase": -1694,
+      "serviziDifferenzaPuntiBase": -3137,
+      "livelloSpesa": 3,
+      "livelloServizi": 2
+    },
+    {
+      "nome": "Ercolano",
+      "istat": "063064",
+      "spesaStoricaCentesimi": 3350226803,
+      "spesaStandardCentesimi": 3199275190,
+      "storicaPerAbitanteCentesimi": 66661,
+      "standardPerAbitanteCentesimi": 63657,
+      "differenzaPuntiBase": 472,
+      "serviziDifferenzaPuntiBase": -5703,
+      "livelloSpesa": 7,
+      "livelloServizi": 1
+    },
+    {
+      "nome": "Portici",
+      "istat": "063059",
+      "spesaStoricaCentesimi": 3750361358,
+      "spesaStandardCentesimi": 3764096420,
+      "storicaPerAbitanteCentesimi": 71764,
+      "standardPerAbitanteCentesimi": 72026,
+      "differenzaPuntiBase": -36,
+      "serviziDifferenzaPuntiBase": -2474,
+      "livelloSpesa": 5,
+      "livelloServizi": 2
+    },
+    {
+      "nome": "Pozzuoli",
+      "istat": "063060",
+      "spesaStoricaCentesimi": 6704284741,
+      "spesaStandardCentesimi": 5497078610,
+      "storicaPerAbitanteCentesimi": 87503,
+      "standardPerAbitanteCentesimi": 71747,
+      "differenzaPuntiBase": 2196,
+      "serviziDifferenzaPuntiBase": -1307,
+      "livelloSpesa": 9,
+      "livelloServizi": 4
+    },
+    {
+      "nome": "Casoria",
+      "istat": "063023",
+      "spesaStoricaCentesimi": 4434349948,
+      "spesaStandardCentesimi": 4719991029,
+      "storicaPerAbitanteCentesimi": 59707,
+      "standardPerAbitanteCentesimi": 63553,
+      "differenzaPuntiBase": -605,
+      "serviziDifferenzaPuntiBase": -4297,
+      "livelloSpesa": 5,
+      "livelloServizi": 1
+    },
+    {
+      "nome": "Afragola",
+      "istat": "063002",
+      "spesaStoricaCentesimi": 3097486391,
+      "spesaStandardCentesimi": 3545157980,
+      "storicaPerAbitanteCentesimi": 50016,
+      "standardPerAbitanteCentesimi": 57245,
+      "differenzaPuntiBase": -1263,
+      "serviziDifferenzaPuntiBase": -7602,
+      "livelloSpesa": 4,
+      "livelloServizi": 1
+    },
+    {
+      "nome": "Acerra",
+      "istat": "063001",
+      "spesaStoricaCentesimi": 4040176344,
+      "spesaStandardCentesimi": 3323793645,
+      "storicaPerAbitanteCentesimi": 69095,
+      "standardPerAbitanteCentesimi": 56843,
+      "differenzaPuntiBase": 2155,
+      "serviziDifferenzaPuntiBase": -2088,
+      "livelloSpesa": 9,
+      "livelloServizi": 3
+    },
+    {
+      "nome": "Gragnano",
+      "istat": "063035",
+      "spesaStoricaCentesimi": 1315732418,
+      "spesaStandardCentesimi": 1688949696,
+      "storicaPerAbitanteCentesimi": 47009,
+      "standardPerAbitanteCentesimi": 60343,
+      "differenzaPuntiBase": -2210,
+      "serviziDifferenzaPuntiBase": -5282,
+      "livelloSpesa": 2,
+      "livelloServizi": 1
+    },
+    {
+      "nome": "Pompei",
+      "istat": "063058",
+      "spesaStoricaCentesimi": 1888334082,
+      "spesaStandardCentesimi": 2073179827,
+      "storicaPerAbitanteCentesimi": 78878,
+      "standardPerAbitanteCentesimi": 86599,
+      "differenzaPuntiBase": -892,
+      "serviziDifferenzaPuntiBase": -2764,
+      "livelloSpesa": 4,
+      "livelloServizi": 2
+    },
+    {
+      "nome": "Sorrento",
+      "istat": "063080",
+      "spesaStoricaCentesimi": 2029777152,
+      "spesaStandardCentesimi": 2020767091,
+      "storicaPerAbitanteCentesimi": 131318,
+      "standardPerAbitanteCentesimi": 130735,
+      "differenzaPuntiBase": 45,
+      "serviziDifferenzaPuntiBase": 8512,
+      "livelloSpesa": 6,
+      "livelloServizi": 10
+    },
+    {
+      "nome": "Vico Equense",
+      "istat": "063086",
+      "spesaStoricaCentesimi": 1428730442,
+      "spesaStandardCentesimi": 1497183744,
+      "storicaPerAbitanteCentesimi": 70322,
+      "standardPerAbitanteCentesimi": 73691,
+      "differenzaPuntiBase": -457,
+      "serviziDifferenzaPuntiBase": 439,
+      "livelloSpesa": 5,
+      "livelloServizi": 6
+    }
+  ]
+}
