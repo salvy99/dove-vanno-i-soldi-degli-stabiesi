@@ -21,7 +21,7 @@
   },
   "estratto": {
     "repository": "https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi",
-    "commit": "1d02f4b31385bfec95b2ef9b90c5a8e1c6688929",
+    "commit": "faea14f65fd1ac529aa6600512f433972236e799",
     "file": [
       {
         "percorso": "src/data/generated/opencivitas-2015.json",
@@ -125,7 +125,7 @@
       }
     ]
   },
-  "generato": "2026-11-06T18:55:01.713Z",
+  "generato": "2026-11-09T13:39:41.047Z",
   "serie": [
     {
       "anno": 2015,
