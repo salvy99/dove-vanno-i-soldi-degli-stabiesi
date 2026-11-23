@@ -16,7 +16,7 @@
   ],
   "estratto": {
     "repository": "https://github.com/Italian-Builders-Org/DoveVannoINostriSoldi",
-    "commit": "81f48f5e18904dfd8d39cbda4c6bff0491755c37",
+    "commit": "355bc2cc00923d95cdfa634b211ba0709f1e11c1",
     "file": [
       {
         "percorso": "src/data/generated/anac-entity-procurement-page/entities/5a.jsonl.gz",
@@ -28,7 +28,7 @@
       }
     ]
   },
-  "generato": "2026-11-16T13:24:19.725Z",
+  "generato": "2026-11-23T15:44:50.606Z",
   "riepilogo": {
     "attributedAwardValue": "13299072.33",
     "awardCount": 188,
